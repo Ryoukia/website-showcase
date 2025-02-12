@@ -1,0 +1,21 @@
+.recipe-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.recipe-cards-container {
+  padding-left: 20px;
+}
+
+
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.recipe-search-bar {
+  margin: 0 auto 1rem auto;
+  width: 50%;
+}

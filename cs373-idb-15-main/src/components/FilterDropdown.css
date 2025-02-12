@@ -1,0 +1,53 @@
+.filter-button {
+  margin-left: 1rem;
+}
+
+.submit-button-flex {
+  display:flex;
+  justify-content:center;
+  margin-bottom: 1.5rem;
+}
+
+.horizontal-slider {
+  width: 200px;
+  height: 2rem;
+}
+
+.all-filter-ui-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.horizontal-slider .example-track {
+  top: 20px;
+  height: 10px;
+}
+
+.example-track.example-track-0 {
+  background: grey;
+}
+
+.example-track.example-track-1 {
+  background: grey;
+}
+
+.example-track.example-track-2 {
+  background: grey;
+}
+
+.horizontal-slider .example-thumb {
+  top: 1px;
+  width: 50px;
+  height: 48px;
+  line-height: 38px;
+  border-radius: 50%;
+  font-size: 0.9em;
+  text-align: center;
+  background-color: #0d6efd;
+  color: white;
+  cursor: pointer;
+  border: 5px solid #67a4ff;
+  box-sizing: border-box;
+}

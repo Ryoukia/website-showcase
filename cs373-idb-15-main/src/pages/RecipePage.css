@@ -1,0 +1,44 @@
+.recipe-block {
+  width: 50%;
+  display: block;
+  margin: auto;
+}
+
+.recipe-title {
+  text-align: center;
+}
+
+.recipe-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.5rem;
+  border-radius: 5%;
+}
+
+.recipe-summary {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.quick-stats {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6rem;
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.like-icon {
+  width: 4rem;
+}
+
+.clock-icon {
+  width: 5.5rem;
+}
+
+.price-icon {
+  width: 5rem;
+}

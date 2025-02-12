@@ -1,0 +1,44 @@
+.home-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5rem;
+  justify-items: center;
+  /* align-items: center; */
+  }
+
+.home-cards-container {
+  max-width: 960px; /* adjust the width as needed */
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.carousel {
+  height: 90vh;
+}
+
+
+.carousel-item img{
+  object-fit: contain;
+  filter: brightness(0.4);
+}
+
+.carousel-inner {
+  height:95vh;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.carousel-caption {
+  object-fit: contain;
+  animation-delay: 0.5s;
+  animation: fadeIn 3.5s ease;
+  top:40%
+}
+

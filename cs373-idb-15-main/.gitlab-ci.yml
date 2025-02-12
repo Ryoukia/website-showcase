@@ -1,0 +1,117 @@
+image: node:latest
+
+stages:
+  - build
+  - lint
+  - test
+
+cache:
+  paths:
+    - node_modules/
+    - .cache/pip
+
+build_frontend:
+  stage: build
+  script:
+    - npm install
+    # don't treat warnings as errors
+    - CI=false npm run-script build
+
+# Fails because of the D3 library being incompatible with jest. Works in all other cases.
+# test_frontend:
+#   stage: test
+#   script:
+#     - npm run test:unit
+
+build_backend_docker:
+  services:
+    - docker:latest
+  image: docker:latest
+  stage: build
+  script:
+    - apk add --no-cache make
+    - docker build back-end/
+
+format_backend:
+  image: python:3.10-slim
+  stage: lint
+  before_script:
+    - cd back-end
+    - pip3 install black
+  script:
+    - black --check .
+
+test_backend:
+  stage: test
+  image: python:3.10-slim
+  before_script:
+    - cd back-end
+    - pip3 install -r requirements.txt
+  script:
+    - python3 tests.py
+
+test_postman:
+  stage: test
+  image:
+    name: postman/newman:alpine
+    entrypoint: [""]
+  script:
+    - cd back-end
+    - newman --version
+    - newman run Postman.json
+
+# Below are our various failed attempts at having Selenium tests run on the pipeline
+# test_selenium_frontend:
+#   stage: test
+#   image: node:latest
+#   # https://hub.docker.com/r/selenium/standalone-chrome/
+#   services:
+#     - selenium/standalone-chrome
+#   script:
+#     - npm run test:gui --host=selenium__standalone-chrome
+
+# test_selenium_chrome:
+#   stage: test
+#   image: node:latest
+#   before_script:
+#     # Install java
+#     - apt-get update
+#     - apt-get install -y openjdk-11-jdk
+#     # Install chrome
+#     - wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add -
+#     - sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list'
+#     - apt-get -y update
+#     - apt-get install -y google-chrome-stable
+
+#     # Get webdriver
+#     - apt-get install -yqq unzip
+#     - wget -O /tmp/chromedriver.zip http://chromedriver.storage.googleapis.com/`curl -sS chromedriver.storage.googleapis.com/LATEST_RELEASE`/chromedriver_linux64.zip
+#     - unzip /tmp/chromedriver.zip chromedriver -d /usr/local/bin/
+#   script:
+#     - npm install webdriverio --save-dev
+#     - ./node_modules/.bin/wdio wdio.conf.js
+
+# Code from Group 18, "SportsRightNow"
+# test_frontend_selenium:
+#   stage: test
+#   image: python:3.10
+#   allow_failure: true
+#   script:
+#     - cd src
+#     - pip install --upgrade pip
+#     - pip install --no-cache-dir selenium
+#     - apt-get update
+
+#     # Install chrome
+#     - wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add -
+#     - sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list'
+#     - apt-get -y update
+#     - apt-get install -y google-chrome-stable
+
+#     # Get webdriver
+#     - apt-get install -yqq unzip
+#     - wget -O /tmp/chromedriver.zip http://chromedriver.storage.googleapis.com/`curl -sS chromedriver.storage.googleapis.com/LATEST_RELEASE`/chromedriver_linux64.zip
+#     - unzip /tmp/chromedriver.zip chromedriver -d /usr/local/bin/
+
+#     # Run the tests
+#     - node ./src/gui-tests/AppTester.test.js

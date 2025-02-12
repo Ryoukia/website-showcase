@@ -1,0 +1,3857 @@
+{
+    "count": 412,
+    "politicians": [
+        {
+            "politician_id": "A000055",
+            "name": "Robert B. Aderholt",
+            "gender": "M",
+            "party": "R",
+            "date_of_birth": "1965-07-22",
+            "first_elected": 1997,
+            "cash_on_hand": 2002.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/a000055_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/76452765/1673384656/1500x500",
+            "url": "https://aderholt.house.gov",
+            "twitter_account": "Robert_Aderholt",
+            "stocks_traded": [
+                "AAPL",
+                "TSLA"
+            ],
+            "committees_membership": [
+                "HSAP"
+            ]
+        },
+        {
+            "politician_id": "A000148",
+            "name": "Jake Auchincloss",
+            "gender": "M",
+            "party": "D",
+            "date_of_birth": "1988-01-29",
+            "first_elected": 2021,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/a000148_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/1330278736554582016/1628625783/1500x500",
+            "url": "https://auchincloss.house.gov",
+            "twitter_account": "RepAuchincloss",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSBA",
+                "HSPW"
+            ]
+        },
+        {
+            "politician_id": "A000369",
+            "name": "Mark Amodei",
+            "gender": "M",
+            "party": "R",
+            "date_of_birth": "1958-06-12",
+            "first_elected": 2011,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/a000369_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/402719755/1395328053/1500x500",
+            "url": "https://amodei.house.gov",
+            "twitter_account": "MarkAmodeiNV2",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSAP"
+            ]
+        },
+        {
+            "politician_id": "A000370",
+            "name": "Alma Adams",
+            "gender": "F",
+            "party": "D",
+            "date_of_birth": "1946-05-27",
+            "first_elected": 2014,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/a000370_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/2916086925/1667317265/1500x500",
+            "url": "https://adams.house.gov",
+            "twitter_account": "RepAdams",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSBA",
+                "HSED",
+                "HSAG"
+            ]
+        },
+        {
+            "politician_id": "A000371",
+            "name": "Pete Aguilar",
+            "gender": "M",
+            "party": "D",
+            "date_of_birth": "1979-06-19",
+            "first_elected": 2015,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/a000371_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/3018670151/1590613054/1500x500",
+            "url": "https://aguilar.house.gov",
+            "twitter_account": "reppeteaguilar",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSAP",
+                "HSHA"
+            ]
+        },
+        {
+            "politician_id": "A000375",
+            "name": "Jodey Arrington",
+            "gender": "M",
+            "party": "R",
+            "date_of_birth": "1972-03-09",
+            "first_elected": 2017,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/115_rp_tx_19_arrington_jodey_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/816284664658874368/1663623069/1500x500",
+            "url": "https://arrington.house.gov",
+            "twitter_account": "RepArrington",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSWM"
+            ]
+        },
+        {
+            "politician_id": "A000376",
+            "name": "Colin Allred",
+            "gender": "M",
+            "party": "D",
+            "date_of_birth": "1983-04-15",
+            "first_elected": 2019,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/a000376_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/1078355119920562176/1553952018/1500x500",
+            "url": "https://allred.house.gov",
+            "twitter_account": "RepColinAllred",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSFA",
+                "HSVR",
+                "HSPW"
+            ]
+        },
+        {
+            "politician_id": "A000377",
+            "name": "Kelly Armstrong",
+            "gender": "M",
+            "party": "R",
+            "date_of_birth": "1976-10-08",
+            "first_elected": 2019,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/a000377_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/1080515866255593472/1597082573/1500x500",
+            "url": "https://armstrong.house.gov",
+            "twitter_account": "RepArmstrongND",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSSO",
+                "HSCN",
+                "HSIF"
+            ]
+        },
+        {
+            "politician_id": "B000490",
+            "name": "Sanford D. Bishop, Jr.",
+            "gender": "M",
+            "party": "D",
+            "date_of_birth": "1947-02-04",
+            "first_elected": 1993,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/b000490_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/249410485/1402940063/1500x500",
+            "url": "https://bishop.house.gov",
+            "twitter_account": "SanfordBishop",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSAP"
+            ]
+        },
+        {
+            "politician_id": "B000668",
+            "name": "Cliff Bentz",
+            "gender": "M",
+            "party": "R",
+            "date_of_birth": "1952-01-12",
+            "first_elected": 2021,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/b000668_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/1345788865911656454/1648564440/1500x500",
+            "url": "https://bentz.house.gov",
+            "twitter_account": "RepBentz",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSII",
+                "HSJU"
+            ]
+        },
+        {
+            "politician_id": "B000740",
+            "name": "Stephanie Bice",
+            "gender": "F",
+            "party": "R",
+            "date_of_birth": "1973-11-11",
+            "first_elected": 2021,
+            "cash_on_hand": 1001.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/b000740_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/1344260196227555334/1609881356/1500x500",
+            "url": "https://bice.house.gov",
+            "twitter_account": "RepBice",
+            "stocks_traded": [
+                "WFC"
+            ],
+            "committees_membership": [
+                "HSAS",
+                "HSSY"
+            ]
+        },
+        {
+            "politician_id": "B000755",
+            "name": "Kevin Brady",
+            "gender": "M",
+            "party": "R",
+            "date_of_birth": "1955-04-11",
+            "first_elected": 1997,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/b000755_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/19926675/1672712294/1500x500",
+            "url": "https://kevinbrady.house.gov",
+            "twitter_account": "RepKevinBrady",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSWM"
+            ]
+        },
+        {
+            "politician_id": "B000825",
+            "name": "Lauren Boebert",
+            "gender": "F",
+            "party": "R",
+            "date_of_birth": "1986-12-15",
+            "first_elected": 2021,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/b000825_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/1342989756611907584/1646155299/1500x500",
+            "url": "https://boebert.house.gov",
+            "twitter_account": "RepBoebert",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSII",
+                "HSBU"
+            ]
+        },
+        {
+            "politician_id": "B000944",
+            "name": "Sherrod Brown",
+            "gender": "M",
+            "party": "D",
+            "date_of_birth": "1952-11-09",
+            "first_elected": 1993,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/b000944_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/43910797/1610402444/1500x500",
+            "url": "https://www.brown.senate.gov",
+            "twitter_account": "SenSherrodBrown",
+            "stocks_traded": [],
+            "committees_membership": [
+                "SSBK",
+                "SSAF",
+                "SSFI",
+                "SSVA"
+            ]
+        },
+        {
+            "politician_id": "B001135",
+            "name": "Richard M. Burr",
+            "gender": "M",
+            "party": "R",
+            "date_of_birth": "1955-11-30",
+            "first_elected": 1995,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/b001135_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/21157904/1521749782/1500x500",
+            "url": "https://www.burr.senate.gov",
+            "twitter_account": "SenatorBurr",
+            "stocks_traded": [],
+            "committees_membership": [
+                "SSHR",
+                "SSFI",
+                "SLIN",
+                "SPAG"
+            ]
+        },
+        {
+            "politician_id": "B001223",
+            "name": "Jamaal Bowman",
+            "gender": "M",
+            "party": "D",
+            "date_of_birth": "1976-04-01",
+            "first_elected": 2021,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/b001223_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/1344389506963808264/1609678457/1500x500",
+            "url": "https://bowman.house.gov",
+            "twitter_account": "RepBowman",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSSY",
+                "HSED"
+            ]
+        },
+        {
+            "politician_id": "B001224",
+            "name": "Cori Bush",
+            "gender": "F",
+            "party": "D",
+            "date_of_birth": "1976-07-21",
+            "first_elected": 2021,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/b001224_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/1002630999052865536/1609696459/1500x500",
+            "url": "https://bush.house.gov",
+            "twitter_account": "RepCori",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSGO",
+                "HSJU"
+            ]
+        },
+        {
+            "politician_id": "B001230",
+            "name": "Tammy Baldwin",
+            "gender": "F",
+            "party": "D",
+            "date_of_birth": "1962-02-11",
+            "first_elected": 1999,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/b001230_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/1074518754/1660243611/1500x500",
+            "url": "https://www.baldwin.senate.gov",
+            "twitter_account": "SenatorBaldwin",
+            "stocks_traded": [],
+            "committees_membership": [
+                "SSAP",
+                "SSHR",
+                "SSCM"
+            ]
+        },
+        {
+            "politician_id": "B001236",
+            "name": "John Boozman",
+            "gender": "M",
+            "party": "R",
+            "date_of_birth": "1950-12-10",
+            "first_elected": 2001,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/b001236_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/5558312/1520286185/1500x500",
+            "url": "https://www.boozman.senate.gov/public",
+            "twitter_account": "JohnBoozman",
+            "stocks_traded": [],
+            "committees_membership": [
+                "SSAP",
+                "SSEV",
+                "SSAF",
+                "SSVA",
+                "JCSE"
+            ]
+        },
+        {
+            "politician_id": "B001243",
+            "name": "Marsha Blackburn",
+            "gender": "F",
+            "party": "R",
+            "date_of_birth": "1952-06-06",
+            "first_elected": 2003,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/b001243_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/278145569/1549925243/1500x500",
+            "url": "https://www.blackburn.senate.gov",
+            "twitter_account": "MarshaBlackburn",
+            "stocks_traded": [],
+            "committees_membership": [
+                "SSJU",
+                "SSCM",
+                "SSVA",
+                "SSAS"
+            ]
+        },
+        {
+            "politician_id": "B001251",
+            "name": "G. K. Butterfield",
+            "gender": "M",
+            "party": "D",
+            "date_of_birth": "1947-04-27",
+            "first_elected": 2004,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/b001251_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/432676344/1641416374/1500x500",
+            "url": "https://butterfield.house.gov",
+            "twitter_account": "GKButterfield",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSHA",
+                "HSIF"
+            ]
+        },
+        {
+            "politician_id": "B001260",
+            "name": "Vern Buchanan",
+            "gender": "M",
+            "party": "R",
+            "date_of_birth": "1951-05-08",
+            "first_elected": 2007,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/b001260_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/20467163/1423601951/1500x500",
+            "url": "https://buchanan.house.gov",
+            "twitter_account": "VernBuchanan",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSWM"
+            ]
+        },
+        {
+            "politician_id": "B001261",
+            "name": "John Barrasso",
+            "gender": "M",
+            "party": "R",
+            "date_of_birth": "1952-07-21",
+            "first_elected": 2007,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/b001261_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/202206694/1612800377/1500x500",
+            "url": "https://www.barrasso.senate.gov",
+            "twitter_account": "SenJohnBarrasso",
+            "stocks_traded": [],
+            "committees_membership": [
+                "SSEG",
+                "SSFI",
+                "SSFR"
+            ]
+        },
+        {
+            "politician_id": "B001267",
+            "name": "Michael Bennet",
+            "gender": "M",
+            "party": "D",
+            "date_of_birth": "1964-11-28",
+            "first_elected": 2009,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/b001267_200.jpg",
+            "banner_url": null,
+            "url": "https://www.bennet.senate.gov/public",
+            "twitter_account": "SenBennetCo",
+            "stocks_traded": [],
+            "committees_membership": [
+                "SSAF",
+                "SSFI",
+                "SLIN"
+            ]
+        },
+        {
+            "politician_id": "B001270",
+            "name": "Karen Bass",
+            "gender": "F",
+            "party": "D",
+            "date_of_birth": "1953-10-03",
+            "first_elected": 2011,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/115_rp_ca_37_bass_karen_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/239949176/1653609258/1500x500",
+            "url": "https://bass.house.gov",
+            "twitter_account": "RepKarenBass",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSFA",
+                "HSJU"
+            ]
+        },
+        {
+            "politician_id": "B001275",
+            "name": "Larry Bucshon",
+            "gender": "M",
+            "party": "R",
+            "date_of_birth": "1962-05-31",
+            "first_elected": 2011,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/115_rp_in_8_bucshon_larry_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/234812598/1675108224/1500x500",
+            "url": "https://bucshon.house.gov",
+            "twitter_account": "RepLarryBucshon",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSIF"
+            ]
+        },
+        {
+            "politician_id": "B001277",
+            "name": "Richard Blumenthal",
+            "gender": "M",
+            "party": "D",
+            "date_of_birth": "1946-02-13",
+            "first_elected": 2011,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/b001277_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/278124059/1512656613/1500x500",
+            "url": "https://www.blumenthal.senate.gov",
+            "twitter_account": "SenBlumenthal",
+            "stocks_traded": [],
+            "committees_membership": [
+                "SSJU",
+                "SSCM",
+                "SPAG",
+                "SSVA",
+                "SSAS"
+            ]
+        },
+        {
+            "politician_id": "B001278",
+            "name": "Suzanne Bonamici",
+            "gender": "F",
+            "party": "D",
+            "date_of_birth": "1954-10-14",
+            "first_elected": 2012,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/b001278_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/558769636/1513624686/1500x500",
+            "url": "https://bonamici.house.gov",
+            "twitter_account": "RepBonamici",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSCN",
+                "HSSY",
+                "HSED"
+            ]
+        },
+        {
+            "politician_id": "B001281",
+            "name": "Joyce Beatty",
+            "gender": "F",
+            "party": "D",
+            "date_of_birth": "1950-03-12",
+            "first_elected": 2013,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/b001281_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/1531521632/1647377115/1500x500",
+            "url": "https://beatty.house.gov",
+            "twitter_account": "RepBeatty",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSBA"
+            ]
+        },
+        {
+            "politician_id": "B001282",
+            "name": "Andy Barr",
+            "gender": "M",
+            "party": "R",
+            "date_of_birth": "1973-07-24",
+            "first_elected": 2013,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/b001282_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/1089334250/1392572667/1500x500",
+            "url": "https://barr.house.gov",
+            "twitter_account": "RepAndyBarr",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSFA",
+                "HSBA"
+            ]
+        },
+        {
+            "politician_id": "B001285",
+            "name": "Julia Brownley",
+            "gender": "F",
+            "party": "D",
+            "date_of_birth": "1952-08-28",
+            "first_elected": 2013,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/b001285_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/1243902714/1679442860/1500x500",
+            "url": "https://juliabrownley.house.gov",
+            "twitter_account": "RepBrownley",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSII",
+                "HSCN",
+                "HSVR",
+                "HSPW"
+            ]
+        },
+        {
+            "politician_id": "B001287",
+            "name": "Ami Bera",
+            "gender": "M",
+            "party": "D",
+            "date_of_birth": "1965-03-02",
+            "first_elected": 2013,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/b001287_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/950783972/1650303912/1500x500",
+            "url": "https://bera.house.gov",
+            "twitter_account": "RepBera",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSFA",
+                "HSSY"
+            ]
+        },
+        {
+            "politician_id": "B001291",
+            "name": "Brian Babin",
+            "gender": "M",
+            "party": "R",
+            "date_of_birth": "1948-03-23",
+            "first_elected": 2015,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/b001291_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/2929491549/1485534172/1500x500",
+            "url": "https://babin.house.gov",
+            "twitter_account": "RepBrianBabin",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSPW",
+                "HSSY"
+            ]
+        },
+        {
+            "politician_id": "B001295",
+            "name": "Mike Bost",
+            "gender": "M",
+            "party": "R",
+            "date_of_birth": "1960-12-30",
+            "first_elected": 2015,
+            "cash_on_hand": 0.0,
+            "debt": 35153.0,
+            "img_url": "https://www.congress.gov/img/member/b001295_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/2964877294/1548969417/1500x500",
+            "url": "https://bost.house.gov",
+            "twitter_account": "RepBost",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSVR",
+                "HSPW"
+            ]
+        },
+        {
+            "politician_id": "B001296",
+            "name": "Brendan Boyle",
+            "gender": "M",
+            "party": "D",
+            "date_of_birth": "1977-02-06",
+            "first_elected": 2015,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/115_rp_pa_13_boyle_brendan_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/4304448314/1637156423/1500x500",
+            "url": "https://boyle.house.gov",
+            "twitter_account": "CongBoyle",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSWM",
+                "HSBU"
+            ]
+        },
+        {
+            "politician_id": "B001297",
+            "name": "Ken Buck",
+            "gender": "M",
+            "party": "R",
+            "date_of_birth": "1959-02-16",
+            "first_elected": 2015,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/115_rp_co_4_buck_ken_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/2862577383/1669849442/1500x500",
+            "url": "https://buck.house.gov",
+            "twitter_account": "RepKenBuck",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSFA",
+                "HSJU"
+            ]
+        },
+        {
+            "politician_id": "B001298",
+            "name": "Don Bacon",
+            "gender": "M",
+            "party": "R",
+            "date_of_birth": "1963-08-16",
+            "first_elected": 2017,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/115_rp_ne_2_bacon_don_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/818975124460335106/1630014476/1500x500",
+            "url": "https://bacon.house.gov",
+            "twitter_account": "repdonbacon",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSAS",
+                "HSAG"
+            ]
+        },
+        {
+            "politician_id": "B001300",
+            "name": "Nanette Barragán",
+            "gender": "F",
+            "party": "D",
+            "date_of_birth": "1976-09-15",
+            "first_elected": 2017,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/b001300_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/816833925456789505/1617034780/1500x500",
+            "url": "https://barragan.house.gov",
+            "twitter_account": "RepBarragan",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSHM",
+                "HSIF"
+            ]
+        },
+        {
+            "politician_id": "B001301",
+            "name": "Jack Bergman",
+            "gender": "M",
+            "party": "R",
+            "date_of_birth": "1947-02-02",
+            "first_elected": 2017,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/b001301_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/815241612154417152/1614621453/1500x500",
+            "url": "https://bergman.house.gov",
+            "twitter_account": "RepJackBergman",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSAS",
+                "HSVR"
+            ]
+        },
+        {
+            "politician_id": "B001302",
+            "name": "Andy Biggs",
+            "gender": "M",
+            "party": "R",
+            "date_of_birth": "1958-11-07",
+            "first_elected": 2017,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/b001302_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/816652616625168388/1646338117/1500x500",
+            "url": "https://biggs.house.gov",
+            "twitter_account": "RepAndyBiggsAZ",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSGO",
+                "HSJU"
+            ]
+        },
+        {
+            "politician_id": "B001303",
+            "name": "Lisa Blunt Rochester",
+            "gender": "F",
+            "party": "D",
+            "date_of_birth": "1962-02-10",
+            "first_elected": 2017,
+            "cash_on_hand": 0.0,
+            "debt": 18741.0,
+            "img_url": "https://www.congress.gov/img/member/b001303_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/817050219007328258/1621276161/1500x500",
+            "url": "https://bluntrochester.house.gov",
+            "twitter_account": "RepLBR",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSIF"
+            ]
+        },
+        {
+            "politician_id": "B001304",
+            "name": "Anthony Brown",
+            "gender": "M",
+            "party": "D",
+            "date_of_birth": "1961-11-21",
+            "first_elected": 2017,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/b001304_200.jpg",
+            "banner_url": null,
+            "url": "https://anthonybrown.house.gov",
+            "twitter_account": "RepAnthonyBrown",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSAS",
+                "HSVR",
+                "HSPW"
+            ]
+        },
+        {
+            "politician_id": "B001305",
+            "name": "Ted Budd",
+            "gender": "M",
+            "party": "R",
+            "date_of_birth": "1971-10-21",
+            "first_elected": 2017,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/b001305_200.jpg",
+            "banner_url": null,
+            "url": "",
+            "twitter_account": "RepTedBudd",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSBA"
+            ]
+        },
+        {
+            "politician_id": "B001306",
+            "name": "Troy Balderson",
+            "gender": "M",
+            "party": "R",
+            "date_of_birth": "1962-01-16",
+            "first_elected": 2018,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/116_rp_oh_12_balderson_troy_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/1037341536592310272/1672757615/1500x500",
+            "url": "https://balderson.house.gov",
+            "twitter_account": "RepBalderson",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSPW",
+                "HSAG"
+            ]
+        },
+        {
+            "politician_id": "B001307",
+            "name": "James Baird",
+            "gender": "M",
+            "party": "R",
+            "date_of_birth": "1945-06-04",
+            "first_elected": 2019,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/b001307_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/1086316494450032640/1547833353/1500x500",
+            "url": "https://baird.house.gov",
+            "twitter_account": "RepJimBaird",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSSY",
+                "HSAG"
+            ]
+        },
+        {
+            "politician_id": "B001309",
+            "name": "Tim Burchett",
+            "gender": "M",
+            "party": "R",
+            "date_of_birth": "1964-08-25",
+            "first_elected": 2019,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/b001309_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/1028854804087492613/1569290105/1500x500",
+            "url": "https://burchett.house.gov",
+            "twitter_account": "RepTimBurchett",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSFA",
+                "HSPW"
+            ]
+        },
+        {
+            "politician_id": "B001310",
+            "name": "Mike Braun",
+            "gender": "M",
+            "party": "R",
+            "date_of_birth": "1954-03-24",
+            "first_elected": 2019,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/b001310_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/1080870981877534720/1616623815/1500x500",
+            "url": "https://www.braun.senate.gov",
+            "twitter_account": "SenatorBraun",
+            "stocks_traded": [],
+            "committees_membership": [
+                "SSAP",
+                "SSHR",
+                "SSAF",
+                "SPAG",
+                "SSBU"
+            ]
+        },
+        {
+            "politician_id": "B001311",
+            "name": "Dan Bishop",
+            "gender": "M",
+            "party": "R",
+            "date_of_birth": "1964-07-01",
+            "first_elected": 2019,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/b001311_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/1176522535531360257/1663958733/1500x500",
+            "url": "https://danbishop.house.gov",
+            "twitter_account": "RepDanBishop",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSHM",
+                "HSJU"
+            ]
+        },
+        {
+            "politician_id": "B001312",
+            "name": "Carolyn Bourdeaux",
+            "gender": "F",
+            "party": "D",
+            "date_of_birth": "1970-06-03",
+            "first_elected": 2021,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/b001312_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/1343620645452595200/1625245008/1500x500",
+            "url": "https://bourdeaux.house.gov",
+            "twitter_account": "RepBourdeaux",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSPW",
+                "HSSM"
+            ]
+        },
+        {
+            "politician_id": "B001313",
+            "name": "Shontel Brown",
+            "gender": "F",
+            "party": "D",
+            "date_of_birth": "1975-06-24",
+            "first_elected": 2021,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/b001313_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/1456381091598700556/1672428313/1500x500",
+            "url": "https://shontelbrown.house.gov",
+            "twitter_account": "RepShontelBrown",
+            "stocks_traded": [],
+            "committees_membership": []
+        },
+        {
+            "politician_id": "C000059",
+            "name": "Ken Calvert",
+            "gender": "M",
+            "party": "R",
+            "date_of_birth": "1953-06-08",
+            "first_elected": 1993,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/c000059_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/22545491/1554155600/1500x500",
+            "url": "https://calvert.house.gov",
+            "twitter_account": "KenCalvert",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSAP"
+            ]
+        },
+        {
+            "politician_id": "C000127",
+            "name": "Maria Cantwell",
+            "gender": "F",
+            "party": "D",
+            "date_of_birth": "1958-10-13",
+            "first_elected": 1993,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/c000127_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/117501995/1525958289/1500x500",
+            "url": "https://www.cantwell.senate.gov",
+            "twitter_account": "SenatorCantwell",
+            "stocks_traded": [],
+            "committees_membership": [
+                "SSSB",
+                "SLIA",
+                "SSEG",
+                "SSFI",
+                "SSCM"
+            ]
+        },
+        {
+            "politician_id": "C000141",
+            "name": "Benjamin L. Cardin",
+            "gender": "M",
+            "party": "D",
+            "date_of_birth": "1943-10-05",
+            "first_elected": 1987,
+            "cash_on_hand": 1001.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/c000141_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/109071031/1625674509/1500x500",
+            "url": "https://www.cardin.senate.gov",
+            "twitter_account": "SenatorCardin",
+            "stocks_traded": [
+                "MET"
+            ],
+            "committees_membership": [
+                "SSSB",
+                "SSEV",
+                "SSFI",
+                "SSFR",
+                "JCSE"
+            ]
+        },
+        {
+            "politician_id": "C000266",
+            "name": "Steven J. Chabot",
+            "gender": "M",
+            "party": "R",
+            "date_of_birth": "1953-01-22",
+            "first_elected": 1995,
+            "cash_on_hand": 1001.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/c000266_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/237750442/1506718866/1500x500",
+            "url": "https://chabot.house.gov",
+            "twitter_account": "RepSteveChabot",
+            "stocks_traded": [
+                "ABBV"
+            ],
+            "committees_membership": [
+                "HSFA",
+                "HSJU"
+            ]
+        },
+        {
+            "politician_id": "C000537",
+            "name": "James E. Clyburn",
+            "gender": "M",
+            "party": "D",
+            "date_of_birth": "1940-07-21",
+            "first_elected": 1993,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/c000537_200.jpg",
+            "banner_url": null,
+            "url": "https://clyburn.house.gov",
+            "twitter_account": "WhipClyburn",
+            "stocks_traded": [],
+            "committees_membership": []
+        },
+        {
+            "politician_id": "C000754",
+            "name": "Jim Cooper",
+            "gender": "M",
+            "party": "D",
+            "date_of_birth": "1954-06-19",
+            "first_elected": 1983,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/c000754_200.jpg",
+            "banner_url": null,
+            "url": "https://cooper.house.gov",
+            "twitter_account": "RepJimCooper",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSAS",
+                "HSGO",
+                "HSBU"
+            ]
+        },
+        {
+            "politician_id": "C000880",
+            "name": "Michael D. Crapo",
+            "gender": "M",
+            "party": "R",
+            "date_of_birth": "1951-05-20",
+            "first_elected": 1993,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/c000880_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/600463589/1587996859/1500x500",
+            "url": "https://www.crapo.senate.gov",
+            "twitter_account": "MikeCrapo",
+            "stocks_traded": [],
+            "committees_membership": [
+                "SSBK",
+                "SSFI",
+                "SSBU",
+                "JSTX"
+            ]
+        },
+        {
+            "politician_id": "C001039",
+            "name": "Kat Cammack",
+            "gender": "F",
+            "party": "R",
+            "date_of_birth": "1988-02-16",
+            "first_elected": 2021,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/c001039_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/1344325638983987201/1678209770/1500x500",
+            "url": "https://cammack.house.gov",
+            "twitter_account": "RepKatCammack",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSHM",
+                "HSAG"
+            ]
+        },
+        {
+            "politician_id": "C001051",
+            "name": "John Carter",
+            "gender": "M",
+            "party": "R",
+            "date_of_birth": "1941-11-06",
+            "first_elected": 2003,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/c001051_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/18030431/1673560947/1500x500",
+            "url": "https://carter.house.gov",
+            "twitter_account": "JudgeCarter",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSAP"
+            ]
+        },
+        {
+            "politician_id": "C001054",
+            "name": "Jerry Carl",
+            "gender": "M",
+            "party": "R",
+            "date_of_birth": "1958-06-17",
+            "first_elected": 2021,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/c001054_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/1341091420439015424/1625763450/1500x500",
+            "url": "https://carl.house.gov",
+            "twitter_account": "RepJerryCarl",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSAS",
+                "HSII"
+            ]
+        },
+        {
+            "politician_id": "C001059",
+            "name": "Jim Costa",
+            "gender": "M",
+            "party": "D",
+            "date_of_birth": "1952-04-13",
+            "first_elected": 2005,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/116_rp_ca_16_costa_jim_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/245451804/1673298891/1500x500",
+            "url": "https://costa.house.gov",
+            "twitter_account": "RepJimCosta",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSII",
+                "HSFA",
+                "HSAG"
+            ]
+        },
+        {
+            "politician_id": "C001061",
+            "name": "Emanuel Cleaver, II",
+            "gender": "M",
+            "party": "D",
+            "date_of_birth": "1944-10-26",
+            "first_elected": 2005,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/116_rp_mo_5_cleaver_emanuel_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/163570705/1568735623/1500x500",
+            "url": "https://cleaver.house.gov",
+            "twitter_account": "RepCleaver",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSHM",
+                "HSBA",
+                "HSMH"
+            ]
+        },
+        {
+            "politician_id": "C001063",
+            "name": "Henry Cuellar",
+            "gender": "M",
+            "party": "D",
+            "date_of_birth": "1955-09-19",
+            "first_elected": 2005,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/116_rp_tx_28_cuellar_henry_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/210926192/1560524937/1500x500",
+            "url": "https://cuellar.house.gov",
+            "twitter_account": "RepCuellar",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSAP"
+            ]
+        },
+        {
+            "politician_id": "C001067",
+            "name": "Yvette D. Clarke",
+            "gender": "F",
+            "party": "D",
+            "date_of_birth": "1964-11-21",
+            "first_elected": 2007,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/c001067_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/240812994/1657822752/1500x500",
+            "url": "https://clarke.house.gov",
+            "twitter_account": "RepYvetteClarke",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSHM",
+                "HSIF"
+            ]
+        },
+        {
+            "politician_id": "C001070",
+            "name": "Bob Casey",
+            "gender": "M",
+            "party": "D",
+            "date_of_birth": "1960-04-13",
+            "first_elected": 2007,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/c001070_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/171598736/1666961855/1500x500",
+            "url": "https://www.casey.senate.gov",
+            "twitter_account": "SenBobCasey",
+            "stocks_traded": [],
+            "committees_membership": [
+                "SSHR",
+                "SSFI",
+                "SLIN",
+                "SPAG"
+            ]
+        },
+        {
+            "politician_id": "C001072",
+            "name": "André Carson",
+            "gender": "M",
+            "party": "D",
+            "date_of_birth": "1974-10-16",
+            "first_elected": 2008,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/c001072_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/199325935/1597249232/1500x500",
+            "url": "https://carson.house.gov",
+            "twitter_account": "RepAndreCarson",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSPW"
+            ]
+        },
+        {
+            "politician_id": "C001080",
+            "name": "Judy Chu",
+            "gender": "F",
+            "party": "D",
+            "date_of_birth": "1953-07-07",
+            "first_elected": 2009,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/c001080_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/193732179/1363272599/1500x500",
+            "url": "https://chu.house.gov",
+            "twitter_account": "RepJudyChu",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSWM",
+                "HSSM",
+                "HSBU"
+            ]
+        },
+        {
+            "politician_id": "C001084",
+            "name": "David Cicilline",
+            "gender": "M",
+            "party": "D",
+            "date_of_birth": "1961-07-15",
+            "first_elected": 2011,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/115_rp_ri_1_cicilline_david_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/462143773/1551462626/1500x500",
+            "url": "https://cicilline.house.gov",
+            "twitter_account": "RepCicilline",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSFA",
+                "HSJU"
+            ]
+        },
+        {
+            "politician_id": "C001087",
+            "name": "Rick Crawford",
+            "gender": "M",
+            "party": "R",
+            "date_of_birth": "1966-01-22",
+            "first_elected": 2011,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/c001087_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/233693291/1514907502/1500x500",
+            "url": "https://crawford.house.gov",
+            "twitter_account": "RepRickCrawford",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSPW",
+                "HSAG"
+            ]
+        },
+        {
+            "politician_id": "C001090",
+            "name": "Matt Cartwright",
+            "gender": "M",
+            "party": "D",
+            "date_of_birth": "1961-05-01",
+            "first_elected": 2013,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/115_rp_pa_17_cartwright_matt_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/776664410/1608242843/1500x500",
+            "url": "https://cartwright.house.gov",
+            "twitter_account": "RepCartwright",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSAP"
+            ]
+        },
+        {
+            "politician_id": "C001091",
+            "name": "Joaquín Castro",
+            "gender": "M",
+            "party": "D",
+            "date_of_birth": "1974-09-16",
+            "first_elected": 2013,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/c001091_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/231510077/1524233697/1500x500",
+            "url": "https://castro.house.gov",
+            "twitter_account": "JoaquinCastrotx",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSFA",
+                "HSED"
+            ]
+        },
+        {
+            "politician_id": "C001095",
+            "name": "Tom Cotton",
+            "gender": "M",
+            "party": "R",
+            "date_of_birth": "1977-05-13",
+            "first_elected": 2013,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/c001095_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/968650362/1366831169/1500x500",
+            "url": "https://www.cotton.senate.gov",
+            "twitter_account": "SenTomCotton",
+            "stocks_traded": [],
+            "committees_membership": [
+                "SSJU",
+                "SLIN",
+                "SSAS",
+                "JSEC"
+            ]
+        },
+        {
+            "politician_id": "C001096",
+            "name": "Kevin Cramer",
+            "gender": "M",
+            "party": "R",
+            "date_of_birth": "1961-01-21",
+            "first_elected": 2013,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/c001096_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/1048784496/1546464991/1500x500",
+            "url": "https://www.cramer.senate.gov",
+            "twitter_account": "SenKevinCramer",
+            "stocks_traded": [],
+            "committees_membership": [
+                "SSEV",
+                "SSBK",
+                "SSBU",
+                "SSVA",
+                "SSAS"
+            ]
+        },
+        {
+            "politician_id": "C001097",
+            "name": "Tony Cárdenas",
+            "gender": "M",
+            "party": "D",
+            "date_of_birth": "1963-03-31",
+            "first_elected": 2013,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/c001097_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/1222257180/1623713878/1500x500",
+            "url": "https://cardenas.house.gov",
+            "twitter_account": "RepCardenas",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSIF"
+            ]
+        },
+        {
+            "politician_id": "C001103",
+            "name": "Buddy Carter",
+            "gender": "M",
+            "party": "R",
+            "date_of_birth": "1957-09-06",
+            "first_elected": 2015,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/c001103_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/2973870195/1679341487/1500x500",
+            "url": "https://buddycarter.house.gov",
+            "twitter_account": "RepBuddyCarter",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSCN",
+                "HSIF",
+                "HSBU"
+            ]
+        },
+        {
+            "politician_id": "C001104",
+            "name": "Madison Cawthorn",
+            "gender": "M",
+            "party": "R",
+            "date_of_birth": "1995-08-01",
+            "first_elected": 2021,
+            "cash_on_hand": 1001.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/c001104_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/1344007696555663360/1647450924/1500x500",
+            "url": "https://cawthorn.house.gov",
+            "twitter_account": "RepCawthorn",
+            "stocks_traded": [
+                "AMZN"
+            ],
+            "committees_membership": [
+                "HSVR",
+                "HSED"
+            ]
+        },
+        {
+            "politician_id": "C001109",
+            "name": "Liz Cheney",
+            "gender": "F",
+            "party": "R",
+            "date_of_birth": "1966-07-28",
+            "first_elected": 2017,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/c001109_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/816719802328715264/1546792147/1500x500",
+            "url": "https://cheney.house.gov",
+            "twitter_account": "RepLizCheney",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSAS"
+            ]
+        },
+        {
+            "politician_id": "C001110",
+            "name": "J. Luis Correa",
+            "gender": "M",
+            "party": "D",
+            "date_of_birth": "1958-01-24",
+            "first_elected": 2017,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/115_rp_ca_46_correa_j_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/815985039485837312/1517411599/1500x500",
+            "url": "https://correa.house.gov",
+            "twitter_account": "reploucorrea",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSHM",
+                "HSJU",
+                "HSAG"
+            ]
+        },
+        {
+            "politician_id": "C001111",
+            "name": "Charlie Crist",
+            "gender": "M",
+            "party": "D",
+            "date_of_birth": "1956-07-24",
+            "first_elected": 2017,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/116_rp_fl_13_crist_charlie_200.jpg",
+            "banner_url": null,
+            "url": "https://crist.house.gov",
+            "twitter_account": "repcharliecrist",
+            "stocks_traded": [],
+            "committees_membership": []
+        },
+        {
+            "politician_id": "C001112",
+            "name": "Salud Carbajal",
+            "gender": "M",
+            "party": "D",
+            "date_of_birth": "1964-11-18",
+            "first_elected": 2017,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/115_rp_ca_24_carbajal_salud_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/816157667882373120/1483423693/1500x500",
+            "url": "https://carbajal.house.gov",
+            "twitter_account": "RepCarbajal",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSAS",
+                "HSPW",
+                "HSAG"
+            ]
+        },
+        {
+            "politician_id": "C001113",
+            "name": "Catherine Cortez Masto",
+            "gender": "F",
+            "party": "D",
+            "date_of_birth": "1964-03-29",
+            "first_elected": 2017,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/c001113_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/811313565760163844/1597847974/1500x500",
+            "url": "https://www.cortezmasto.senate.gov",
+            "twitter_account": "sencortezmasto",
+            "stocks_traded": [],
+            "committees_membership": [
+                "SLIA",
+                "SSEG",
+                "SSBK",
+                "SSFI"
+            ]
+        },
+        {
+            "politician_id": "C001115",
+            "name": "Michael Cloud",
+            "gender": "M",
+            "party": "R",
+            "date_of_birth": "1975-05-13",
+            "first_elected": 2018,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/115_rp_tx_27_cloud_michael_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/1039879658400112640/1594664434/1500x500",
+            "url": "https://cloud.house.gov",
+            "twitter_account": "RepCloudTX",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSGO",
+                "HSAG"
+            ]
+        },
+        {
+            "politician_id": "C001116",
+            "name": "Andrew Clyde",
+            "gender": "M",
+            "party": "R",
+            "date_of_birth": "1963-11-22",
+            "first_elected": 2021,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/c001116_200.jpg",
+            "banner_url": null,
+            "url": "https://clyde.house.gov",
+            "twitter_account": null,
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSGO",
+                "HSHM"
+            ]
+        },
+        {
+            "politician_id": "C001117",
+            "name": "Sean Casten",
+            "gender": "M",
+            "party": "D",
+            "date_of_birth": "1971-11-23",
+            "first_elected": 2019,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/c001117_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/1083472286089396224/1599621916/1500x500",
+            "url": "https://casten.house.gov",
+            "twitter_account": "RepCasten",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSCN",
+                "HSBA",
+                "HSSY"
+            ]
+        },
+        {
+            "politician_id": "C001118",
+            "name": "Ben Cline",
+            "gender": "M",
+            "party": "R",
+            "date_of_birth": "1972-02-29",
+            "first_elected": 2019,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/c001118_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/1072158357237174272/1546453531/1500x500",
+            "url": "https://cline.house.gov",
+            "twitter_account": "RepBenCline",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSAP",
+                "HSBU"
+            ]
+        },
+        {
+            "politician_id": "C001119",
+            "name": "Angie Craig",
+            "gender": "F",
+            "party": "D",
+            "date_of_birth": "1972-02-14",
+            "first_elected": 2019,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/c001119_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/1080222360643485698/1611079700/1500x500",
+            "url": "https://craig.house.gov",
+            "twitter_account": "RepAngieCraig",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSIF",
+                "HSSM",
+                "HSAG"
+            ]
+        },
+        {
+            "politician_id": "C001121",
+            "name": "Jason Crow",
+            "gender": "M",
+            "party": "D",
+            "date_of_birth": "1979-03-15",
+            "first_elected": 2019,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/c001121_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/1080191866509901826/1553274406/1500x500",
+            "url": "https://crow.house.gov",
+            "twitter_account": "RepJasonCrow",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSAS",
+                "HSSM"
+            ]
+        },
+        {
+            "politician_id": "C001125",
+            "name": "Troy Carter",
+            "gender": "M",
+            "party": "D",
+            "date_of_birth": "1963-10-26",
+            "first_elected": 2021,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/c001125_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/1352760304271241218/1656443917/1500x500",
+            "url": "https://troycarter.house.gov",
+            "twitter_account": "RepTroyCarter",
+            "stocks_traded": [],
+            "committees_membership": []
+        },
+        {
+            "politician_id": "C001126",
+            "name": "Mike Carey",
+            "gender": "M",
+            "party": "R",
+            "date_of_birth": "1971-03-13",
+            "first_elected": 2021,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": null,
+            "banner_url": "https://pbs.twimg.com/profile_banners/1457745193197780993/1636992414/1500x500",
+            "url": "https://carey.house.gov",
+            "twitter_account": "RepMikeCarey",
+            "stocks_traded": [],
+            "committees_membership": []
+        },
+        {
+            "politician_id": "C001127",
+            "name": "Sheila Cherfilus-McCormick",
+            "gender": "F",
+            "party": "D",
+            "date_of_birth": "1979-01-25",
+            "first_elected": 2022,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/c001127_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/1484252226646421505/1644442824/1500x500",
+            "url": "https://cherfilus-mccormick.house.gov",
+            "twitter_account": "CongresswomanSC",
+            "stocks_traded": [],
+            "committees_membership": []
+        },
+        {
+            "politician_id": "C001128",
+            "name": "Connie Conway",
+            "gender": "F",
+            "party": "R",
+            "date_of_birth": "1950-09-25",
+            "first_elected": 2022,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/c001128_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/1544718378987933703/1657571322/1500x500",
+            "url": "https://conway.house.gov/",
+            "twitter_account": "RepConnieConway",
+            "stocks_traded": [],
+            "committees_membership": []
+        },
+        {
+            "politician_id": "D000032",
+            "name": "Byron Donalds",
+            "gender": "M",
+            "party": "R",
+            "date_of_birth": "1978-10-28",
+            "first_elected": 2021,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/d000032_200.jpg",
+            "banner_url": null,
+            "url": "https://donalds.house.gov",
+            "twitter_account": "RepByronDonalds",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSGO",
+                "HSSM",
+                "HSBU"
+            ]
+        },
+        {
+            "politician_id": "D000096",
+            "name": "Danny K. Davis",
+            "gender": "M",
+            "party": "D",
+            "date_of_birth": "1941-09-06",
+            "first_elected": 1997,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/116_rp_il_7_davis_danny_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/789244177/1421861843/1500x500",
+            "url": "https://davis.house.gov",
+            "twitter_account": "RepDannyDavis",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSGO",
+                "HSWM"
+            ]
+        },
+        {
+            "politician_id": "D000191",
+            "name": "Peter A. DeFazio",
+            "gender": "M",
+            "party": "D",
+            "date_of_birth": "1947-05-27",
+            "first_elected": 1987,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/d000191_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/252249233/1648559629/1500x500",
+            "url": "https://defazio.house.gov",
+            "twitter_account": "RepPeterDeFazio",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSPW"
+            ]
+        },
+        {
+            "politician_id": "D000197",
+            "name": "Diana DeGette",
+            "gender": "F",
+            "party": "D",
+            "date_of_birth": "1957-07-29",
+            "first_elected": 1997,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/116_rp_co_1_degette_diana_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/28599820/1564503483/1500x500",
+            "url": "https://degette.house.gov",
+            "twitter_account": "RepDianaDeGette",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSII",
+                "HSIF"
+            ]
+        },
+        {
+            "politician_id": "D000216",
+            "name": "Rosa DeLauro",
+            "gender": "F",
+            "party": "D",
+            "date_of_birth": "1943-03-02",
+            "first_elected": 1991,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/116_rp_ct_3_delauro_rosa_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/140519774/1450710256/1500x500",
+            "url": "https://delauro.house.gov",
+            "twitter_account": "RosaDeLauro",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSAP"
+            ]
+        },
+        {
+            "politician_id": "D000482",
+            "name": "Mike Doyle",
+            "gender": "M",
+            "party": "D",
+            "date_of_birth": "1953-08-05",
+            "first_elected": 1995,
+            "cash_on_hand": 0.0,
+            "debt": 1665.0,
+            "img_url": "https://www.congress.gov/img/member/116_rp_pa_18_doyle_michael_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/39249305/1574086473/1500x500",
+            "url": "https://doyle.house.gov",
+            "twitter_account": "USRepMikeDoyle",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSIF"
+            ]
+        },
+        {
+            "politician_id": "D000563",
+            "name": "Richard J. Durbin",
+            "gender": "M",
+            "party": "D",
+            "date_of_birth": "1944-11-21",
+            "first_elected": 1983,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/d000563_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/247334603/1438365026/1500x500",
+            "url": "https://www.durbin.senate.gov",
+            "twitter_account": "SenatorDurbin",
+            "stocks_traded": [],
+            "committees_membership": [
+                "SSAP",
+                "SSAF",
+                "SSJU"
+            ]
+        },
+        {
+            "politician_id": "D000600",
+            "name": "Mario Diaz-Balart",
+            "gender": "M",
+            "party": "R",
+            "date_of_birth": "1961-09-25",
+            "first_elected": 2003,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/116_rp_fl_25_diazbalart_mario_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/37094727/1672781860/1500x500",
+            "url": "https://mariodiazbalart.house.gov",
+            "twitter_account": "MarioDB",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSAP"
+            ]
+        },
+        {
+            "politician_id": "D000610",
+            "name": "Ted Deutch",
+            "gender": "M",
+            "party": "D",
+            "date_of_birth": "1966-05-07",
+            "first_elected": 2010,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/d000610_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/137794015/1664722104/1500x500",
+            "url": "https://teddeutch.house.gov",
+            "twitter_account": "RepTedDeutch",
+            "stocks_traded": [],
+            "committees_membership": []
+        },
+        {
+            "politician_id": "D000615",
+            "name": "Jeffrey Duncan",
+            "gender": "M",
+            "party": "R",
+            "date_of_birth": "1966-01-07",
+            "first_elected": 2011,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/d000615_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/240393970/1591276283/1500x500",
+            "url": "https://jeffduncan.house.gov",
+            "twitter_account": "RepJeffDuncan",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSIF"
+            ]
+        },
+        {
+            "politician_id": "D000616",
+            "name": "Scott DesJarlais",
+            "gender": "M",
+            "party": "R",
+            "date_of_birth": "1964-02-21",
+            "first_elected": 2011,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/d000616_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/235312723/1499449124/1500x500",
+            "url": "https://desjarlais.house.gov",
+            "twitter_account": "DesJarlaisTN04",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSAS",
+                "HSAG"
+            ]
+        },
+        {
+            "politician_id": "D000618",
+            "name": "Steve Daines",
+            "gender": "M",
+            "party": "R",
+            "date_of_birth": "1962-08-20",
+            "first_elected": 2013,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/d000618_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/11651202/1672685353/1500x500",
+            "url": "https://www.daines.senate.gov",
+            "twitter_account": "SteveDaines",
+            "stocks_traded": [],
+            "committees_membership": [
+                "SLIA",
+                "SSEG",
+                "SSBK",
+                "SSFI"
+            ]
+        },
+        {
+            "politician_id": "D000619",
+            "name": "Rodney Davis",
+            "gender": "M",
+            "party": "R",
+            "date_of_birth": "1970-01-05",
+            "first_elected": 2013,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/d000619_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/993153006/1497639898/1500x500",
+            "url": "https://rodneydavis.house.gov",
+            "twitter_account": "RodneyDavis",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSPW",
+                "HSHA",
+                "HSMH",
+                "HSAG"
+            ]
+        },
+        {
+            "politician_id": "D000623",
+            "name": "Mark DeSaulnier",
+            "gender": "M",
+            "party": "D",
+            "date_of_birth": "1952-03-31",
+            "first_elected": 2015,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/115_rp_ca_11_desaulnier_mark_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/2968007206/1533589054/1500x500",
+            "url": "https://desaulnier.house.gov",
+            "twitter_account": "RepDeSaulnier",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSGO",
+                "HSPW",
+                "HSRU",
+                "HSED"
+            ]
+        },
+        {
+            "politician_id": "D000626",
+            "name": "Warren Davidson",
+            "gender": "M",
+            "party": "R",
+            "date_of_birth": "1970-03-01",
+            "first_elected": 2016,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/115_rp_oh_8_davidson_warren_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/742735530287304704/1667387741/1500x500",
+            "url": "https://davidson.house.gov",
+            "twitter_account": "WarrenDavidson",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSBA"
+            ]
+        },
+        {
+            "politician_id": "D000627",
+            "name": "Val Demings",
+            "gender": "F",
+            "party": "D",
+            "date_of_birth": "1957-03-12",
+            "first_elected": 2017,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/d000627_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/798973032362606600/1530553006/1500x500",
+            "url": "https://demings.house.gov",
+            "twitter_account": "RepValDemings",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSHM",
+                "HSJU"
+            ]
+        },
+        {
+            "politician_id": "D000629",
+            "name": "Sharice Davids",
+            "gender": "F",
+            "party": "D",
+            "date_of_birth": "1980-05-22",
+            "first_elected": 2019,
+            "cash_on_hand": 1001.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/d000629_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/1080516116395499522/1649094190/1500x500",
+            "url": "https://davids.house.gov",
+            "twitter_account": "RepDavids",
+            "stocks_traded": [
+                "FCEL"
+            ],
+            "committees_membership": [
+                "HSPW",
+                "HSSM"
+            ]
+        },
+        {
+            "politician_id": "D000630",
+            "name": "Antonio Delgado",
+            "gender": "M",
+            "party": "D",
+            "date_of_birth": "1977-01-19",
+            "first_elected": 2019,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/d000630_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/1080485692298444800/1584540145/1500x500",
+            "url": "https://delgado.house.gov",
+            "twitter_account": "repdelgado",
+            "stocks_traded": [],
+            "committees_membership": []
+        },
+        {
+            "politician_id": "D000631",
+            "name": "Madeleine Dean",
+            "gender": "F",
+            "party": "D",
+            "date_of_birth": "1959-06-06",
+            "first_elected": 2019,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/d000631_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/567508925/1580879675/1500x500",
+            "url": "https://dean.house.gov",
+            "twitter_account": "RepDean",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSBA",
+                "HSJU"
+            ]
+        },
+        {
+            "politician_id": "E000071",
+            "name": "Jake Ellzey",
+            "gender": "M",
+            "party": "R",
+            "date_of_birth": "1970-01-24",
+            "first_elected": 2021,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/e000071_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/1366523868253458437/1646927766/1500x500",
+            "url": "https://ellzey.house.gov",
+            "twitter_account": "RepEllzey",
+            "stocks_traded": [],
+            "committees_membership": []
+        },
+        {
+            "politician_id": "E000215",
+            "name": "Anna G. Eshoo",
+            "gender": "F",
+            "party": "D",
+            "date_of_birth": "1942-12-13",
+            "first_elected": 1993,
+            "cash_on_hand": 0.0,
+            "debt": 6547.0,
+            "img_url": "https://www.congress.gov/img/member/e000215_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/249348006/1437061809/1500x500",
+            "url": "https://eshoo.house.gov",
+            "twitter_account": "RepAnnaEshoo",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSIF"
+            ]
+        },
+        {
+            "politician_id": "E000294",
+            "name": "Tom Emmer",
+            "gender": "M",
+            "party": "R",
+            "date_of_birth": "1961-03-03",
+            "first_elected": 2015,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/e000294_200.jpg",
+            "banner_url": null,
+            "url": "https://emmer.house.gov",
+            "twitter_account": "RepTomEmmer",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSBA"
+            ]
+        },
+        {
+            "politician_id": "E000295",
+            "name": "Joni Ernst",
+            "gender": "F",
+            "party": "R",
+            "date_of_birth": "1970-07-01",
+            "first_elected": 2015,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/e000295_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/2856787757/1673473268/1500x500",
+            "url": "https://www.ernst.senate.gov",
+            "twitter_account": "SenJoniErnst",
+            "stocks_traded": [],
+            "committees_membership": [
+                "SSSB",
+                "SSEV",
+                "SSAF",
+                "SSAS"
+            ]
+        },
+        {
+            "politician_id": "E000297",
+            "name": "Adriano Espaillat",
+            "gender": "M",
+            "party": "D",
+            "date_of_birth": "1954-09-27",
+            "first_elected": 2017,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/e000297_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/817076257770835968/1660498051/1500x500",
+            "url": "https://espaillat.house.gov",
+            "twitter_account": "RepEspaillat",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSAP",
+                "HSED"
+            ]
+        },
+        {
+            "politician_id": "E000299",
+            "name": "Veronica Escobar",
+            "gender": "F",
+            "party": "D",
+            "date_of_birth": "1969-09-15",
+            "first_elected": 2019,
+            "cash_on_hand": 0.0,
+            "debt": 26983.0,
+            "img_url": "https://www.congress.gov/img/member/e000299_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/1075517806551154689/1546448528/1500x500",
+            "url": "https://escobar.house.gov",
+            "twitter_account": "RepEscobar",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSAS",
+                "HSSO",
+                "HSCN",
+                "HSJU"
+            ]
+        },
+        {
+            "politician_id": "F000062",
+            "name": "Dianne Feinstein",
+            "gender": "F",
+            "party": "D",
+            "date_of_birth": "1933-06-22",
+            "first_elected": 1992,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/f000062_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/476256944/1401304971/1500x500",
+            "url": "https://www.feinstein.senate.gov",
+            "twitter_account": "SenFeinstein",
+            "stocks_traded": [],
+            "committees_membership": [
+                "SSAP",
+                "SSJU",
+                "SLIN",
+                "SSRA",
+                "SCNC"
+            ]
+        },
+        {
+            "politician_id": "F000446",
+            "name": "Randy Feenstra",
+            "gender": "M",
+            "party": "R",
+            "date_of_birth": "1969-01-14",
+            "first_elected": 2021,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/f000446_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/1345135363761852416/1629725790/1500x500",
+            "url": "https://feenstra.house.gov",
+            "twitter_account": "RepFeenstra",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSSY",
+                "HSBU",
+                "HSAG"
+            ]
+        },
+        {
+            "politician_id": "F000449",
+            "name": "Jeff Fortenberry",
+            "gender": "M",
+            "party": "R",
+            "date_of_birth": "1960-12-27",
+            "first_elected": 2005,
+            "cash_on_hand": 0.0,
+            "debt": 16103.0,
+            "img_url": "https://www.congress.gov/img/member/116_rp_ne_1_fortenberry_jeff_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/18805303/1371851103/1500x500",
+            "url": "https://fortenberry.house.gov",
+            "twitter_account": "JeffFortenberry",
+            "stocks_traded": [],
+            "committees_membership": []
+        },
+        {
+            "politician_id": "F000454",
+            "name": "Bill Foster",
+            "gender": "M",
+            "party": "D",
+            "date_of_birth": "1955-10-07",
+            "first_elected": 2008,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/f000454_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/1080509366/1371843668/1500x500",
+            "url": "https://foster.house.gov",
+            "twitter_account": "RepBillFoster",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSBA",
+                "HSSY"
+            ]
+        },
+        {
+            "politician_id": "F000455",
+            "name": "Marcia L. Fudge",
+            "gender": "F",
+            "party": "D",
+            "date_of_birth": "1952-10-29",
+            "first_elected": 2008,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/f000455_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/153486399/1563563678/1500x500",
+            "url": "https://fudge.house.gov",
+            "twitter_account": "RepMarciaFudge",
+            "stocks_traded": [],
+            "committees_membership": []
+        },
+        {
+            "politician_id": "F000465",
+            "name": "A. Drew Ferguson",
+            "gender": "M",
+            "party": "R",
+            "date_of_birth": "1966-11-15",
+            "first_elected": 2017,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/116_rp_ga_3_ferguson_a_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/806583915012046854/1618338905/1500x500",
+            "url": "https://ferguson.house.gov",
+            "twitter_account": "RepDrewFerguson",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSWM"
+            ]
+        },
+        {
+            "politician_id": "F000466",
+            "name": "Brian Fitzpatrick",
+            "gender": "M",
+            "party": "R",
+            "date_of_birth": "1973-12-17",
+            "first_elected": 2017,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/116_rp_pa_1_fitzpatrick_brian_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/816303263586914304/1524239538/1500x500",
+            "url": "https://fitzpatrick.house.gov",
+            "twitter_account": "repbrianfitz",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSFA",
+                "HSPW"
+            ]
+        },
+        {
+            "politician_id": "F000468",
+            "name": "Lizzie Fletcher",
+            "gender": "F",
+            "party": "D",
+            "date_of_birth": "1975-02-13",
+            "first_elected": 2019,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/f000468_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/1075904377221722113/1625612322/1500x500",
+            "url": "https://fletcher.house.gov",
+            "twitter_account": "RepFletcher",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSIF",
+                "HSSY"
+            ]
+        },
+        {
+            "politician_id": "F000469",
+            "name": "Russ Fulcher",
+            "gender": "M",
+            "party": "R",
+            "date_of_birth": "1973-07-19",
+            "first_elected": 2019,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/f000469_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/1078741899572240384/1546614126/1500x500",
+            "url": "https://fulcher.house.gov",
+            "twitter_account": "RepRussFulcher",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSII",
+                "HSED"
+            ]
+        },
+        {
+            "politician_id": "F000470",
+            "name": "Michelle Fischbach",
+            "gender": "F",
+            "party": "R",
+            "date_of_birth": "1965-11-03",
+            "first_elected": 2021,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/f000470_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/1344375287484723205/1677702988/1500x500",
+            "url": "https://fischbach.house.gov",
+            "twitter_account": "RepFischbach",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSRU",
+                "HSJU",
+                "HSAG"
+            ]
+        },
+        {
+            "politician_id": "F000471",
+            "name": "Scott Fitzgerald",
+            "gender": "M",
+            "party": "R",
+            "date_of_birth": "1963-11-16",
+            "first_elected": 2021,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/f000471_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/1004891731/1612394768/1500x500",
+            "url": "https://fitzgerald.house.gov",
+            "twitter_account": "RepFitzgerald",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSSM",
+                "HSED",
+                "HSJU"
+            ]
+        },
+        {
+            "politician_id": "F000473",
+            "name": "Mayra Flores",
+            "gender": "F",
+            "party": "R",
+            "date_of_birth": "1986-01-01",
+            "first_elected": 2022,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/f000473_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/1538990997769707523/1656724700/1500x500",
+            "url": "https://flores.house.gov/",
+            "twitter_account": "repmayraflores",
+            "stocks_traded": [],
+            "committees_membership": []
+        },
+        {
+            "politician_id": "F000474",
+            "name": "Mike Flood",
+            "gender": "M",
+            "party": "R",
+            "date_of_birth": "1975-02-23",
+            "first_elected": 2022,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/f000474_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/1547025742529167360/1660170186/1500x500",
+            "url": "https://flood.house.gov/",
+            "twitter_account": "USRepMikeFlood",
+            "stocks_traded": [],
+            "committees_membership": []
+        },
+        {
+            "politician_id": "F000475",
+            "name": "Brad Finstad",
+            "gender": "M",
+            "party": "R",
+            "date_of_birth": "1976-05-30",
+            "first_elected": 2022,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/f000475_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/1563316176717246464/1661562264/1500x500",
+            "url": "https://finstad.house.gov/",
+            "twitter_account": "RepFinstad",
+            "stocks_traded": [],
+            "committees_membership": []
+        },
+        {
+            "politician_id": "G000359",
+            "name": "Lindsey Graham",
+            "gender": "M",
+            "party": "R",
+            "date_of_birth": "1955-07-09",
+            "first_elected": 1995,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/g000359_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/14845376/1355255089/1500x500",
+            "url": "https://www.lgraham.senate.gov/public",
+            "twitter_account": "GrahamBlog",
+            "stocks_traded": [],
+            "committees_membership": [
+                "SSAP",
+                "SSEV",
+                "SSJU",
+                "SSBU"
+            ]
+        },
+        {
+            "politician_id": "G000377",
+            "name": "Kay Granger",
+            "gender": "F",
+            "party": "R",
+            "date_of_birth": "1943-01-18",
+            "first_elected": 1997,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/g000377_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/161743731/1576105948/1500x500",
+            "url": "https://kaygranger.house.gov",
+            "twitter_account": "RepKayGranger",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSAP"
+            ]
+        },
+        {
+            "politician_id": "G000386",
+            "name": "Charles E. Grassley",
+            "gender": "M",
+            "party": "R",
+            "date_of_birth": "1933-09-17",
+            "first_elected": 1975,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/g000386_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/10615232/1661980465/1500x500",
+            "url": "https://www.grassley.senate.gov",
+            "twitter_account": "ChuckGrassley",
+            "stocks_traded": [],
+            "committees_membership": [
+                "SSAF",
+                "SSFI",
+                "SSJU",
+                "SCNC",
+                "SSBU",
+                "JSTX"
+            ]
+        },
+        {
+            "politician_id": "G000546",
+            "name": "Sam Graves",
+            "gender": "M",
+            "party": "R",
+            "date_of_birth": "1963-11-07",
+            "first_elected": 2001,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/g000546_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/29766367/1477431109/1500x500",
+            "url": "https://graves.house.gov",
+            "twitter_account": "RepSamGraves",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSAS",
+                "HSPW"
+            ]
+        },
+        {
+            "politician_id": "G000551",
+            "name": "Raúl M. Grijalva",
+            "gender": "M",
+            "party": "D",
+            "date_of_birth": "1948-02-19",
+            "first_elected": 2003,
+            "cash_on_hand": 2002.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/g000551_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/28602948/1430769322/1500x500",
+            "url": "https://grijalva.house.gov",
+            "twitter_account": "RepraulGrijalva",
+            "stocks_traded": [
+                "CBOE"
+            ],
+            "committees_membership": [
+                "HSII",
+                "HSED"
+            ]
+        },
+        {
+            "politician_id": "G000552",
+            "name": "Louie Gohmert",
+            "gender": "M",
+            "party": "R",
+            "date_of_birth": "1953-08-18",
+            "first_elected": 2005,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/116_rp_tx_1_gohmert_louie_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/22055226/1405454469/1500x500",
+            "url": "https://gohmert.house.gov",
+            "twitter_account": "RepLouieGohmert",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSII",
+                "HSJU"
+            ]
+        },
+        {
+            "politician_id": "G000553",
+            "name": "Al Green",
+            "gender": "M",
+            "party": "D",
+            "date_of_birth": "1947-09-01",
+            "first_elected": 2005,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/116_rp_tx_9_green_al_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/156333623/1515095724/1500x500",
+            "url": "https://algreen.house.gov",
+            "twitter_account": "RepAlGreen",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSHM",
+                "HSBA"
+            ]
+        },
+        {
+            "politician_id": "G000555",
+            "name": "Kirsten E. Gillibrand",
+            "gender": "F",
+            "party": "D",
+            "date_of_birth": "1966-12-09",
+            "first_elected": 2007,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/g000555_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/899978622416695297/1674851931/1500x500",
+            "url": "https://www.gillibrand.senate.gov",
+            "twitter_account": "GillibrandNY",
+            "stocks_traded": [],
+            "committees_membership": [
+                "SSAF",
+                "SLIN",
+                "SPAG",
+                "SSAS"
+            ]
+        },
+        {
+            "politician_id": "G000558",
+            "name": "Brett Guthrie",
+            "gender": "M",
+            "party": "R",
+            "date_of_birth": "1964-02-18",
+            "first_elected": 2009,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/g000558_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/1908143071/1398802844/1500x500",
+            "url": "https://guthrie.house.gov",
+            "twitter_account": "RepGuthrie",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSIF"
+            ]
+        },
+        {
+            "politician_id": "G000565",
+            "name": "Paul Gosar",
+            "gender": "M",
+            "party": "R",
+            "date_of_birth": "1958-11-22",
+            "first_elected": 2011,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/g000565_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/240760644/1604437205/1500x500",
+            "url": "https://gosar.house.gov",
+            "twitter_account": "RepGosar",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSII",
+                "HSGO"
+            ]
+        },
+        {
+            "politician_id": "G000568",
+            "name": "Morgan Griffith",
+            "gender": "M",
+            "party": "R",
+            "date_of_birth": "1958-03-15",
+            "first_elected": 2011,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/g000568_200.jpg",
+            "banner_url": null,
+            "url": "https://morgangriffith.house.gov",
+            "twitter_account": "RepMGriffith",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSCN",
+                "HSIF"
+            ]
+        },
+        {
+            "politician_id": "G000574",
+            "name": "Ruben Gallego",
+            "gender": "M",
+            "party": "D",
+            "date_of_birth": "1979-11-20",
+            "first_elected": 2015,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/g000574_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/2966570782/1666286230/1500x500",
+            "url": "https://rubengallego.house.gov",
+            "twitter_account": "RepRubenGallego",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSAS",
+                "HSII",
+                "HSVR"
+            ]
+        },
+        {
+            "politician_id": "G000576",
+            "name": "Glenn Grothman",
+            "gender": "M",
+            "party": "R",
+            "date_of_birth": "1955-07-03",
+            "first_elected": 2015,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/116_rp_wi_6_grothman_glenn_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/2976606250/1480964777/1500x500",
+            "url": "https://grothman.house.gov",
+            "twitter_account": "RepGrothman",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSGO",
+                "HSED",
+                "HSBU"
+            ]
+        },
+        {
+            "politician_id": "G000578",
+            "name": "Matt Gaetz",
+            "gender": "M",
+            "party": "R",
+            "date_of_birth": "1982-05-07",
+            "first_elected": 2017,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/116_rp_fl_1_gaetz_matt_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/818948638890217473/1626723323/1500x500",
+            "url": "https://gaetz.house.gov",
+            "twitter_account": "RepMattGaetz",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSAS",
+                "HSJU"
+            ]
+        },
+        {
+            "politician_id": "G000582",
+            "name": "Jenniffer González-Colón",
+            "gender": "F",
+            "party": "R",
+            "date_of_birth": "1976-08-05",
+            "first_elected": 2017,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/g000582_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/819744763020775425/1546964138/1500x500",
+            "url": "https://gonzalez-colon.house.gov",
+            "twitter_account": "repjenniffer",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSII",
+                "HSPW"
+            ]
+        },
+        {
+            "politician_id": "G000585",
+            "name": "Jimmy Gomez",
+            "gender": "M",
+            "party": "D",
+            "date_of_birth": "1974-11-25",
+            "first_elected": 2017,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/115_rp_ca_34_gomez_jimmy_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/2371339658/1522043572/1500x500",
+            "url": "https://gomez.house.gov",
+            "twitter_account": "RepJimmyGomez",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSGO",
+                "HSWM"
+            ]
+        },
+        {
+            "politician_id": "G000586",
+            "name": "Jesús García",
+            "gender": "M",
+            "party": "D",
+            "date_of_birth": "1956-04-12",
+            "first_elected": 2019,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/g000586_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/1082427779583541248/1634394437/1500x500",
+            "url": "https://chuygarcia.house.gov",
+            "twitter_account": "RepChuyGarcia",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSII",
+                "HSBA",
+                "HSPW"
+            ]
+        },
+        {
+            "politician_id": "G000587",
+            "name": "Sylvia Garcia",
+            "gender": "F",
+            "party": "D",
+            "date_of_birth": "1950-09-06",
+            "first_elected": 2019,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/g000587_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/1080587263132733442/1609970650/1500x500",
+            "url": "https://sylviagarcia.house.gov",
+            "twitter_account": "RepSylviaGarcia",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSBA",
+                "HSJU"
+            ]
+        },
+        {
+            "politician_id": "G000589",
+            "name": "Lance Gooden",
+            "gender": "M",
+            "party": "R",
+            "date_of_birth": "1982-12-01",
+            "first_elected": 2019,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/g000589_200.jpg",
+            "banner_url": null,
+            "url": "https://gooden.house.gov",
+            "twitter_account": "RepLanceGooden",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSBA"
+            ]
+        },
+        {
+            "politician_id": "G000592",
+            "name": "Jared Golden",
+            "gender": "M",
+            "party": "D",
+            "date_of_birth": "1982-07-25",
+            "first_elected": 2019,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/g000592_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/1080891667308298240/1581358178/1500x500",
+            "url": "https://golden.house.gov",
+            "twitter_account": "repgolden",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSAS",
+                "HSSM"
+            ]
+        },
+        {
+            "politician_id": "G000593",
+            "name": "Carlos Giménez",
+            "gender": "M",
+            "party": "R",
+            "date_of_birth": "1954-01-17",
+            "first_elected": 2021,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/g000593_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/1343679195034103808/1673073345/1500x500",
+            "url": "https://gimenez.house.gov",
+            "twitter_account": "RepCarlos",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSHM",
+                "HSPW",
+                "HSSY"
+            ]
+        },
+        {
+            "politician_id": "G000594",
+            "name": "Tony Gonzales",
+            "gender": "M",
+            "party": "R",
+            "date_of_birth": "1980-10-10",
+            "first_elected": 2021,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/g000594_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/1343627416120532992/1676042688/1500x500",
+            "url": "https://gonzales.house.gov",
+            "twitter_account": "RepTonyGonzales",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSAP"
+            ]
+        },
+        {
+            "politician_id": "G000595",
+            "name": "Robert Good",
+            "gender": "M",
+            "party": "R",
+            "date_of_birth": "1965-09-11",
+            "first_elected": 2021,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/g000595_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/1345536897838436353/1671658833/1500x500",
+            "url": "https://good.house.gov",
+            "twitter_account": "RepBobGood",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSED",
+                "HSBU"
+            ]
+        },
+        {
+            "politician_id": "G000597",
+            "name": "Andrew Garbarino",
+            "gender": "M",
+            "party": "R",
+            "date_of_birth": "1984-09-27",
+            "first_elected": 2021,
+            "cash_on_hand": 1001.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/g000597_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/1344349650447433729/1643842467/1500x500",
+            "url": "https://garbarino.house.gov",
+            "twitter_account": "RepGarbarino",
+            "stocks_traded": [
+                "BAC"
+            ],
+            "committees_membership": [
+                "HSHM",
+                "HSSM"
+            ]
+        },
+        {
+            "politician_id": "H000324",
+            "name": "Alcee L. Hastings",
+            "gender": "M",
+            "party": "D",
+            "date_of_birth": "1936-09-05",
+            "first_elected": 1993,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/h000324_200.jpg",
+            "banner_url": null,
+            "url": "https://alceehastings.house.gov",
+            "twitter_account": "RepHastingsFL",
+            "stocks_traded": [],
+            "committees_membership": []
+        },
+        {
+            "politician_id": "H000874",
+            "name": "Steny H. Hoyer",
+            "gender": "M",
+            "party": "D",
+            "date_of_birth": "1939-06-14",
+            "first_elected": 1981,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/116_rp_md_5_hoyer_steny_200.jpg",
+            "banner_url": null,
+            "url": "https://hoyer.house.gov",
+            "twitter_account": "LeaderHoyer",
+            "stocks_traded": [],
+            "committees_membership": []
+        },
+        {
+            "politician_id": "H001042",
+            "name": "Mazie K. Hirono",
+            "gender": "F",
+            "party": "D",
+            "date_of_birth": "1947-11-03",
+            "first_elected": 2007,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/h001042_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/92186819/1519779404/1500x500",
+            "url": "https://www.hirono.senate.gov",
+            "twitter_account": "MazieHirono",
+            "stocks_traded": [],
+            "committees_membership": [
+                "SSSB",
+                "SSEG",
+                "SSJU",
+                "SSVA",
+                "SSAS"
+            ]
+        },
+        {
+            "politician_id": "H001046",
+            "name": "Martin Heinrich",
+            "gender": "M",
+            "party": "D",
+            "date_of_birth": "1971-10-17",
+            "first_elected": 2009,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/h001046_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/1099199839/1625416972/1500x500",
+            "url": "https://www.heinrich.senate.gov",
+            "twitter_account": "MartinHeinrich",
+            "stocks_traded": [],
+            "committees_membership": [
+                "SSAP",
+                "SSEG",
+                "SLIN",
+                "JSEC"
+            ]
+        },
+        {
+            "politician_id": "H001047",
+            "name": "Jim Himes",
+            "gender": "M",
+            "party": "D",
+            "date_of_birth": "1966-07-05",
+            "first_elected": 2009,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/h001047_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/31611298/1607992283/1500x500",
+            "url": "https://himes.house.gov",
+            "twitter_account": "JAHimes",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSBA"
+            ]
+        },
+        {
+            "politician_id": "H001052",
+            "name": "Andy Harris",
+            "gender": "M",
+            "party": "R",
+            "date_of_birth": "1957-01-25",
+            "first_elected": 2011,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/h001052_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/960962340/1626964813/1500x500",
+            "url": "https://harris.house.gov",
+            "twitter_account": "RepAndyHarrisMD",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSAP"
+            ]
+        },
+        {
+            "politician_id": "H001053",
+            "name": "Vicky Hartzler",
+            "gender": "F",
+            "party": "R",
+            "date_of_birth": "1960-10-13",
+            "first_elected": 2011,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/h001053_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/237763317/1670865503/1500x500",
+            "url": "https://hartzler.house.gov",
+            "twitter_account": "RepHartzler",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSAS",
+                "HSAG"
+            ]
+        },
+        {
+            "politician_id": "H001056",
+            "name": "Jaime Herrera Beutler",
+            "gender": "F",
+            "party": "R",
+            "date_of_birth": "1978-11-03",
+            "first_elected": 2011,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/h001056_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/242926427/1571336962/1500x500",
+            "url": "https://jhb.house.gov",
+            "twitter_account": "HerreraBeutler",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSAP"
+            ]
+        },
+        {
+            "politician_id": "H001058",
+            "name": "Bill Huizenga",
+            "gender": "M",
+            "party": "R",
+            "date_of_birth": "1969-01-31",
+            "first_elected": 2011,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/h001058_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/233949261/1672768706/1500x500",
+            "url": "https://huizenga.house.gov",
+            "twitter_account": "RepHuizenga",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSBA"
+            ]
+        },
+        {
+            "politician_id": "H001066",
+            "name": "Steven Horsford",
+            "gender": "M",
+            "party": "D",
+            "date_of_birth": "1973-04-29",
+            "first_elected": 2013,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/h001066_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/389840566/1554557262/1500x500",
+            "url": "https://horsford.house.gov",
+            "twitter_account": "RepHorsford",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSWM",
+                "HSBU"
+            ]
+        },
+        {
+            "politician_id": "H001067",
+            "name": "Richard Hudson",
+            "gender": "M",
+            "party": "R",
+            "date_of_birth": "1971-11-04",
+            "first_elected": 2013,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/h001067_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/935033864/1672754754/1500x500",
+            "url": "https://hudson.house.gov",
+            "twitter_account": "RepRichHudson",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSIF"
+            ]
+        },
+        {
+            "politician_id": "H001068",
+            "name": "Jared Huffman",
+            "gender": "M",
+            "party": "D",
+            "date_of_birth": "1964-02-18",
+            "first_elected": 2013,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/h001068_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/1071102246/1562005240/1500x500",
+            "url": "https://huffman.house.gov",
+            "twitter_account": "RepHuffman",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSII",
+                "HSCN",
+                "HSPW"
+            ]
+        },
+        {
+            "politician_id": "H001071",
+            "name": "Jody Hice",
+            "gender": "M",
+            "party": "R",
+            "date_of_birth": "1960-04-22",
+            "first_elected": 2015,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/h001071_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/2975091705/1576863340/1500x500",
+            "url": "https://hice.house.gov",
+            "twitter_account": "congressmanhice",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSII",
+                "HSGO"
+            ]
+        },
+        {
+            "politician_id": "H001075",
+            "name": "Kamala Harris",
+            "gender": "F",
+            "party": "D",
+            "date_of_birth": "1964-10-20",
+            "first_elected": 2017,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/h001075_200.jpg",
+            "banner_url": null,
+            "url": "https://www.harris.senate.gov",
+            "twitter_account": "SenKamalaHarris",
+            "stocks_traded": [],
+            "committees_membership": []
+        },
+        {
+            "politician_id": "H001076",
+            "name": "Margaret Hassan",
+            "gender": "F",
+            "party": "D",
+            "date_of_birth": "1958-02-27",
+            "first_elected": 2017,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/h001076_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/946549322/1483457252/1500x500",
+            "url": "https://www.hassan.senate.gov",
+            "twitter_account": "Senatorhassan",
+            "stocks_traded": [],
+            "committees_membership": [
+                "SSGA",
+                "SSHR",
+                "SSFI",
+                "SSVA",
+                "JSEC"
+            ]
+        },
+        {
+            "politician_id": "H001077",
+            "name": "Clay Higgins",
+            "gender": "M",
+            "party": "R",
+            "date_of_birth": "1961-08-24",
+            "first_elected": 2017,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/h001077_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/843636970538618880/1646141245/1500x500",
+            "url": "https://clayhiggins.house.gov",
+            "twitter_account": "RepClayHiggins",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSGO",
+                "HSHM"
+            ]
+        },
+        {
+            "politician_id": "H001079",
+            "name": "Cindy Hyde-Smith",
+            "gender": "F",
+            "party": "R",
+            "date_of_birth": "1959-05-10",
+            "first_elected": 2018,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/h001079_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/983348251972816896/1548194897/1500x500",
+            "url": "https://www.hydesmith.senate.gov",
+            "twitter_account": "SenHydeSmith",
+            "stocks_traded": [],
+            "committees_membership": [
+                "SSAP",
+                "SSEG",
+                "SSAF",
+                "SSRA"
+            ]
+        },
+        {
+            "politician_id": "H001080",
+            "name": "Debra Haaland",
+            "gender": "F",
+            "party": "D",
+            "date_of_birth": "1960-12-02",
+            "first_elected": 2019,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/h001080_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/1080695666760929280/1588166915/1500x500",
+            "url": "https://haaland.house.gov",
+            "twitter_account": "RepDebHaaland",
+            "stocks_traded": [],
+            "committees_membership": []
+        },
+        {
+            "politician_id": "H001081",
+            "name": "Jahana Hayes",
+            "gender": "F",
+            "party": "D",
+            "date_of_birth": "1973-03-08",
+            "first_elected": 2019,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/h001081_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/1082086081238102018/1673538931/1500x500",
+            "url": "https://hayes.house.gov",
+            "twitter_account": "RepJahanaHayes",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSED",
+                "HSAG"
+            ]
+        },
+        {
+            "politician_id": "H001084",
+            "name": "Yvette Herrell",
+            "gender": "F",
+            "party": "R",
+            "date_of_birth": "1964-03-16",
+            "first_elected": 2021,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/h001084_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/1344416719260016641/1616004353/1500x500",
+            "url": "https://herrell.house.gov",
+            "twitter_account": "RepHerrell",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSII",
+                "HSGO"
+            ]
+        },
+        {
+            "politician_id": "H001085",
+            "name": "Chrissy Houlahan",
+            "gender": "F",
+            "party": "D",
+            "date_of_birth": "1967-06-05",
+            "first_elected": 2019,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/h001085_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/1052896620797460481/1612188523/1500x500",
+            "url": "https://houlahan.house.gov",
+            "twitter_account": "RepHoulahan",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSAS",
+                "HSFA",
+                "HSSM"
+            ]
+        },
+        {
+            "politician_id": "H001088",
+            "name": "Jim Hagedorn",
+            "gender": "M",
+            "party": "R",
+            "date_of_birth": "1962-08-04",
+            "first_elected": 2019,
+            "cash_on_hand": 1001.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/h001088_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/1083474782602125318/1547564797/1500x500",
+            "url": "https://hagedorn.house.gov",
+            "twitter_account": "RepHagedorn",
+            "stocks_traded": [
+                "EXAS"
+            ],
+            "committees_membership": []
+        },
+        {
+            "politician_id": "H001089",
+            "name": "Joshua Hawley",
+            "gender": "M",
+            "party": "R",
+            "date_of_birth": "1979-12-31",
+            "first_elected": 2019,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/h001089_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/1080960924687704064/1658243212/1500x500",
+            "url": "https://www.hawley.senate.gov",
+            "twitter_account": "SenHawleyPress",
+            "stocks_traded": [],
+            "committees_membership": [
+                "SSSB",
+                "SSGA",
+                "SSJU",
+                "SSAS"
+            ]
+        },
+        {
+            "politician_id": "H001090",
+            "name": "Josh Harder",
+            "gender": "M",
+            "party": "D",
+            "date_of_birth": "1986-08-01",
+            "first_elected": 2019,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": null,
+            "banner_url": "https://pbs.twimg.com/profile_banners/1080851152151953410/1597009504/1500x500",
+            "url": "https://harder.house.gov",
+            "twitter_account": "RepJoshHarder",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSAP",
+                "HSAG"
+            ]
+        },
+        {
+            "politician_id": "I000056",
+            "name": "Darrell Issa",
+            "gender": "M",
+            "party": "R",
+            "date_of_birth": "1953-11-01",
+            "first_elected": 2001,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/i000056_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/22509548/1571775430/1500x500",
+            "url": "https://issa.house.gov",
+            "twitter_account": "DarrellIssa",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSFA",
+                "HSJU"
+            ]
+        },
+        {
+            "politician_id": "J000032",
+            "name": "Sheila Jackson Lee",
+            "gender": "F",
+            "party": "D",
+            "date_of_birth": "1950-01-12",
+            "first_elected": 1995,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/j000032_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/80612021/1650145800/1500x500",
+            "url": "https://jacksonlee.house.gov",
+            "twitter_account": "JacksonLeeTX18",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSHM",
+                "HSJU",
+                "HSBU"
+            ]
+        },
+        {
+            "politician_id": "J000126",
+            "name": "Eddie Bernice Johnson",
+            "gender": "F",
+            "party": "D",
+            "date_of_birth": "1935-12-03",
+            "first_elected": 1993,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/116_rp_tx_30_johnson_eddie_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/168502762/1662667887/1500x500",
+            "url": "https://ebjohnson.house.gov",
+            "twitter_account": "RepEBJ",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSPW",
+                "HSSY"
+            ]
+        },
+        {
+            "politician_id": "J000288",
+            "name": "Hank Johnson",
+            "gender": "M",
+            "party": "D",
+            "date_of_birth": "1954-10-02",
+            "first_elected": 2007,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/j000288_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/24745957/1617805165/1500x500",
+            "url": "https://hankjohnson.house.gov",
+            "twitter_account": "RepHankJohnson",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSGO",
+                "HSPW",
+                "HSJU"
+            ]
+        },
+        {
+            "politician_id": "J000289",
+            "name": "Jim Jordan",
+            "gender": "M",
+            "party": "R",
+            "date_of_birth": "1964-02-17",
+            "first_elected": 2007,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/j000289_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/18166778/1406042839/1500x500",
+            "url": "https://jordan.house.gov",
+            "twitter_account": "Jim_Jordan",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSGO",
+                "HSJU"
+            ]
+        },
+        {
+            "politician_id": "J000292",
+            "name": "Bill Johnson",
+            "gender": "M",
+            "party": "R",
+            "date_of_birth": "1954-11-10",
+            "first_elected": 2011,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/j000292_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/211530910/1672781294/1500x500",
+            "url": "https://billjohnson.house.gov",
+            "twitter_account": "RepBillJohnson",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSIF"
+            ]
+        },
+        {
+            "politician_id": "J000293",
+            "name": "Ron Johnson",
+            "gender": "M",
+            "party": "R",
+            "date_of_birth": "1955-04-08",
+            "first_elected": 2011,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/j000293_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/233737858/1647972839/1500x500",
+            "url": "https://www.ronjohnson.senate.gov",
+            "twitter_account": "SenRonJohnson",
+            "stocks_traded": [],
+            "committees_membership": [
+                "SSGA",
+                "SSFR",
+                "SSCM",
+                "SSBU"
+            ]
+        },
+        {
+            "politician_id": "J000294",
+            "name": "Hakeem Jeffries",
+            "gender": "M",
+            "party": "D",
+            "date_of_birth": "1970-08-04",
+            "first_elected": 2013,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/j000294_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/467823431/1414444613/1500x500",
+            "url": "https://jeffries.house.gov",
+            "twitter_account": "RepJeffries",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSJU",
+                "HSBU"
+            ]
+        },
+        {
+            "politician_id": "J000295",
+            "name": "Dave Joyce",
+            "gender": "M",
+            "party": "R",
+            "date_of_birth": "1957-03-17",
+            "first_elected": 2013,
+            "cash_on_hand": 1001.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/j000295_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/976969338/1494534964/1500x500",
+            "url": "https://joyce.house.gov",
+            "twitter_account": "RepDaveJoyce",
+            "stocks_traded": [
+                "PAA"
+            ],
+            "committees_membership": [
+                "HSAP",
+                "HSSO"
+            ]
+        },
+        {
+            "politician_id": "J000298",
+            "name": "Pramila Jayapal",
+            "gender": "F",
+            "party": "D",
+            "date_of_birth": "1965-09-21",
+            "first_elected": 2017,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/116_rp_wa_7_jayapal_pramila_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/815733290955112448/1522072475/1500x500",
+            "url": "https://jayapal.house.gov",
+            "twitter_account": "RepJayapal",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSED",
+                "HSJU",
+                "HSBU"
+            ]
+        },
+        {
+            "politician_id": "J000299",
+            "name": "Mike Johnson",
+            "gender": "M",
+            "party": "R",
+            "date_of_birth": "1972-01-30",
+            "first_elected": 2017,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/115_rp_la_4_johnson_mike_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/827279765287559171/1639530537/1500x500",
+            "url": "https://mikejohnson.house.gov",
+            "twitter_account": "RepMikeJohnson",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSAS",
+                "HSJU"
+            ]
+        },
+        {
+            "politician_id": "J000301",
+            "name": "Dusty Johnson",
+            "gender": "M",
+            "party": "R",
+            "date_of_birth": "1976-09-30",
+            "first_elected": 2019,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/j000301_200.jpg",
+            "banner_url": null,
+            "url": "https://dustyjohnson.house.gov",
+            "twitter_account": "RepJohnson",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSPW",
+                "HSAG"
+            ]
+        },
+        {
+            "politician_id": "J000302",
+            "name": "John Joyce",
+            "gender": "M",
+            "party": "R",
+            "date_of_birth": "1957-02-08",
+            "first_elected": 2019,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/j000302_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/1082311988926124036/1605883783/1500x500",
+            "url": "https://johnjoyce.house.gov",
+            "twitter_account": "RepJohnJoyce",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSIF"
+            ]
+        },
+        {
+            "politician_id": "J000304",
+            "name": "Ronny Jackson",
+            "gender": "M",
+            "party": "R",
+            "date_of_birth": "1967-05-04",
+            "first_elected": 2021,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/j000304_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/1341903465610686464/1611781206/1500x500",
+            "url": "https://jackson.house.gov",
+            "twitter_account": "RepRonnyJackson",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSAS",
+                "HSFA"
+            ]
+        },
+        {
+            "politician_id": "J000306",
+            "name": "Mondaire Jones",
+            "gender": "M",
+            "party": "D",
+            "date_of_birth": "1987-05-18",
+            "first_elected": 2021,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/j000306_200.jpg",
+            "banner_url": null,
+            "url": "https://jones.house.gov",
+            "twitter_account": "RepJones",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSSO",
+                "HSED",
+                "HSJU"
+            ]
+        },
+        {
+            "politician_id": "K000009",
+            "name": "Marcy Kaptur",
+            "gender": "F",
+            "party": "D",
+            "date_of_birth": "1946-06-17",
+            "first_elected": 1983,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/k000009_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/581141508/1666099438/1500x500",
+            "url": "https://kaptur.house.gov",
+            "twitter_account": "RepMarcyKaptur",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSAP",
+                "HSVR"
+            ]
+        },
+        {
+            "politician_id": "K000188",
+            "name": "Ron Kind",
+            "gender": "M",
+            "party": "D",
+            "date_of_birth": "1963-03-16",
+            "first_elected": 1997,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/116_rp_wi_3_kind_ron_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/112740986/1551220359/1500x500",
+            "url": "https://kind.house.gov",
+            "twitter_account": "RepRonKind",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSWM"
+            ]
+        },
+        {
+            "politician_id": "K000367",
+            "name": "Amy Klobuchar",
+            "gender": "F",
+            "party": "D",
+            "date_of_birth": "1960-05-25",
+            "first_elected": 2007,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/k000367_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/22044727/1649427835/1500x500",
+            "url": "https://www.klobuchar.senate.gov",
+            "twitter_account": "SenAmyKlobuchar",
+            "stocks_traded": [],
+            "committees_membership": [
+                "SSAF",
+                "SSJU",
+                "SSCM",
+                "SSRA",
+                "JSLC",
+                "JSEC",
+                "JSPR"
+            ]
+        },
+        {
+            "politician_id": "K000368",
+            "name": "Ann Kirkpatrick",
+            "gender": "F",
+            "party": "D",
+            "date_of_birth": "1950-03-24",
+            "first_elected": 2009,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/k000368_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/1081240074946252801/1571698455/1500x500",
+            "url": "https://kirkpatrick.house.gov",
+            "twitter_account": "RepKirkpatrick",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSAP",
+                "HSAG"
+            ]
+        },
+        {
+            "politician_id": "K000377",
+            "name": "Mark Kelly",
+            "gender": "M",
+            "party": "D",
+            "date_of_birth": "1964-02-21",
+            "first_elected": 2020,
+            "cash_on_hand": 0.0,
+            "debt": 26158.0,
+            "img_url": "https://www.congress.gov/img/member/k000377_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/1324926274888888320/1606923090/1500x500",
+            "url": "https://www.kelly.senate.gov",
+            "twitter_account": "SenMarkKelly",
+            "stocks_traded": [],
+            "committees_membership": [
+                "SSEG",
+                "SSEV",
+                "SPAG",
+                "SSAS",
+                "JSEC"
+            ]
+        },
+        {
+            "politician_id": "K000380",
+            "name": "Dan Kildee",
+            "gender": "M",
+            "party": "D",
+            "date_of_birth": "1958-08-11",
+            "first_elected": 2013,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/k000380_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/1045110018/1654618440/1500x500",
+            "url": "https://dankildee.house.gov",
+            "twitter_account": "RepDanKildee",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSWM",
+                "HSSY",
+                "HSBU"
+            ]
+        },
+        {
+            "politician_id": "K000381",
+            "name": "Derek Kilmer",
+            "gender": "M",
+            "party": "D",
+            "date_of_birth": "1974-01-01",
+            "first_elected": 2013,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/k000381_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/1058917562/1535400212/1500x500",
+            "url": "https://kilmer.house.gov",
+            "twitter_account": "RepDerekKilmer",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSAP",
+                "HSMH"
+            ]
+        },
+        {
+            "politician_id": "K000382",
+            "name": "Ann McLane Kuster",
+            "gender": "F",
+            "party": "D",
+            "date_of_birth": "1956-09-05",
+            "first_elected": 2013,
+            "cash_on_hand": 0.0,
+            "debt": 0.0,
+            "img_url": "https://www.congress.gov/img/member/k000382_200.jpg",
+            "banner_url": "https://pbs.twimg.com/profile_banners/1058717720/1610664206/1500x500",
+            "url": "https://kuster.house.gov",
+            "twitter_account": "RepAnnieKuster",
+            "stocks_traded": [],
+            "committees_membership": [
+                "HSIF",
+                "HSAG"
+            ]
+        }
+    ]
+}

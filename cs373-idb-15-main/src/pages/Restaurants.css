@@ -1,0 +1,26 @@
+.restaurant-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  }
+
+.restaurant-cards-container {
+    padding-left: 20px;
+}
+
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.restaurant-search-bar {
+  margin: 0 auto 1rem auto;
+  width: 50%;
+}
+
+.filter-button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; /* adjust this value as needed */
+}

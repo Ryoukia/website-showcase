@@ -1,0 +1,504 @@
+name, img, country, rating, price, pop, popfoods
+Bahía Blanca-Cerri,image not found,Argentina,3.625,2.0,317325.704982449,Pizza.Argentine.Coffee & Tea.Italian.Beer Bar.
+BUENOS AIRES,image not found,Argentina,4.29,2.64,13339001.6015536,Argentine.Cocktail Bars.Breakfast & Brunch.Steakhouses.Cafeteria.
+Córdoba,image not found,Argentina,4.3,2.0416666666666665,1442000.64659388,Argentine.Cafeteria.Burgers.Arabic.Bars.
+Corrientes,image not found,Argentina,3.8125,2.4285714285714284,373981.279268183,Cafeteria.Argentine.Pizza.Bakeries.Bars.
+La Plata,image not found,Argentina,3.91,2.1463414634146343,764468.872784661,Argentine.Beer Bar.Pizza.Tapas Bars.Burgers.
+Mar del Plata-Batán,image not found,Argentina,2.9,2.0,633905.593145199,Seafood.Argentine.Italian.Pizza.
+Mendoza,image not found,Argentina,4.28,2.275,923203.297204453,Argentine.Wine Bars.Burgers.Beer Bar.Bakeries.
+Posadas,image not found,Argentina,0.4117647058823529,2.75,312162.868950168,Pizza.Restaurants.Bakeries.Argentine.Coffee & Tea.
+Resistencia,image not found,Argentina,3.8125,2.4285714285714284,406284.472613334,Cafeteria.Argentine.Bakeries.Pizza.Bars.
+Rosario,image not found,Argentina,4.22,2.1333333333333333,1284951.22445876,Bars.Steakhouses.Tapas Bars.Argentine.Cocktail Bars.
+Salta,image not found,Argentina,4.14,2.0,562807.15066998,Argentine.Bars.Cafeteria.Pizza.Coffee & Tea.
+San Juan,image not found,Argentina,4.39,2.1702127659574466,486313.228956941,Puerto Rican.Caribbean.Latin American.Breakfast & Brunch.Seafood.
+San Salvador de Jujuy-Palpalá,image not found,Argentina,3.75,2.3333333333333335,322872.909734593,Argentine.Steakhouses.Restaurants.Ice Cream & Frozen Yogurt.Desserts.
+Santiago del Estero-La Banda,image not found,Argentina,3.7333333333333334,1.75,387320.455373139,Argentine.Bakeries.Desserts.Empanadas.Fast Food.
+Tucumán-Tafí Viejo,image not found,Argentina,3.22,1.9,836411.619309512,Argentine.Cafeteria.Pizza.Bakeries.Bars.
+Avellaneda,image not found,Argentina,4.23,2.268292682926829,344024,Argentine.Steakhouses.Bakeries.Bars.Cafeteria.
+General San Martín,image not found,Argentina,3.8043478260869565,1.9615384615384615,406809,Burgers.Bakeries.Fast Food.Ice Cream & Frozen Yogurt.Argentine.
+La Matanza,image not found,Argentina,0.0,3.0,1120088,Coffee & Tea.Bakeries.Pizza.Ice Cream & Frozen Yogurt.Restaurants.
+Lanus,image not found,Argentina,4.22,2.2708333333333335,468561,Argentine.Burgers.Steakhouses.Cafeteria.Beer Bar.
+Lomas de Zamora,image not found,Argentina,4.16,2.1363636363636362,574330,Italian.Cafeteria.Argentine.Burgers.Pizza.
+Morón,image not found,Argentina,4.26,2.217391304347826,643553,Beer Bar.Cafeteria.Argentine.Bars.Breakfast & Brunch.
+Quilmes,image not found,Argentina,3.73,1.864864864864865,511234,Cafeteria.Argentine.Beer Bar.Coffee & Tea.Pizza.
+San Miguel de Tucumán,image not found,Argentina,3.89,1.8636363636363635,470809,Argentine.Cafeteria.Pizza.Italian.Bars.
+Adelaide,image not found,Australia,4.28,2.1,1250795,Restaurants.Coffee & Tea.Bars.Chinese.Cafes.
+Brisbane,image not found,Australia,4.02,2.1,2099328,Italian.Bars.Restaurants.Seafood.Cafes.
+Canberra-Queanbeyan,image not found,Australia,4.08,1.8974358974358974,412049,Coffee & Tea.Restaurants.Cafes.Bars.Chinese.
+Central Coast,image not found,Australia,3.306122448979592,1.5714285714285714,317517,Coffee & Tea.Cafes.Fast Food.Restaurants.Pizza.
+Gold Coast-Tweed Heads,image not found,Australia,4.44,1.9310344827586208,592389,Coffee & Tea.Restaurants.Cafes.Seafood.Breakfast & Brunch.
+Greater Adelaide,image not found,Australia,4.31,2.1,1278432,Restaurants.Bars.Coffee & Tea.Italian.Chinese.
+Greater Brisbane,image not found,Australia,4.02,2.1,2192065,Italian.Bars.Restaurants.Seafood.Cafes.
+Greater Melbourne,image not found,Australia,4.16,2.36,4248344,Bars.American (Traditional).Restaurants.Japanese.Tapas/Small Plates.
+Greater Sydney,image not found,Australia,4.27,1.6944444444444444,4672619,Cafes.Coffee & Tea.Fast Food.Bakeries.Restaurants.
+Melbourne,image not found,Australia,4.19,2.48,4086734,Bars.American (Traditional).Australian.Venues & Event Spaces.Japanese.
+Newcastle-Maitland,image not found,Australia,3.61,2.0,420850,Restaurants.Coffee & Tea.Fast Food.Bars.Burgers.
+Perth,image not found,Australia,2.25,1.3333333333333333,1834184,Coffee & Tea.Pizza.Restaurants.Steakhouses.Burgers.
+Sydney,image not found,Australia,4.24,2.625,4293416,Australian.Bars.Japanese.Seafood.Restaurants.
+CANBERRA,image not found,Australia,4.02,1.9743589743589745,356585,Coffee & Tea.Restaurants.Bars.Chinese.Cafes.
+Newcastle,image not found,Australia,4.33,1.9772727272727273,398770,British.Bars.Pubs.Italian.Cafes.
+Gold Coast,image not found,Australia,4.29,2.1904761904761907,493425,Coffee & Tea.Cafes.American (Traditional).Seafood.Restaurants.
+WIEN,image not found,Austria,4.32,2.32,1741246,Austrian.Cafes.Breakfast & Brunch.Wine Bars.Italian.
+Brest,image not found,Belarus,4.18,2.3157894736842106,323674,French.Creperies.Seafood.Salad.Sandwiches.
+Antwerpen (Anvers),image not found,Belgium,4.25,2.34,503138,Belgian.Cafes.Modern European.Breakfast & Brunch.Coffee & Tea.
+LA PAZ,image not found,Bolivia (Plurinational State of),2.1666666666666665,1.5,789585,Coffee & Tea.American (Traditional).Fast Food.Bars.Mexican.
+Santa Cruz,image not found,Bolivia (Plurinational State of),4.17,2.0425531914893615,1113582,American (New).Breakfast & Brunch.American (Traditional).Coffee & Tea.Italian.
+Ananindeua,image not found,Brazil,4.18,2.1538461538461537,470819,Restaurants.Brazilian.Burgers.Bakeries.Ice Cream & Frozen Yogurt.
+Anápolis,image not found,Brazil,0.22,2.3333333333333335,325163,Bakeries.Bars.Diners.Fast Food.Restaurants.
+Aracaju,image not found,Brazil,3.9489795918367347,2.4545454545454546,571149,Landmarks & Historical Buildings.Restaurants.Seafood.Italian.Religious Organizations.
+Bauru,image not found,Brazil,4.171428571428572,1.6428571428571428,337094,Restaurants.Cafes.Diners.Fast Food.Arabic.
+Belford Roxo,image not found,Brazil,4.41,2.1666666666666665,469332,Landmarks & Historical Buildings.Burgers.Bars.Brazilian.Cafes.
+Belo Horizonte,image not found,Brazil,4.28,2.227272727272727,1433244,Bars.Brazilian.Cafes.Italian.Gastropubs.
+Betim,image not found,Brazil,4.304347826086956,2.25,375331,Bakeries.Brazilian.Sushi Bars.Restaurants.Bars.
+BRASILIA,image not found,Brazil,4.46,2.625,2481272,Brazilian.Bars.Cafes.Steakhouses.Italian.
+Campina Grande,image not found,Brazil,4.725806451612903,2.142857142857143,355014,Bars.Sandwiches.Italian.Restaurants.Cafes.
+Campinas,image not found,Brazil,4.34,2.3658536585365852,952659,Italian.Steakhouses.Pizza.Restaurants.Desserts.
+Campo Grande,image not found,Brazil,3.9642857142857144,2.2857142857142856,774202,Restaurants.Pizza.Cafes.Diners.Parks.
+Campos dos Goytacazes,image not found,Brazil,0.32,2.0,356608,Bakeries.Brazilian.Bars.Buffets.Restaurants.
+Canoas,image not found,Brazil,4.58,2.066666666666667,323827,Italian.Cafes.Bistros.Buffets.Bakeries.
+Caxias do Sul,image not found,Brazil,4.15,2.0,415822,Steakhouses.Restaurants.Diners.Italian.Seafood.
+Contagem,image not found,Brazil,4.33,2.2142857142857144,379044,Bars.Brazilian.Cafes.Italian.Gastropubs.
+Curitiba,image not found,Brazil,4.55,2.1702127659574466,1751907,Burgers.Pubs.Gastropubs.Steakhouses.Bars.
+Diadema,image not found,Brazil,4.47,2.404255319148936,386089,Pizza.Burgers.Steakhouses.Italian.Beer Bar.
+Duque de Caxias,image not found,Brazil,3.8,1.5,341304,Restaurants.Lounges.Desserts.Sandwiches.Fondue.
+Feira de Santana,image not found,Brazil,3.857142857142857,1.3333333333333333,495516,Cafes.Ice Cream & Frozen Yogurt.Bakeries.Salad.Creperies.
+Fortaleza,image not found,Brazil,4.43,2.4878048780487805,862750,Brazilian.Pizza.French.Italian.Seafood.
+Franca,image not found,Brazil,4.6,Goiânia,image not found,Brazil,4.62,2.1176470588235294,1296324,Brazilian.Bars.Steakhouses.Burgers.Parks.
+Guarulhos,image not found,Brazil,4.07,2.064516129032258,784971,Bars.Cafes.Burgers.Bakeries.Brazilian.
+Itaquaquecetuba,image not found,Brazil,4.37,1.911764705882353,321770,Japanese.Burgers.Bakeries.Cafes.Restaurants.
+Jaboatao dos Guarapes,image not found,Brazil,4.5,2.380952380952381,335371,Seafood.Brazilian.Northeastern Brazilian.Steakhouses.Bars.
+Joao Pessoa,image not found,Brazil,4.39,2.0,720954,Landmarks & Historical Buildings.Brazilian.Bars.Italian.Steakhouses.
+Joinville,image not found,Brazil,4.068181818181818,1.8333333333333333,486803,Pizza.Buffets.Cafes.Restaurants.Steakhouses.
+Juiz de Fora,image not found,Brazil,3.86,1.375,489801,Pizza.Restaurants.Pubs.Cafes.Desserts.
+Jundiaí,image not found,Brazil,4.36,2.0,354204,Pizza.Italian.Cafes.Bars.Fast Food.
+Londrina,image not found,Brazil,4.2272727272727275,1.8571428571428572,485822,Restaurants.Bars.Steakhouses.Cafes.Bakeries.
+Macapá,image not found,Brazil,3.4375,Maceió,image not found,Brazil,4.42,2.4,932078,Brazilian.Bars.Restaurants.Pizza.Seafood.
+Manaus,image not found,Brazil,4.36,2.090909090909091,1792881,Restaurants.Brazilian.Bars.Steakhouses.Landmarks & Historical Buildings.
+Maringá,image not found,Brazil,4.325,1.5,342310,Restaurants.Brazilian.Bars.Pizza.Parks.
+Mauá,image not found,Brazil,4.45,2.05,417064,Brazilian.Bars.Landmarks & Historical Buildings.Museums.Japanese.
+Montes Claros,image not found,Brazil,0.4111111111111111,2.0,338381,Bakeries.Restaurants.Coffee & Tea.Spanish.Hotels.
+Natal,image not found,Brazil,4.53,2.45,803739,Beaches.Seafood.Restaurants.Bars.Brazilian.
+Niterói,image not found,Brazil,4.39,2.5348837209302326,487562,Brazilian.Steakhouses.Bars.Dive Bars.Modern European.
+Nova Iguaçu,image not found,Brazil,3.93,1.8888888888888888,787563,Brazilian.Pizza.Fast Food.Restaurants.Seafood.
+Olinda,image not found,Brazil,4.38,2.0,370332,Food Trucks.Pizza.Breakfast & Brunch.Sushi Bars.Sandwiches.
+Osasco,image not found,Brazil,4.52,2.630434782608696,666740,Brazilian.Bars.Steakhouses.Cafes.Gastropubs.
+Pelotas,image not found,Brazil,0.0,Ponta Grossa,image not found,Brazil,4.875,1.0,303399,Steakhouses.Parks.Mexican.Brazilian.Bakeries.
+Porto Alegre,image not found,Brazil,4.41,2.108695652173913,1409351,Cafes.Bars.Diners.Italian.Bistros.
+Porto Velho,image not found,Brazil,3.625,1.0,369259,Pizza.Restaurants.Bookstores.Cafes.Bakeries.
+Recife,image not found,Brazil,4.49,2.4878048780487805,1537704,Buffets.Brazilian.Seafood.Bars.Japanese.
+Ribeirao Prêto,image not found,Brazil,4.42,2.130434782608696,590593,Restaurants.Bars.Japanese.Pizza.Steakhouses.
+Rio Branco,image not found,Brazil,3.3214285714285716,2.0,308545,Pizza.Landmarks & Historical Buildings.Italian.International.Fast Food.
+Rio de Janeiro,image not found,Brazil,4.43,2.488372093023256,6320446,Brazilian.Bars.Steakhouses.Modern European.Vegetarian.
+Salvador,image not found,Brazil,4.44,2.3043478260869565,2674923,Pizza.Italian.Seafood.Brazilian.Steakhouses.
+Santo André,image not found,Brazil,4.19,2.0454545454545454,568538,Pizza.Bakeries.Restaurants.Burgers.Cafes.
+Santos,image not found,Brazil,4.49,2.111111111111111,419086,Portuguese.Tapas Bars.Cafes.Breakfast & Brunch.Cocktail Bars.
+Sao Bernardo do Campo,image not found,Brazil,4.144736842105263,2.0,736466,Bars.Brazilian.Bakeries.Pizza.Sandwiches.
+Sao Gonçalo,image not found,Brazil,4.31,2.0,337273,Italian.Restaurants.Brazilian.Pizza.Diners.
+Sao José do Rio Prêto,image not found,Brazil,4.48,2.0833333333333335,372492,Bars.Steakhouses.Fast Food.Italian.Pizza.
+Sao José dos Campos,image not found,Brazil,4.39,2.121212121212121,533501,Steakhouses.Italian.Pizza.Brazilian.Restaurants.
+Sao Luís,image not found,Brazil,4.5,2.0,958545,Landmarks & Historical Buildings.Restaurants.Italian.Pizza.Diners.
+Sorocaba,image not found,Brazil,4.21,2.066666666666667,580621,Steakhouses.Restaurants.Italian.Pizza.Bakeries.
+Teresina,image not found,Brazil,4.571428571428571,Uberlândia,image not found,Brazil,4.066666666666666,1.8571428571428572,584102,Brazilian.Steakhouses.Italian.Landmarks & Historical Buildings.Pubs.
+Varna,image not found,Bulgaria,2.388888888888889,2.0,334763,Pizza.Italian.Convenience Stores.Gas Stations.Burgers.
+Brampton,image not found,Canada,4.0,1.9111111111111112,523910,Indian.Caribbean.Japanese.Seafood.Chinese.
+Calgary,image not found,Canada,4.31,2.3333333333333335,1096835,Canadian (New).Cocktail Bars.Breakfast & Brunch.Wine Bars.Italian.
+Edmonton,image not found,Canada,4.26,2.3333333333333335,812200,Canadian (New).Cocktail Bars.Cafes.Wine Bars.Breakfast & Brunch.
+Halifax,image not found,Canada,2.1666666666666665,1.4,390095,American (New).Bars.Sandwiches.Southern.Lounges.
+Hamilton,image not found,Canada,3.78,1.4642857142857142,519950,Fast Food.Pizza.Coffee & Tea.Mexican.American (Traditional).
+Laval,image not found,Canada,4.39,2.276595744680851,401550,Canadian (New).Bars.Italian.Burgers.Breakfast & Brunch.
+London,image not found,Canada,4.32,2.673469387755102,366150,British.Seafood.Bars.French.Modern European.
+Markham,image not found,Canada,4.06,2.1333333333333333,301710,Chinese.Japanese.Korean.Sushi Bars.Seafood.
+Mississauga,image not found,Canada,4.09,2.1739130434782608,713445,Japanese.Indian.Sushi Bars.Barbeque.Italian.
+Montréal,image not found,Canada,4.35,2.391304347826087,1649520,French.Poutineries.Burgers.Canadian (New).Breakfast & Brunch.
+OTTAWA,image not found,Canada,4.27,2.4489795918367347,883395,Canadian (New).Seafood.Bars.Gastropubs.Lounges.
+Ottawa - Gatineau,image not found,Canada,4.34,2.3541666666666665,1236320,Canadian (New).Cafes.Breakfast & Brunch.Seafood.Tapas/Small Plates.
+Québec,image not found,Canada,4.35,2.574468085106383,516625,French.Canadian (New).Italian.Breakfast & Brunch.Bars.
+Surrey,image not found,Canada,4.3,2.15625,468250,Pubs.British.Indian.Italian.Cafes.
+Toronto,image not found,Canada,4.18,2.62,2615060,Canadian (New).Japanese.Sushi Bars.Tapas/Small Plates.Bars.
+Vancouver,image not found,Canada,4.17,2.63265306122449,603500,Canadian (New).Japanese.Seafood.Breakfast & Brunch.Sushi Bars.
+Winnipeg,image not found,Canada,4.29,2.2444444444444445,663615,Canadian (New).Italian.Breakfast & Brunch.Cocktail Bars.Steakhouses.
+Oshawa,image not found,Canada,4.26,2.1052631578947367,364193,Seafood.Bars.Canadian (New).American (Traditional).Mediterranean.
+St Catharines-Niagara,image not found,Canada,4.16,2.0,404357,Canadian (New).Breakfast & Brunch.Thai.Italian.Mediterranean.
+Victoria,image not found,Canada,1.8863636363636365,1.4444444444444444,358054,Pizza.American (Traditional).Coffee & Tea.Fast Food.Parks.
+Antofagasta,image not found,Chile,4.0476190476190474,2.625,390832,Peruvian.Seafood.Pizza.Restaurants.Coffee & Tea.
+Puente Alto,image not found,Chile,4.4,2.5531914893617023,802109,Italian.Chilean.Seafood.Bars.Brasseries.
+San Bernardo,image not found,Chile,4.3,2.142857142857143,316094,Bakeries.Desserts.Steakhouses.Pizza.Sushi Bars.
+SANTIAGO,image not found,Chile,4.4,2.6956521739130435,5128041,Chilean.Italian.Latin American.Seafood.Peruvian.
+Da'an,image not found,China,4.39,2.0208333333333335,430512,Taiwanese.Dim Sum.Breakfast & Brunch.Shanghainese.Hot Pot.
+Datong,image not found,China,4.41,2.1914893617021276,1526744,Taiwanese.Seafood.Shanghainese.Dim Sum.Hot Pot.
+Donggang,image not found,China,3.825,1.7142857142857142,640340,Seafood.Taiwanese.Desserts.Landmarks & Historical Buildings.Noodles.
+Gaoan,image not found,China,3.9,2.0,788329,Filipino.Japanese.Pizza.Fast Food.Seafood.
+Hailun,image not found,China,3.54,1.96,720008,Pubs.Bakeries.British.Coffee & Tea.Indian.
+Hulin,image not found,China,4.071428571428571,1.7,311509,Czech.Cafes.Coffee & Tea.Pizza.Landmarks & Historical Buildings.
+Jurong,image not found,China,4.3,1.7222222222222223,594316,Chinese.Bakeries.Singaporean.Cafes.Italian.
+Luzhou,image not found,China,4.37,2.0425531914893615,1252884,Taiwanese.Cafes.Breakfast & Brunch.Noodles.Bars.
+Meishan,image not found,China,3.9,1.5,799309,Landmarks & Historical Buildings.Taiwanese.Coffee & Tea.Buffets.Amusement Parks.
+Mishan,image not found,China,4.12,1.9333333333333333,438277,American (Traditional).American (New).Sandwiches.Cocktail Bars.Salad.
+Panshi,image not found,China,3.98,1.565217391304348,530470,Halal.Indian.Pizza.Bakeries.Caribbean.
+Taishan,image not found,China,4.36,1.7954545454545454,948716,Taiwanese.Noodles.Cafes.Bars.Local Flavor.
+Taonan,image not found,China,4.33,2.533333333333333,441096,Chinese.Seafood.Singaporean.Botanical Gardens.American (Traditional).
+Xinji,image not found,China,4.2,2.1956521739130435,623219,American (New).Bars.Breakfast & Brunch.Seafood.Italian.
+Xinmin,image not found,China,4.35,2.6,653719,Chinese.Singaporean.Seafood.Botanical Gardens.Indian.
+Yongkang,image not found,China,4.55,1.6578947368421053,557067,Taiwanese.Seafood.Hot Pot.Delis.Noodles.
+Zhongshan,image not found,China,4.37,2.3404255319148937,2363322,Taiwanese.Shanghainese.Dim Sum.Seafood.Hot Pot.
+HONG KONG SAR,image not found,China, Hong Kong SAR,4.29,2.2291666666666665,7187500,Dim Sum.Cantonese.Bars.Taiwanese.Shanghainese.
+Pasto,image not found,Colombia,4.37,2.4186046511627906,312759,Italian.Cafes.Pizza.Coffee & Tea.Piemonte.
+Soledad,image not found,Colombia,4.01,1.3846153846153846,455029,Mexican.Pizza.Bakeries.Seafood.Ice Cream & Frozen Yogurt.
+Brno,image not found,Czech Republic,4.46,1.8372093023255813,378327,Czech.Cafes.Coffee & Tea.Italian.Bars.
+PRAHA,image not found,Czech Republic,4.43,2.52,1246780,Czech.Modern European.Breakfast & Brunch.Burgers.Italian.
+Århus,image not found,Denmark,4.37,2.108695652173913,319680,Cafes.Scandinavian.Restaurants.Coffee & Tea.Danish.
+KOBENHAVN,image not found,Denmark,4.4,2.5208333333333335,562379,Scandinavian.Modern European.Danish.Breakfast & Brunch.Italian.
+SANTO DOMINGO,image not found,Dominican Republic,2.375,1.0,965040,Puerto Rican.Bakeries.Barbeque.Pizza.Desserts.
+Santo Domingo West,image not found,Dominican Republic,2.75,4.0,318181,Filipino.Patisserie/Cake Shop.Buffets.Hiking.Bars.
+Cuenca,image not found,Ecuador,4.19,1.25,331888,Spanish.Tapas Bars.Restaurants.Tapas/Small Plates.Bars.
+Alexandria,image not found,Egypt,4.2,2.108695652173913,4030582,American (Traditional).Bars.Seafood.American (New).Italian.
+Mansûra,image not found,Egypt,2.71,1.411764705882353,439348,Fast Food.Burgers.Seafood.Cajun/Creole.Mexican.
+HELSINKI,image not found,Finland,4.3,2.3125,599676,Scandinavian.Coffee & Tea.Modern European.Breakfast & Brunch.Burgers.
+Lyon,image not found,France,4.28,2.48,484343.999999987,French.Lyonnais.Breakfast & Brunch.Cafes.Tea Rooms.
+Marseille,image not found,France,4.25,2.3469387755102042,850725.99999995,French.Mediterranean.Wine Bars.Bistros.Tapas/Small Plates.
+Nice,image not found,France,4.3,2.4791666666666665,343304.000000023,French.Mediterranean.Breakfast & Brunch.Italian.Tapas Bars.
+PARIS,image not found,France,4.35,2.702127659574468,2243833.00000027,French.Bistros.Breakfast & Brunch.Modern European.Steakhouses.
+Toulouse,image not found,France,4.3,2.24,441801.999999936,French.Breakfast & Brunch.Burgers.Tea Rooms.Tapas Bars.
+BERLIN,image not found,Germany,4.34,2.32,3375222,German.Modern European.Burgers.Breakfast & Brunch.Cafes.
+Bielefeld,image not found,Germany,4.1,2.1020408163265305,328314,Cafes.German.Bars.Italian.International.
+Bochum,image not found,Germany,4.26,1.9777777777777779,362213,German.Cafes.Greek.Mediterranean.Tapas Bars.
+Bonn,image not found,Germany,4.23,2.148936170212766,309869,Cafes.Italian.Sushi Bars.German.Burgers.
+Bremen,image not found,Germany,4.33,2.2954545454545454,546451,Italian.German.Breakfast & Brunch.Cafes.Landmarks & Historical Buildings.
+Dortmund,image not found,Germany,4.24,2.1041666666666665,572087,German.Cafes.Steakhouses.Italian.Sushi Bars.
+Dresden,image not found,Germany,4.28,2.1739130434782608,525105,German.Cafes.International.Italian.Landmarks & Historical Buildings.
+Duisburg,image not found,Germany,4.22,2.1818181818181817,486816,German.Italian.Steakhouses.Thai.Beer Garden.
+Düsseldorf,image not found,Germany,4.41,2.2,593682,Japanese.Italian.Cafes.International.Greek.
+Essen,image not found,Germany,4.27,2.326530612244898,566862,Italian.German.Cocktail Bars.Pizza.Cafes.
+Frankfurt am Main,image not found,Germany,4.34,2.42,687775,German.Italian.Gastropubs.Steakhouses.Vietnamese.
+Hamburg,image not found,Germany,4.42,2.369565217391304,1734272,Italian.German.Cafes.Seafood.Steakhouses.
+Hannover,image not found,Germany,4.3,2.282608695652174,514137,Italian.Cafes.Steakhouses.German.Greek.
+Köln,image not found,Germany,4.41,2.297872340425532,1024373,German.Italian.Cafes.Steakhouses.Gastropubs.
+Leipzig,image not found,Germany,4.21,2.1875,520838,German.Modern European.Italian.Cafes.Bars.
+München,image not found,Germany,4.27,2.18,1388308,Bavarian.German.Beer Garden.Gastropubs.Italian.
+Nürnberg,image not found,Germany,4.43,1.851063829787234,495121,German.Cafes.Burgers.Franconian.Breakfast & Brunch.
+Stuttgart,image not found,Germany,4.19,2.34,597939,Swabian.German.International.Cafes.Wine Bars.
+Wuppertal,image not found,Germany,4.24,2.163265306122449,342885,Cafes.German.Italian.Bars.International.
+Villa Nueva,image not found,Guatemala,1.96,1.875,390329,Cafeteria.Pizza.Bakeries.Argentine.Fast Food.
+Salem,image not found,India,4.23,1.9111111111111112,696760,Bars.American (Traditional).Seafood.Breakfast & Brunch.Sandwiches.
+Kerman,image not found,Iran (Islamic Republic of),3.24,1.1923076923076923,534441,Fast Food.Burgers.Food Trucks.Tacos.Sandwiches.
+DUBLIN,image not found,Ireland,4.26,2.4,527612,Irish.Pubs.Steakhouses.Modern European.Breakfast & Brunch.
+JERUSALEM,image not found,Israel,1.0,Bari,image not found,Italy,4.5,2.096774193548387,314311,Italian.Pizza.Seafood.Apulian.Cafes.
+Bologna,image not found,Italy,4.38,2.0816326530612246,375893,Italian.Emilian.Pizza.Trattorie.Wine Bars.
+Firenze,image not found,Italy,4.45,2.3541666666666665,361679,Tuscan.Italian.Trattorie.Steakhouses.Wine Bars.
+Genova,image not found,Italy,4.4,2.189189189189189,583482,Italian.Ligurian.Seafood.Trattorie.Pizza.
+Milano,image not found,Italy,4.31,2.5217391304347827,1251137,Italian.Pizza.Seafood.Lumbard.Wine Bars.
+Napoli,image not found,Italy,4.41,2.0638297872340425,960079,Pizza.Italian.Cafes.Napoletana.Seafood.
+Palermo,image not found,Italy,4.38,2.0303030303030303,655908,Italian.Sicilian.Pizza.Seafood.Mediterranean.
+ROMA,image not found,Italy,4.42,2.1020408163265305,2626553,Italian.Roman.Pizza.Wine Bars.Seafood.
+Torino,image not found,Italy,4.43,2.4047619047619047,870702,Italian.Cafes.Pizza.Museums.Coffee & Tea.
+KINGSTON,image not found,Jamaica,2.25,1.0,592291,Mexican.Bars.Comfort Food.Pizza.Diners.
+Amagasaki,image not found,Japan,4.56,1.5777777777777777,453748,Cafes.Ramen.Sushi Bars.Yakiniku.Okonomiyaki.
+Asahikawa,image not found,Japan,4.34,1.3333333333333333,347095,Ramen.Cafes.Coffee & Tea.Japanese.Italian.
+Chiba,image not found,Japan,4.47,1.4666666666666666,961749,Cafes.Coffee & Tea.Ramen.Italian.Steakhouses.
+Fujisawa,image not found,Japan,4.43,1.7,409657,Cafes.American (Traditional).Burgers.Dim Sum.Izakaya.
+Fukuoka,image not found,Japan,4.39,1.4081632653061225,1463743,Cafes.Ramen.Dumplings.Izakaya.Coffee & Tea.
+Fukuyama,image not found,Japan,4.19,1.4285714285714286,461357,Restaurants.Japanese.Cafes.Coffee & Tea.Bakeries.
+Funabashi,image not found,Japan,4.52,1.4,609040,Ramen.Indian.Amusement Parks.Western Style Japanese Food.Himalayan/Nepalese.
+Gifu,image not found,Japan,4.37,1.4705882352941178,413136,Izakaya.Restaurants.Cafes.Bakeries.Japanese.
+Hachioji,image not found,Japan,4.61,1.5555555555555556,580053,Ramen.Cafes.Soba.Restaurants.Kaiseki.
+Hamamatsu,image not found,Japan,4.428571428571429,2.0,800866,Soba.Restaurants.Canteen.French.Comfort Food.
+Higashiosaka,image not found,Japan,4.56,1.565217391304348,509533,Ramen.Cafes.Sushi Bars.Okonomiyaki.Dumplings.
+Himeji,image not found,Japan,4.49,1.368421052631579,536270,Cafes.Ramen.Coffee & Tea.Izakaya.Udon.
+Hirakata,image not found,Japan,4.55,1.6363636363636365,407978,Ramen.Cafes.Dumplings.Sushi Bars.Okonomiyaki.
+Hiroshima,image not found,Japan,4.61,1.3333333333333333,1173843,Okonomiyaki.Teppanyaki.Ramen.Izakaya.Cafes.
+Ichikawa,image not found,Japan,4.57,1.9555555555555555,473919,Sushi Bars.Ramen.Kaiseki.Seafood.Pizza.
+Ichinomiya,image not found,Japan,4.39,1.4705882352941178,378566,Cafes.Italian.Ramen.Unagi.Izakaya.
+Iwaki,image not found,Japan,3.823529411764706,1.0,342249,Japanese.Restaurants.Seafood.Soba.Mexican.
+Kagoshima,image not found,Japan,4.54,1.8235294117647058,605846,Japanese.Izakaya.Tonkatsu.Cafes.Ramen.
+Kanazawa,image not found,Japan,4.62,1.4761904761904763,462361,Izakaya.Seafood.Cafes.Landmarks & Historical Buildings.Japanese Curry.
+Kashiwa,image not found,Japan,4.55,1.4444444444444444,404012,Ramen.Cafes.Indian.Izakaya.Italian.
+Kasugai,image not found,Japan,4.49,1.55,305569,Cafes.Ramen.Unagi.Burgers.Izakaya.
+Kawagoe,image not found,Japan,4.56,1.3333333333333333,342670,Cafes.Udon.Tempura.Ramen.Coffee & Tea.
+Kawaguchi,image not found,Japan,4.57,1.8333333333333333,500598,Ramen.Sushi Bars.Noodles.Kaiseki.Izakaya.
+Kitakyushu,image not found,Japan,4.45,1.2666666666666666,976846,Cafes.Coffee & Tea.Italian.Ramen.Udon.
+Kobe,image not found,Japan,4.34,2.073170731707317,1544200,Steakhouses.Cafes.Teppanyaki.Bakeries.Desserts.
+Koriyama,image not found,Japan,4.23,1.1818181818181819,338712,Japanese.Ramen.Restaurants.Coffee & Tea.Patisserie/Cake Shop.
+Koshigaya,image not found,Japan,4.52,1.5416666666666667,326313,Ramen.Cafes.Coffee & Tea.Izakaya.Italian.
+Kumamoto,image not found,Japan,4.59,1.8,734474,Izakaya.Ramen.Seafood.Japanese Curry.Cafes.
+Kurashiki,image not found,Japan,4.45,1.2857142857142858,475513,Cafes.Japanese.Coffee & Tea.Restaurants.Izakaya.
+Kurume,image not found,Japan,4.43,1.4482758620689655,302402,Ramen.Japanese.Izakaya.Burgers.Parks.
+Kyoto,image not found,Japan,4.57,1.75,1474015,Ramen.Izakaya.Dumplings.Noodles.Cafes.
+Maebashi,image not found,Japan,4.35,1.0833333333333333,340291,Japanese.Italian.Yakiniku.Ramen.Steakhouses.
+Matsudo,image not found,Japan,4.58,1.7777777777777777,484457,Sushi Bars.Ramen.Donburi.Seafood.Japanese Curry.
+Matsuyama,image not found,Japan,4.32,1.411764705882353,517231,Japanese.Cafes.Izakaya.Restaurants.Ramen.
+Nagano,image not found,Japan,4.38,1.4,381511,Izakaya.Soba.Japanese.Cafes.Ramen.
+Nagasaki,image not found,Japan,4.42,1.7894736842105263,443766,Cafes.Chinese.Japanese.Noodles.Landmarks & Historical Buildings.
+Nagoya,image not found,Japan,4.34,1.5142857142857142,2263894,Unagi.Cafes.Steakhouses.Kaiseki.Ramen.
+Naha,image not found,Japan,4.54,1.3777777777777778,315954,Cafes.Okinawan.Ramen.Coffee & Tea.Steakhouses.
+Niigata,image not found,Japan,4.36,1.411764705882353,811901,Japanese.Ramen.Seafood.Izakaya.Soba.
+Nishinomiya,image not found,Japan,4.46,2.1621621621621623,482640,Steakhouses.Teppanyaki.Cafes.Coffee & Tea.Dumplings.
+Oita,image not found,Japan,4.49,1.4,474094,Cafes.Japanese.Western Style Japanese Food.Seafood.Izakaya.
+Okayama,image not found,Japan,4.39,1.5384615384615385,709584,Cafes.Coffee & Tea.Udon.Bakeries.Fast Food.
+Okazaki,image not found,Japan,4.51,1.6666666666666667,372357,Italian.Cafes.Japanese.Desserts.Coffee & Tea.
+Osaka,image not found,Japan,4.55,1.6521739130434783,2665314,Cafes.Desserts.Ramen.Seafood.Dumplings.
+Otsu,image not found,Japan,4.4,1.35,337634,Cafes.Italian.Coffee & Tea.Izakaya.Ramen.
+Sagamihara,image not found,Japan,4.39,1.4814814814814814,717544,Cafes.Soba.Udon.Coffee & Tea.Bakeries.
+Saitama,image not found,Japan,4.6,1.25,1222434,Cafes.Ramen.Coffee & Tea.Italian.Western Style Japanese Food.
+Sapporo,image not found,Japan,4.47,1.4878048780487805,1913545,Cafes.Ramen.Soup.Japanese Curry.Seafood.
+Sendai,image not found,Japan,4.54,1.4878048780487805,1045986,Cafes.Italian.Yakiniku.Izakaya.Coffee & Tea.
+Shizuoka,image not found,Japan,0.0,Suita,image not found,Japan,4.57,1.5952380952380953,355798,Cafes.Desserts.Ramen.Okonomiyaki.Dumplings.
+Takamatsu,image not found,Japan,4.18,1.4642857142857142,419429,Cafes.Udon.Bakeries.Desserts.Bars.
+Takasaki,image not found,Japan,4.18,1.1,371302,Japanese.Ramen.Italian.Coffee & Tea.Cafes.
+Takatsuki,image not found,Japan,4.31,1.6428571428571428,357359,Cafes.Ramen.Izakaya.Japanese.Soba.
+Tokorozawa,image not found,Japan,4.59,1.542857142857143,341924,Cafes.Ramen.Italian.Coffee & Tea.Bars.
+TOKYO,image not found,Japan,4.52,2.0625,8945695,Sushi Bars.Ramen.Cafes.Steakhouses.Izakaya.
+Toyama,image not found,Japan,0.36,Toyohashi,image not found,Japan,4.21,1.6666666666666667,376665,Japanese.Restaurants.Ramen.Cafes.Italian.
+Toyonaka,image not found,Japan,4.58,1.6046511627906976,389341,Ramen.Dumplings.Okonomiyaki.Cafes.Sushi Bars.
+Utsunomiya,image not found,Japan,4.41,1.2,511739,Dumplings.Cafes.Japanese.Ramen.Chinese.
+Wakayama,image not found,Japan,4.69,1.5,370364,Ramen.Japanese.Cafes.Restaurants.Seafood.
+Yokkaichi,image not found,Japan,4.1625,1.8333333333333333,307766,Izakaya.Restaurants.Japanese.Bakeries.Museums.
+Yokohama,image not found,Japan,4.37,1.6590909090909092,3688773,American (Traditional).Dim Sum.Ramen.Steakhouses.Burgers.
+Yokosuka,image not found,Japan,4.52,1.2708333333333333,418325,Izakaya.Indian.Cafes.Italian.Himalayan/Nepalese.
+Omiya,image not found,Japan,4.63,1.1904761904761905,456271,Cafes.Coffee & Tea.Italian.Izakaya.Burgers.
+MONROVIA,image not found,Liberia,4.19,1.9166666666666667,421053,Breakfast & Brunch.American (New).American (Traditional).Cocktail Bars.Coffee & Tea.
+Blantyre City,image not found,Malawi,4.1,1.8064516129032258,661444,Italian.Pizza.Indian.Fast Food.Pubs.
+MB Ipoh,image not found,Malaysia,4.17,1.4444444444444444,452007,Chinese.Desserts.Cafes.Dim Sum.Malaysian.
+MB Johor Bahru,image not found,Malaysia,4.14,1.5,424648,Chinese.Cafes.Bakeries.Indian.Seafood.
+KUALA LUMPUR,image not found,Malaysia,4.24,2.317073170731707,1588750,Bars.Cafes.Malaysian.Chinese.Seafood.
+Kuantan,image not found,Malaysia,3.8333333333333335,1.3333333333333333,354394,Chinese.Malaysian.Seafood.Restaurants.Cafes.
+Seremban,image not found,Malaysia,4.038461538461538,2.0,314502,Chinese.Malaysian.Burgers.Cafes.Coffee & Tea.
+Subang Jaya,image not found,Malaysia,4.22,1.8421052631578947,317741,Chinese.Cafes.Desserts.Burgers.Coffee & Tea.
+Acapulco (de Juárez),image not found,Mexico,4.43,2.411764705882353,673479,Mexican.Seafood.Tacos.Steakhouses.Restaurants.
+Aguascalientes,image not found,Mexico,4.58,1.8421052631578947,722250,Mexican.Cafeteria.Coffee & Tea.Cocktail Bars.Argentine.
+Cancun,image not found,Mexico,4.41,2.6739130434782608,628306,Mexican.Seafood.Steakhouses.International.Tacos.
+Celaya,image not found,Mexico,4.53,2.1666666666666665,468469,Mexican.Bars.Ice Cream & Frozen Yogurt.Landmarks & Historical Buildings.Argentine.
+Chimalhuacan,image not found,Mexico,4.48,1.76,612383,Mexican.Bakeries.Street Vendors.Burgers.Bars.
+Ciudad Apodaca,image not found,Mexico,4.35,2.5681818181818183,467157,Mexican.Steakhouses.Italian.Bars.Seafood.
+Ciudad General Escobedo,image not found,Mexico,4.35,2.608695652173913,352444,Mexican.Steakhouses.Italian.Seafood.Burgers.
+Ciudad López Mateos,image not found,Mexico,4.39,2.6,489160,Mexican.Seafood.Bars.Tacos.Breakfast & Brunch.
+Ciudad Victoria,image not found,Mexico,3.59375,2.142857142857143,321953,Chicken Wings.Rotisserie Chicken.Pizza.Mexican.Burgers.
+Cuautitlan Izcalli,image not found,Mexico,4.45,2.138888888888889,484573,Mexican.Tacos.American (Traditional).Seafood.Restaurants.
+Cuernavaca,image not found,Mexico,4.45,2.206896551724138,338650,Mexican.Steakhouses.Italian.Seafood.Mediterranean.
+Culiacán Rosales,image not found,Mexico,4.36,1.9411764705882353,675773,Mexican.Seafood.Breakfast & Brunch.Sushi Bars.Japanese.
+Durango (Victoria de Durango),image not found,Mexico,4.338709677419355,1.3333333333333333,518709,Mexican.Cafeteria.Coffee & Tea.Burgers.Bakeries.
+Ecatepec (de Morelos),image not found,Mexico,4.4,2.6444444444444444,1655015,Mexican.Seafood.Bars.Breakfast & Brunch.Tacos.
+Ensenada,image not found,Mexico,3.3,1.8,466814,Bakeries.American (Traditional).Coffee & Tea.American (New).Mexican.
+Guadalajara,image not found,Mexico,4.35,2.127659574468085,1495182,Mexican.Seafood.Pizza.Bars.Tacos.
+Guadalupe, Nuevo León,image not found,Mexico,4.34,2.5869565217391304,673616,Mexican.Steakhouses.Italian.Seafood.Bars.
+Hermosillo,image not found,Mexico,4.52,2.0384615384615383,784342,Mexican.Steakhouses.Seafood.Pizza.Burgers.
+Irapuato,image not found,Mexico,4.0,1.625,529440,Mexican.Cafeteria.Seafood.Bars.Tacos.
+Ixtapaluca,image not found,Mexico,3.99,1.8571428571428572,322271,Mexican.Airport Lounges.Tacos.American (Traditional).Bakeries.
+Juárez,image not found,Mexico,4.38,2.466666666666667,1321004,Mexican.Bars.Seafood.Italian.French.
+León (de los Aldama),image not found,Mexico,4.39,2.3555555555555556,1238962,Mexican.Bars.Argentine.Seafood.Italian.
+Matamoros,image not found,Mexico,4.27,1.5294117647058822,449815,Mexican.Seafood.Coffee & Tea.Breakfast & Brunch.Steakhouses.
+Mazatlán,image not found,Mexico,4.41,1.8611111111111112,438434,Mexican.Seafood.Breakfast & Brunch.Burgers.Coffee & Tea.
+Mérida,image not found,Mexico,4.3,2.022222222222222,777615,Mexican.Yucatan.Italian.Soup.Breakfast & Brunch.
+Mexicali,image not found,Mexico,4.26,2.0,689775,Mexican.Seafood.Steakhouses.Breakfast & Brunch.Chinese.
+MEXICO, CIUDAD DE,image not found,Mexico,4.38,2.4468085106382977,8851080,Mexican.Tacos.Italian.Seafood.Bars.
+Monterrey,image not found,Mexico,4.29,2.6511627906976742,1135512,Mexican.Steakhouses.Seafood.Bars.Pizza.
+Morelia,image not found,Mexico,4.37,1.9,597511,Mexican.Restaurants.Breakfast & Brunch.Bars.Cafeteria.
+Naucalpan de Juárez,image not found,Mexico,4.37,2.6382978723404253,792211,Mexican.Seafood.Tacos.Breakfast & Brunch.Bars.
+Netzahualcóyotl,image not found,Mexico,4.4,2.5652173913043477,1104585,Mexican.Seafood.Bars.Tacos.Breakfast & Brunch.
+Nuevo Laredo,image not found,Mexico,4.32,1.5161290322580645,373725,Mexican.Steakhouses.Bakeries.Barbeque.American (Traditional).
+Puebla de Zaragoza,image not found,Mexico,4.37,1.9767441860465116,1434062,Mexican.Breakfast & Brunch.Cafeteria.Pueblan.Pizza.
+Querétaro,image not found,Mexico,4.43,2.1515151515151514,626495,Mexican.Italian.Breakfast & Brunch.Cafeteria.Bars.
+Reynosa,image not found,Mexico,4.18,1.434782608695652,589466,Mexican.Cafeteria.Tacos.Burgers.Restaurants.
+Saltillo,image not found,Mexico,4.13,2.4285714285714284,709671,Mexican.Steakhouses.Seafood.Italian.Restaurants.
+San Luis Potosí,image not found,Mexico,4.44,1.7692307692307692,722772,Mexican.Steakhouses.Bars.Breakfast & Brunch.Cafeteria.
+San Nicolas de los Garza,image not found,Mexico,4.37,2.5217391304347827,443273,Mexican.Steakhouses.Italian.Burgers.Seafood.
+Tepic,image not found,Mexico,4.465909090909091,2.0,332863,Mexican.Restaurants.Seafood.Coffee & Tea.Pizza.
+Tijuana,image not found,Mexico,4.39,2.0851063829787235,1300983,Mexican.Steakhouses.Seafood.Italian.Tacos.
+Tlalnepantla,image not found,Mexico,4.4,2.6222222222222222,653410,Mexican.Seafood.Breakfast & Brunch.Bars.Italian.
+Tlaquepaque,image not found,Mexico,4.46,2.3043478260869565,575942,Mexican.Seafood.Pizza.Tacos.Argentine.
+Toluca (de Lerdo),image not found,Mexico,4.29,1.9230769230769231,489333,Mexican.Tacos.Burgers.Cafeteria.Italian.
+Tonala,image not found,Mexico,4.44,2.217391304347826,408759,Mexican.Seafood.Argentine.Pizza.Steakhouses.
+Torreón,image not found,Mexico,3.89,1.75,608836,Mexican.Restaurants.Burgers.Tacos.Bars.
+Tuxtla Gutiérrez,image not found,Mexico,3.9324324324324325,1.625,537102,Mexican.Seafood.Cafeteria.Coffee & Tea.Restaurants.
+Uruapan,image not found,Mexico,4.2727272727272725,1.75,315350,Mexican.Burgers.Restaurants.Bars.Seafood.
+Veracruz,image not found,Mexico,4.3,2.0454545454545454,428323,Mexican.Seafood.Breakfast & Brunch.Cafeteria.Steakhouses.
+Villahermosa,image not found,Mexico,3.6354166666666665,2.4,353577,Mexican.Seafood.Coffee & Tea.Restaurants.Tacos.
+Xalapa-Enriquez,image not found,Mexico,4.46,1.8461538461538463,424755,Mexican.Coffee & Tea.Pizza.Restaurants.Cafeteria.
+Xico,image not found,Mexico,4.375,1.9166666666666667,356352,Mexican.Coffee & Tea.Parks.Seafood.Restaurants.
+Zapopan,image not found,Mexico,4.36,2.3617021276595747,1142483,Mexican.Seafood.Argentine.Italian.Tacos.
+Beira,image not found,Mozambique,4.142857142857143,1.75,397368,Portuguese.Restaurants.Modern European.Latin American.Tapas Bars.
+AMSTERDAM,image not found,Netherlands,4.39,2.4489795918367347,779808,Modern European.Gastropubs.Breakfast & Brunch.Steakhouses.Italian.
+Rotterdam,image not found,Netherlands,4.25,2.12,610386,Italian.Breakfast & Brunch.Coffee & Tea.Pubs.Sandwiches.
+s-Gravenhage,image not found,Netherlands,4.44,2.5,639652,Italian.Cafes.French.Brasseries.Sandwiches.
+The Hague,image not found,Netherlands,1.0,Utrecht,image not found,Netherlands,4.19,2.13953488372093,311367,Breakfast & Brunch.Cafes.Burgers.Steakhouses.Coffee & Tea.
+Auckland,image not found,New Zealand,4.38,2.608695652173913,1529400,Seafood.Bars.Italian.Modern European.Wine Bars.
+Christchurch,image not found,New Zealand,4.51,2.1025641025641026,366100,Breakfast & Brunch.Bars.Coffee & Tea.Cocktail Bars.New Zealand.
+Manukau,image not found,New Zealand,3.75,1.826086956521739,375700,Cafes.Fast Food.Burgers.Breakfast & Brunch.Coffee & Tea.
+OSLO,image not found,Norway,4.26,2.16,618683,Scandinavian.Bars.Cafes.Seafood.Coffee & Tea.
+ASUNCION,image not found,Paraguay,Callao,image not found,Peru,1.6666666666666667,1.5,876876.999999987,Pizza.Restaurants.Steakhouses.Southern.Cafes.
+Angeles,image not found,Philippines,4.29,2.5319148936170213,326336,American (New).Cocktail Bars.Korean.Breakfast & Brunch.Italian.
+Antipolo,image not found,Philippines,3.7580645161290325,2.3,677741,Filipino.Cafes.Asian Fusion.Japanese.Modern European.
+Bacolod,image not found,Philippines,3.883720930232558,2.0,511820,Filipino.Coffee & Tea.Burgers.Cafes.Seafood.
+Bacoor City,image not found,Philippines,4.45,3.06,520216,Filipino.Cafes.Asian Fusion.Italian.Japanese.
+Baguio,image not found,Philippines,4.31,2.4210526315789473,318676,Filipino.Cafes.Asian Fusion.Breakfast & Brunch.Burgers.
+Batangas,image not found,Philippines,1.3333333333333333,Butuan,image not found,Philippines,4.285714285714286,Cagayan de Oro,image not found,Philippines,4.326086956521739,2.5,602088,Filipino.Seafood.Coffee & Tea.Breakfast & Brunch.Asian Fusion.
+Cainta,image not found,Philippines,4.42,2.9591836734693877,311845,Filipino.Cafes.Asian Fusion.American (Traditional).Modern European.
+Calamba,image not found,Philippines,4.32,2.761904761904762,389377,Filipino.Buffets.Breakfast & Brunch.Italian.Cafes.
+Cebu,image not found,Philippines,4.32,2.46875,866171,Filipino.Asian Fusion.Seafood.Cafes.French.
+Dasmariñas,image not found,Philippines,4.29,2.4545454545454546,575817,Filipino.Fast Food.Italian.Asian Fusion.Pizza.
+Davao,image not found,Philippines,4.25,2.0,1449296,Filipino.Resorts.Restaurants.Chocolatiers & Shops.Museums.
+General Santos,image not found,Philippines,3.5,Iligan,image not found,Philippines,2.32,2.0,322821,Filipino.Seafood.Coffee & Tea.Chicken Shop.Desserts.
+Iloilo,image not found,Philippines,3.48,2.2,424619,Filipino.Seafood.Coffee & Tea.Cafes.Buffets.
+Imus City,image not found,Philippines,4.44,2.5428571428571427,301624,Filipino.Cafes.Bakeries.Italian.Desserts.
+Kalookan (Caloocan),image not found,Philippines,4.45,2.9591836734693877,1489040,Filipino.Asian Fusion.Cafes.Italian.Buffets.
+Lapu-Lapu,image not found,Philippines,4.42,2.533333333333333,350467,Filipino.Seafood.Asian Fusion.Cafes.Buffets.
+Las Piñas,image not found,Philippines,4.49,3.05,552573,Filipino.Cafes.Bakeries.Japanese.Italian.
+Makati,image not found,Philippines,4.34,2.9183673469387754,529039,Filipino.Cafes.Japanese.American (Traditional).Breakfast & Brunch.
+Malabon,image not found,Philippines,4.39,3.0434782608695654,353337,Filipino.Chinese.Japanese.Italian.Restaurants.
+Mandaluyong,image not found,Philippines,4.41,2.92,328699,Filipino.American (Traditional).Asian Fusion.Cafes.Italian.
+Mandaue,image not found,Philippines,4.41,2.641025641025641,331320,Filipino.Asian Fusion.Seafood.Japanese.Cafes.
+MANILA,image not found,Philippines,4.41,2.7555555555555555,1652171,Filipino.Chinese.Asian Fusion.Buffets.Italian.
+Marikina,image not found,Philippines,4.41,2.92,424150,Filipino.Cafes.Italian.Asian Fusion.Chinese.
+Muntinlupa,image not found,Philippines,4.46,3.1020408163265305,459941,Filipino.Asian Fusion.Cafes.Japanese.Bakeries.
+Paranaque,image not found,Philippines,4.44,3.12,588126,Filipino.Asian Fusion.Japanese.Cafes.Italian.
+Pasay,image not found,Philippines,4.47,3.1020408163265305,392869,Filipino.Cafes.Asian Fusion.Japanese.Buffets.
+Pasig,image not found,Philippines,4.39,2.84,669773,Filipino.Asian Fusion.American (Traditional).Buffets.Japanese.
+Quezon City,image not found,Philippines,4.42,2.6222222222222222,2761720,Filipino.Restaurants.Italian.Japanese.Seafood.
+San Jose Del Monte,image not found,Philippines,4.41,2.5434782608695654,454553,Filipino.Restaurants.Italian.Cafes.Buffets.
+Taguig,image not found,Philippines,4.36,3.0416666666666665,644473,Filipino.Asian Fusion.Cafes.Japanese.Bakeries.
+Tarlac,image not found,Philippines,3.6875,2.0,318332,Filipino.Fast Food.Chinese.Coffee & Tea.Burgers.
+Valenzuela,image not found,Philippines,4.39,2.422222222222222,575356,Filipino.Restaurants.Italian.Cafes.Pizza.
+Zamboanga,image not found,Philippines,2.0714285714285716,2.2,807129,Filipino.Cafes.Coffee & Tea.Seafood.Fast Food.
+Basilan,image not found,Philippines,2.0714285714285716,2.2,332828,Filipino.Cafes.Coffee & Tea.Seafood.Fast Food.
+Bydgoszcz,image not found,Poland,4.43,2.1818181818181817,362286,Polish.Cafes.Coffee & Tea.Restaurants.Italian.
+Katowice,image not found,Poland,4.68,1.5517241379310345,308269,Cafes.Coffee & Tea.Polish.Burgers.Pizza.
+Lódz,image not found,Poland,4.55,2.1818181818181817,722022,Polish.Cafes.Coffee & Tea.Italian.Bars.
+Lublin,image not found,Poland,1.8421052631578947,1.2222222222222223,348120,Parks.Bars.Burgers.Pizza.Cafes.
+Poznan,image not found,Poland,4.56,2.108108108108108,552393,Polish.Cafes.Coffee & Tea.Italian.Modern European.
+Szczecin,image not found,Poland,4.51,2.0256410256410255,409211,Polish.Cafes.Pizza.Modern European.Coffee & Tea.
+WARSZAWA,image not found,Poland,4.36,2.06,1711324,Polish.Cafes.Modern European.Breakfast & Brunch.Coffee & Tea.
+Wroclaw,image not found,Poland,4.37,1.9,631377,Polish.Cafes.Bars.Coffee & Tea.Breakfast & Brunch.
+LISBOA,image not found,Portugal,4.5,2.3260869565217392,530847,Portuguese.Seafood.Tapas Bars.Wine Bars.Mediterranean.
+SAN JUAN,image not found,Puerto Rico,4.39,2.1702127659574466,382299,Puerto Rican.Caribbean.Latin American.Breakfast & Brunch.Seafood.
+St. Petersburg,image not found,Russian Federation,4.33,2.022222222222222,4990602,Seafood.American (New).Italian.Bars.Breakfast & Brunch.
+Tula,image not found,Russian Federation,4.4,2.0,496656,Bars.Seafood.Sushi Bars.Hiking.Tours.
+FREETOWN,image not found,Sierra Leone,4.25,1.8222222222222222,469776,Pizza.American (Traditional).American (New).Breweries.Breakfast & Brunch.
+SINGAPORE,image not found,Singapore,4.32,2.625,5399200,Chinese.Indian.American (Traditional).Asian Fusion.Dim Sum.
+Johannesburg,image not found,South Africa,3.4,1.0,752349,Pizza.Caterers.Food Trucks.Ice Cream & Frozen Yogurt.Burgers.
+Alicante,image not found,Spain,4.57,2.0,334865,Spanish.Mediterranean.Tapas Bars.Tapas/Small Plates.Coffee & Tea.
+Barcelona,image not found,Spain,4.45,2.36734693877551,1616383,Tapas Bars.Spanish.Mediterranean.Tapas/Small Plates.Breakfast & Brunch.
+Bilbao,image not found,Spain,4.35,1.853658536585366,350493,Tapas Bars.Spanish.Basque.Gastropubs.Tapas/Small Plates.
+MADRID,image not found,Spain,4.49,2.306122448979592,3220387,Spanish.Tapas Bars.Modern European.Mediterranean.Gastropubs.
+Málaga,image not found,Spain,4.46,1.7560975609756098,567956,Spanish.Tapas Bars.Mediterranean.Seafood.Coffee & Tea.
+Murcia,image not found,Spain,4.5,1.7380952380952381,439800,Spanish.Tapas Bars.Italian.Bakeries.Coffee & Tea.
+Palma de Mallorca,image not found,Spain,4.6,2.217391304347826,402905,Spanish.Tapas Bars.Mediterranean.Breakfast & Brunch.Cafeteria.
+Palmas de Gran Canaria,image not found,Spain,4.52,1.896551724137931,382673,Spanish.Tapas Bars.Italian.Mediterranean.Bars.
+Sevilla,image not found,Spain,4.35,1.836734693877551,701262,Tapas Bars.Spanish.Italian.Signature Cuisine.Burgers.
+Valladolid,image not found,Spain,4.44,2.0357142857142856,310608,Spanish.Tapas Bars.Italian.Tapas/Small Plates.Pubs.
+Zaragoza,image not found,Spain,4.32,1.8297872340425532,680814,Tapas Bars.Spanish.Cafeteria.Burgers.Mediterranean.
+Palma,image not found,Spain,4.6,2.217391304347826,402045,Spanish.Tapas Bars.Mediterranean.Breakfast & Brunch.Cafeteria.
+Las Palmas de Gran Canaria,image not found,Spain,4.52,1.962962962962963,382578,Spanish.Tapas Bars.Italian.Cafeteria.Bars.
+Göteborg,image not found,Sweden,4.29,2.3333333333333335,491629.5,Bars.Restaurants.Burgers.Scandinavian.Italian.
+STOCKHOLM,image not found,Sweden,4.31,2.68,789024,Scandinavian.Swedish.Traditional Swedish.Bars.Tapas/Small Plates.
+Zürich,image not found,Switzerland,4.26,2.24,378883.5,Swiss Food.Cafes.Bars.Breakfast & Brunch.American (Traditional).
+Adana,image not found,Turkey,4.12,1.7586206896551724,1626756.5,Turkish.Cafes.Kebab.Coffee & Tea.Barbeque.
+ANKARA,image not found,Turkey,4.43,2.189189189189189,4590698.5,Coffee & Tea.Cafes.Turkish.Bakeries.Kebab.
+Antalya,image not found,Turkey,4.58,2.5384615384615383,1057883,Turkish.Cafes.Seafood.Coffee & Tea.Burgers.
+Bursa,image not found,Turkey,4.63,2.130434782608696,1966312,Turkish.Kebab.Coffee & Tea.Cafes.Bakeries.
+Denizli,image not found,Turkey,4.2125,2.0,518624,Turkish.Landmarks & Historical Buildings.Cafes.Kebab.Coffee & Tea.
+Diyarbakir,image not found,Turkey,4.25,Elazig,image not found,Turkey,3.8333333333333335,1.0,344538.5,Turkish.Kebab.Cafes.Bistros.
+Erzurum,image not found,Turkey,4.027777777777778,1.6666666666666667,383391,Turkish.Cafes.Coffee & Tea.Bakeries.Kebab.
+Eskisehir,image not found,Turkey,4.3,1.8125,654160,Turkish.Cafes.Coffee & Tea.Breakfast & Brunch.Pubs.
+Gaziantep,image not found,Turkey,4.26,1.8823529411764706,1415831,Cafes.Coffee & Tea.Turkish.Kebab.Desserts.
+Istanbul,image not found,Turkey,4.49,2.1951219512195124,13596782,Turkish.Cafes.Seafood.Kebab.Landmarks & Historical Buildings.
+Izmir,image not found,Turkey,4.63,2.1621621621621623,3384470.5,Cafes.Coffee & Tea.Turkish.Seafood.Breakfast & Brunch.
+Kahramanmaras,image not found,Turkey,0.1,2.0,436149.5,Bakeries.Turkish.Kebab.Barbeque.Pita.
+Kayseri,image not found,Turkey,3.9375,1.7142857142857142,990758,Turkish.Breakfast & Brunch.Cafes.Fast Food.Kebab.
+Kocaeli,image not found,Turkey,4.14,2.0,1513682.5,Cafes.Breakfast & Brunch.Turkish.Coffee & Tea.Meatballs.
+Konya,image not found,Turkey,4.527027027027027,1.5454545454545454,1090838.5,Turkish.Cafes.Breakfast & Brunch.Coffee & Tea.Pita.
+Malatya,image not found,Turkey,4.125,1.2857142857142858,423170,Turkish.Cafes.Coffee & Tea.Breakfast & Brunch.Kebab.
+Manisa,image not found,Turkey,4.44,1.8181818181818181,305134,Cafes.Coffee & Tea.Turkish.Bakeries.Desserts.
+Mersin,image not found,Turkey,4.15,1.75,868319,Coffee & Tea.Turkish.Cafes.Burgers.Kebab.
+Sakarya,image not found,Turkey,3.8548387096774195,1.4545454545454546,583865.5,Cafes.Turkish.Coffee & Tea.Desserts.Landmarks & Historical Buildings.
+Samsun,image not found,Turkey,3.6025641025641026,2.0,542942,Turkish.Cafes.Coffee & Tea.Pita.Desserts.
+Sanliurfa,image not found,Turkey,4.368421052631579,1.8,520723,Coffee & Tea.Cafes.Turkish.Desserts.Kebab.
+Sivas,image not found,Turkey,4.083333333333333,1.0,311617,Turkish.Homemade Food.Kebab.Breakfast & Brunch.Steakhouses.
+Van,image not found,Turkey,3.66,1.24,361804.5,Pizza.Burgers.Breakfast & Brunch.Fast Food.Sandwiches.
+Birkenhead,image not found,United Kingdom of Great Britain and Northern Ireland,4.26,2.4680851063829787,319675,Seafood.Bars.Wine Bars.Cafes.Modern European.
+Bournemouth,image not found,United Kingdom of Great Britain and Northern Ireland,4.35,2.25,383713,British.Bars.Seafood.Thai.Cafes.
+Brighton/Worthing/Littlehampton,image not found,United Kingdom of Great Britain and Northern Ireland,3.8979591836734695,2.0,461181,Coffee & Tea.Pubs.British.Cafes.Fish & Chips.
+Bristol,image not found,United Kingdom of Great Britain and Northern Ireland,4.33,1.9166666666666667,551066,British.Music Venues.Pubs.Bars.Coffee & Tea.
+Cardiff,image not found,United Kingdom of Great Britain and Northern Ireland,4.23,2.0,327706,British.Italian.Pubs.Coffee & Tea.Middle Eastern.
+Coventry/Bedworth,image not found,United Kingdom of Great Britain and Northern Ireland,4.08,2.076923076923077,336452,Pubs.Fast Food.British.Indian.Pizza.
+Edinburgh,image not found,United Kingdom of Great Britain and Northern Ireland,4.3,2.2653061224489797,448624,British.Scottish.Gastropubs.Seafood.Whiskey Bars.
+Fife,image not found,United Kingdom of Great Britain and Northern Ireland,4.25,2.0,349429,Cocktail Bars.American (Traditional).Bars.Pizza.Sandwiches.
+Glasgow,image not found,United Kingdom of Great Britain and Northern Ireland,4.38,2.24,577869,Scottish.Seafood.British.Pubs.Steakhouses.
+Kingston-upon-Hull,image not found,United Kingdom of Great Britain and Northern Ireland,4.17,2.1025641025641026,301416,Pubs.Cafes.Coffee & Tea.Italian.British.
+Leicester,image not found,United Kingdom of Great Britain and Northern Ireland,4.32,2.142857142857143,441213,Italian.Pubs.Cafes.British.Indian.
+Liverpool,image not found,United Kingdom of Great Britain and Northern Ireland,4.32,2.1136363636363638,816216,Italian.Coffee & Tea.Bars.British.Breakfast & Brunch.
+LONDON,image not found,United Kingdom of Great Britain and Northern Ireland,4.3,2.673469387755102,8278251,British.Seafood.Bars.French.Modern European.
+Manchester,image not found,United Kingdom of Great Britain and Northern Ireland,4.28,2.163265306122449,2244931,British.Bars.Burgers.Pubs.Steakhouses.
+North Lanarkshire,image not found,United Kingdom of Great Britain and Northern Ireland,4.25,2.0689655172413794,321067,Italian.Fast Food.Indian.Pubs.Bakeries.
+Nottingham,image not found,United Kingdom of Great Britain and Northern Ireland,4.27,2.2790697674418605,666358,Pubs.Indian.Bars.British.Pakistani.
+Portsmouth,image not found,United Kingdom of Great Britain and Northern Ireland,4.29,1.90625,442252,Pubs.Museums.Fast Food.British.Italian.
+Reading/Wokingham,image not found,United Kingdom of Great Britain and Northern Ireland,4.13,2.0625,369804,British.Pubs.Italian.Breakfast & Brunch.Pizza.
+Sheffield,image not found,United Kingdom of Great Britain and Northern Ireland,4.39,2.230769230769231,640720,Pubs.Italian.Cafes.Coffee & Tea.British.
+South Lanarkshire,image not found,United Kingdom of Great Britain and Northern Ireland,4.041666666666667,2.25,302216,Coffee & Tea.Fast Food.Landmarks & Historical Buildings.Scottish.Barbeque.
+Southampton,image not found,United Kingdom of Great Britain and Northern Ireland,4.29,2.0277777777777777,304400,Pubs.Cafes.Bars.Indian.British.
+The Potteries,image not found,United Kingdom of Great Britain and Northern Ireland,4.34,1.9642857142857142,362403,Fast Food.Pubs.Bakeries.American (Traditional).Italian.
+West Midlands,image not found,United Kingdom of Great Britain and Northern Ireland,4.28,1.9782608695652173,2284093,British.Pubs.Cocktail Bars.Bars.Gastropubs.
+West Yorkshire,image not found,United Kingdom of Great Britain and Northern Ireland,4.38,1.9333333333333333,1499465,Pubs.Bars.Indian.British.Cafes.
+Albuquerque (NM),image not found,United States of America,4.31,1.98,555417,American (New).New Mexican Cuisine.Mexican.Seafood.Coffee & Tea.
+Anaheim (CA),image not found,United States of America,4.31,2.297872340425532,343248,American (New).Seafood.American (Traditional).Steakhouses.Italian.
+Arlington (TX),image not found,United States of America,4.23,1.9583333333333333,375600,Bars.Mediterranean.American (New).Seafood.American (Traditional).
+Atlanta (GA),image not found,United States of America,4.32,2.4565217391304346,443775,American (New).Southern.Seafood.Breakfast & Brunch.American (Traditional).
+Aurora (CO),image not found,United States of America,4.33,1.775,339030,Pizza.American (Traditional).Food Trucks.Indian.Sushi Bars.
+Austin (TX),image not found,United States of America,4.33,2.369565217391304,842592,American (New).Bars.Southern.Breakfast & Brunch.Seafood.
+Bakersfield (CA),image not found,United States of America,4.33,2.02,358597,Breakfast & Brunch.American (New).American (Traditional).Mexican.Seafood.
+Baltimore (MD),image not found,United States of America,4.29,2.3777777777777778,621342,Seafood.American (New).Italian.Cocktail Bars.Breakfast & Brunch.
+Boston (MA),image not found,United States of America,4.21,2.5833333333333335,636479,Cocktail Bars.American (New).Seafood.Italian.Wine Bars.
+Charlotte (NC),image not found,United States of America,4.32,2.2857142857142856,775202,American (New).Cocktail Bars.Seafood.Southern.Bars.
+Chicago (IL),image not found,United States of America,4.37,2.6875,2714856,American (New).Italian.Steakhouses.Seafood.Bars.
+Cleveland (OH),image not found,United States of America,4.17,2.2708333333333335,390928,American (New).Bars.Italian.Seafood.Breakfast & Brunch.
+Colorado Springs (CO),image not found,United States of America,4.31,2.022222222222222,431834,American (New).Cocktail Bars.Breakfast & Brunch.American (Traditional).Sandwiches.
+Columbus (OH),image not found,United States of America,4.25,2.3333333333333335,809798,American (New).Cocktail Bars.Breakfast & Brunch.Bars.American (Traditional).
+Corpus Christi (TX),image not found,United States of America,4.26,1.9069767441860466,312195,Seafood.Breakfast & Brunch.Sandwiches.Burgers.Pizza.
+Dallas (TX),image not found,United States of America,4.37,2.4375,1241162,American (New).Cocktail Bars.Seafood.Steakhouses.Bars.
+Denver (CO),image not found,United States of America,4.38,2.2083333333333335,634265,American (New).Cocktail Bars.Breakfast & Brunch.Wine Bars.Italian.
+Detroit (MI),image not found,United States of America,4.26,2.3181818181818183,701475,American (New).Cocktail Bars.Italian.Bars.Pizza.
+El Paso (TX),image not found,United States of America,4.24,1.9333333333333333,672538,Mexican.American (New).Breakfast & Brunch.Steakhouses.American (Traditional).
+Fort Worth (TX),image not found,United States of America,4.33,2.2653061224489797,777992,American (New).Cocktail Bars.Steakhouses.Seafood.Breakfast & Brunch.
+Fresno (CA),image not found,United States of America,4.28,2.2083333333333335,505882,American (New).Italian.Seafood.Burgers.Sandwiches.
+Urban Honolulu (HI),image not found,United States of America,4.33,2.3191489361702127,345610,American (New).Cocktail Bars.Hawaiian.Seafood.Asian Fusion.
+Houston (TX),image not found,United States of America,4.4,2.4130434782608696,2160821,American (New).Steakhouses.Breakfast & Brunch.Seafood.Cocktail Bars.
+Indianapolis (IN),image not found,United States of America,4.36,2.3469387755102042,834852,Seafood.Cocktail Bars.American (New).Bars.Steakhouses.
+Jacksonville (FL),image not found,United States of America,4.36,2.1,836507,American (New).American (Traditional).Breakfast & Brunch.Seafood.Cocktail Bars.
+Kansas City (MO),image not found,United States of America,4.22,2.3043478260869565,464310,American (New).Bars.Seafood.Wine Bars.Breakfast & Brunch.
+Las Vegas (NV),image not found,United States of America,4.4,2.2653061224489797,596424,American (New).Cocktail Bars.Steakhouses.Pizza.Italian.
+Lexington-Fayette (KY),image not found,United States of America,4.37,2.0,305489,American (New).Sandwiches.Breakfast & Brunch.Seafood.American (Traditional).
+Long Beach (CA),image not found,United States of America,4.29,2.08,467892,American (New).Breakfast & Brunch.Cocktail Bars.Seafood.Sushi Bars.
+Los Angeles (CA),image not found,United States of America,4.23,2.4782608695652173,3857799,American (New).Breakfast & Brunch.Cocktail Bars.Noodles.Ramen.
+Louisville (KY),image not found,United States of America,4.37,2.326530612244898,605110,American (New).Southern.Cocktail Bars.Bars.American (Traditional).
+Memphis (TN),image not found,United States of America,4.28,2.3617021276595747,655155,American (New).Southern.Seafood.American (Traditional).Bars.
+Mesa (AZ),image not found,United States of America,4.37,1.9583333333333333,452084,American (Traditional).Italian.Barbeque.American (New).Breakfast & Brunch.
+Miami (FL),image not found,United States of America,4.26,2.44,413892,Cocktail Bars.American (New).Seafood.Breakfast & Brunch.Cuban.
+Milwaukee (WI),image not found,United States of America,4.33,2.326530612244898,598916,American (New).Tapas/Small Plates.Breakfast & Brunch.Wine Bars.Bars.
+Minneapolis (MN),image not found,United States of America,4.3,2.391304347826087,392880,American (New).Bars.American (Traditional).Breakfast & Brunch.Cocktail Bars.
+Nashville-Davidson (TN),image not found,United States of America,4.27,2.4693877551020407,624496,American (New).Southern.Bars.Cocktail Bars.Seafood.
+New Orleans (LA),image not found,United States of America,4.15,1.605263157894737,369250,Seafood.Cajun/Creole.Sandwiches.Vietnamese.American (Traditional).
+New York (NY),image not found,United States of America,4.37,2.94,8336697,American (New).Seafood.French.Bars.Cocktail Bars.
+Oakland (CA),image not found,United States of America,4.22,2.2,400740,American (New).Cocktail Bars.Breakfast & Brunch.Italian.Bars.
+Oklahoma City (OK),image not found,United States of America,4.36,2.1458333333333335,599199,American (New).Breakfast & Brunch.Bars.Cocktail Bars.American (Traditional).
+Omaha (NE),image not found,United States of America,4.28,2.25531914893617,421570,American (New).Seafood.Cocktail Bars.Bars.Steakhouses.
+Philadelphia (PA),image not found,United States of America,4.33,2.6458333333333335,1547607,American (New).Breakfast & Brunch.Italian.Bars.Tapas/Small Plates.
+Phoenix (AZ),image not found,United States of America,4.39,2.0416666666666665,1488750,American (Traditional).Sandwiches.Italian.American (New).Seafood.
+Pittsburgh (PA),image not found,United States of America,4.28,2.36734693877551,306211,American (New).Cocktail Bars.Bars.Breakfast & Brunch.Italian.
+Portland (OR),image not found,United States of America,4.38,2.2708333333333335,603106,American (New).Cocktail Bars.Breakfast & Brunch.Wine Bars.Seafood.
+Raleigh (NC),image not found,United States of America,4.26,2.2448979591836733,423179,American (New).Seafood.Bars.Wine Bars.Cocktail Bars.
+Riverside (CA),image not found,United States of America,4.3,2.0,313673,Mexican.American (New).Breakfast & Brunch.Cocktail Bars.American (Traditional).
+Sacramento (CA),image not found,United States of America,4.2,2.34,475516,American (New).Breakfast & Brunch.Bars.Wine Bars.Italian.
+San Antonio (TX),image not found,United States of America,4.35,2.061224489795918,1382951,American (New).Breakfast & Brunch.Mexican.Bars.Burgers.
+San Diego (CA),image not found,United States of America,4.33,2.163265306122449,1338348,American (New).Cocktail Bars.Bars.Seafood.Italian.
+San Francisco (CA),image not found,United States of America,4.22,2.6122448979591835,825863,American (New).Cocktail Bars.Breakfast & Brunch.French.Seafood.
+San Jose (CA),image not found,United States of America,4.2,2.125,982765,Breakfast & Brunch.American (Traditional).American (New).Vietnamese.Barbeque.
+Santa Ana (CA),image not found,United States of America,4.36,2.2888888888888888,330920,Breakfast & Brunch.American (New).Seafood.Mexican.Japanese.
+Seattle (WA),image not found,United States of America,4.27,2.4081632653061225,634535,American (New).Seafood.Cocktail Bars.Breakfast & Brunch.Sushi Bars.
+St. Louis (MO),image not found,United States of America,4.42,2.1666666666666665,318172,American (New).Breakfast & Brunch.Cocktail Bars.Sandwiches.Seafood.
+Tampa (FL),image not found,United States of America,4.27,2.2708333333333335,347645,American (New).American (Traditional).Seafood.Bars.Breakfast & Brunch.
+Tucson (AZ),image not found,United States of America,4.35,1.9583333333333333,524295,American (New).Breakfast & Brunch.Mexican.Cocktail Bars.Italian.
+Tulsa (OK),image not found,United States of America,4.31,2.25531914893617,393987,American (New).Seafood.Cocktail Bars.Bars.Breakfast & Brunch.
+Virginia Beach (VA),image not found,United States of America,4.33,2.021276595744681,447021,Seafood.American (Traditional).American (New).Breakfast & Brunch.Bars.
+WASHINGTON (DC),image not found,United States of America,4.29,2.6956521739130435,632323,American (New).Breakfast & Brunch.Cocktail Bars.Seafood.American (Traditional).
+Wichita (KS),image not found,United States of America,4.28,1.9090909090909092,385577,Breakfast & Brunch.Barbeque.American (Traditional).American (New).Mediterranean.
+MONTEVIDEO,image not found,Uruguay,2.1551724137931036,1.4,1305082,American (Traditional).Bars.Pizza.Burgers.Coffee & Tea.
+Barcelona-Puerto La Cruz,image not found,Venezuela (Bolivarian Republic of),4.45,2.36734693877551,435940,Tapas Bars.Spanish.Mediterranean.Tapas/Small Plates.Breakfast & Brunch.
+Ciudad Bolívar,image not found,Venezuela (Bolivarian Republic of),0.0,

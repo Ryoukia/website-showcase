@@ -1,0 +1,57 @@
+CREATE TABLE restaurants (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(255),
+    rating VARCHAR(255),
+    price VARCHAR(255),
+    food_types TEXT,
+    address TEXT,
+    phone_num TEXT,
+    review_count INTEGER,
+    longitude DECIMAL,
+    latitude DECIMAL
+);
+
+
+CREATE TABLE restaurant_hours (
+	id SERIAL PRIMARY KEY,
+    restaurant_id INTEGER NOT NULL REFERENCES restaurants(id),
+    day VARCHAR(255),
+    start_time VARCHAR(255),
+    end_time VARCHAR(255),
+    start_time1 VARCHAR(255),
+    end_time1 VARCHAR(255)
+
+);
+
+CREATE TABLE restaurant_avail_for (
+	id SERIAL PRIMARY KEY,
+    restaurant_id INTEGER NOT NULL REFERENCES restaurants(id),
+    type VARCHAR(255)
+);
+
+CREATE TABLE restaurant_reviews (
+	id SERIAL PRIMARY KEY,
+    restaurant_id INTEGER NOT NULL REFERENCES restaurants(id),
+    name VARCHAR(255),
+    rating VARCHAR(255),
+    review TEXT
+
+);
+
+
+CREATE TABLE restaurant_images (
+	id SERIAL PRIMARY KEY,
+    restaurant_id INTEGER NOT NULL REFERENCES restaurants(id),
+    image TEXT
+);
+
+
+SELECT *
+FROM restaurants;
+
+-- Delete tables, don't run 
+-- DROP TABLE restaurant_images;
+-- DROP TABLE restaurant_reviews;
+-- DROP TABLE restaurant_avail_for;
+-- DROP TABLE restaurant_hours;
+-- DROP TABLE restaurants;

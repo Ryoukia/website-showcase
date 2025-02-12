@@ -1,0 +1,21 @@
+.about-text {
+  text-align: center;
+}
+
+.goal-text {
+  font-size: 1.3rem;
+}
+
+.dev-cards {
+  display: flex;
+  justify-content: center;
+}
+
+.api-cards {
+    display: flex;
+    justify-content: center;
+}
+
+.dev-cards li {
+  list-style: none;
+}

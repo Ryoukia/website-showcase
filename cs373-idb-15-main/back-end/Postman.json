@@ -1,0 +1,1687 @@
+{
+	"info": {
+		"_postman_id": "98fb5cf7-ba5e-4d06-acd3-c3c309113b3f",
+		"name": "Worldeats API",
+		"description": "API for worldeats.me cs373 project",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25838982",
+		"_collection_link": "https://lunar-eclipse-312576.postman.co/workspace/World-Eats-API~d331638c-2a59-402d-928d-df26e1773360/collection/25838982-98fb5cf7-ba5e-4d06-acd3-c3c309113b3f?action=share&creator=25838982&source=collection_link"
+	},
+	"item": [
+		{
+			"name": "City Calls",
+			"item": [
+				{
+					"name": "Get Specific City",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status 200\", function(){\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Correct data shape\", function(){\r",
+									"    pm.expect(pm.response.text()).to.include(\"country\");\r",
+									"    pm.expect(pm.response.text()).to.include(\"id\");\r",
+									"    pm.expect(pm.response.text()).to.include(\"image_url\");\r",
+									"    pm.expect(pm.response.text()).to.include(\"name\");\r",
+									"    pm.expect(pm.response.text()).to.include(\"price\");\r",
+									"    pm.expect(pm.response.text()).to.include(\"score\");\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Scores in bounds\", function(){\r",
+									"    var cityData = pm.response.json();\r",
+									"    pm.expect(cityData.score).to.lte(5.0);\r",
+									"    pm.expect(cityData.price).to.lte(4.0);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Host",
+								"value": "18.219.58.154",
+								"type": "text"
+							},
+							{
+								"key": "RejectUnauthorized",
+								"value": "False",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://worldeatsapi.link/city/1",
+							"protocol": "https",
+							"host": [
+								"worldeatsapi",
+								"link"
+							],
+							"path": [
+								"city",
+								"1"
+							]
+						},
+						"description": "Retrieve all data about a specific city, the 1 should be replaced with the desired ID"
+					},
+					"response": [
+						{
+							"name": "Get Specific City",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Host",
+										"value": "18.219.58.154",
+										"type": "text"
+									},
+									{
+										"key": "",
+										"value": "",
+										"type": "text",
+										"disabled": true
+									}
+								],
+								"url": {
+									"raw": "http://worldeatsapi.link/city/1",
+									"protocol": "http",
+									"host": [
+										"worldeatsapi",
+										"link"
+									],
+									"path": [
+										"city",
+										"1"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Server",
+									"value": "nginx/1.18.0 (Ubuntu)"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 10 Mar 2023 19:01:20 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Content-Length",
+									"value": "254"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"country\": \"Argentina\",\n    \"cuisines\": \"Steakhouses.Argentine.Cocktail Bars.Coffee & Tea.Burgers.\",\n    \"id\": 1,\n    \"image_url\": \"https://tse4.mm.bing.net/th?id=OIP.yctI29_QJcb-wc1ixTZxVQHaFE&pid=Api\",\n    \"name\": \"\\ufeffBUENOS AIRES\",\n    \"price\": 2.3191489361702127,\n    \"score\": 4.28\n}"
+						}
+					]
+				},
+				{
+					"name": "Get City Ids",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://worldeatsapi.link/city/get-ids",
+							"protocol": "https",
+							"host": [
+								"worldeatsapi",
+								"link"
+							],
+							"path": [
+								"city",
+								"get-ids"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": null,
+									"disabled": true
+								},
+								{
+									"key": "country",
+									"value": null,
+									"disabled": true
+								},
+								{
+									"key": "score",
+									"value": null,
+									"disabled": true
+								},
+								{
+									"key": "price",
+									"value": null,
+									"disabled": true
+								}
+							]
+						},
+						"description": "Gets the Ids of all citys that match the search paramters"
+					},
+					"response": []
+				},
+				{
+					"name": "Get Ids by Rating",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status 200\", function(){\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"pm.test(\"Correct data shape\", function(){\r",
+									"    pm.expect(pm.response.text()).to.include(\"ids\");\r",
+									"    });"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://worldeatsapi.link/city/sort-by-score",
+							"protocol": "https",
+							"host": [
+								"worldeatsapi",
+								"link"
+							],
+							"path": [
+								"city",
+								"sort-by-score"
+							],
+							"query": [
+								{
+									"key": "sort_order",
+									"value": "asc",
+									"disabled": true
+								}
+							]
+						},
+						"description": "StartFragment\n\nReturns the Id of every city, sorted by their average restaurant rating with parameter specification \"asc\" or \"desc\"\n\nEndFragment"
+					},
+					"response": []
+				},
+				{
+					"name": "Get Ids by Price",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status 200\", function(){\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"pm.test(\"Correct data shape\", function(){\r",
+									"    pm.expect(pm.response.text()).to.include(\"ids\");\r",
+									"    });"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://worldeatsapi.link/city/sort-by-price",
+							"protocol": "https",
+							"host": [
+								"worldeatsapi",
+								"link"
+							],
+							"path": [
+								"city",
+								"sort-by-price"
+							],
+							"query": [
+								{
+									"key": "sort_order",
+									"value": "asc",
+									"disabled": true
+								}
+							]
+						},
+						"description": "StartFragment\n\nReturns the Id of every city, sorted by their average restaurant price with parameter specification \"asc\" or \"desc\"\n\nEndFragment"
+					},
+					"response": []
+				}
+			],
+			"description": "API calls based on Cities"
+		},
+		{
+			"name": "Recipe Calls",
+			"item": [
+				{
+					"name": "Get Specific Recipe",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status 200\", function(){\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Correct data shape\", function(){\r",
+									"    pm.expect(pm.response.text()).to.include(\"calories\");\r",
+									"    pm.expect(pm.response.text()).to.include(\"carbs\");\r",
+									"    pm.expect(pm.response.text()).to.include(\"cost_per_serving\");\r",
+									"    pm.expect(pm.response.text()).to.include(\"cuisines\");\r",
+									"    pm.expect(pm.response.text()).to.include(\"diets\");\r",
+									"    pm.expect(pm.response.text()).to.include(\"dish_types\");\r",
+									"    pm.expect(pm.response.text()).to.include(\"equipment\");\r",
+									"    pm.expect(pm.response.text()).to.include(\"fat\");\r",
+									"    pm.expect(pm.response.text()).to.include(\"id\");\r",
+									"    pm.expect(pm.response.text()).to.include(\"image\");\r",
+									"    pm.expect(pm.response.text()).to.include(\"ingredients\");\r",
+									"    pm.expect(pm.response.text()).to.include(\"instructions\");\r",
+									"    pm.expect(pm.response.text()).to.include(\"likes\");\r",
+									"    pm.expect(pm.response.text()).to.include(\"name\");\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Scores in bounds\", function(){\r",
+									"    var recipeData = pm.response.json();\r",
+									"    pm.expect(recipeData.ready_in_minutes).to.gte(0.0);\r",
+									"    pm.expect(recipeData.num_instructions).to.gte(0.0);\r",
+									"    pm.expect(recipeData.num_ingredients).to.gte(0.0);\r",
+									"    pm.expect(recipeData.num_equipment).to.gte(0.0);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Host",
+								"value": "18.219.58.154",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://worldeatsapi.link/recipes/1",
+							"protocol": "https",
+							"host": [
+								"worldeatsapi",
+								"link"
+							],
+							"path": [
+								"recipes",
+								"1"
+							]
+						},
+						"description": "Retrieves recipes containing requested ingredient, the 1 should be replaced with the desired ID"
+					},
+					"response": [
+						{
+							"name": "Get Specific Recipe",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Host",
+										"value": "18.219.58.154",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "http://worldeatsapi.link/recipes/1",
+									"protocol": "http",
+									"host": [
+										"worldeatsapi",
+										"link"
+									],
+									"path": [
+										"recipes",
+										"1"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Server",
+									"value": "nginx/1.18.0 (Ubuntu)"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 10 Mar 2023 19:02:52 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Content-Length",
+									"value": "2334"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"calories\": \"396k\",\n    \"carbs\": \"63g\",\n    \"cost_per_serving\": \"2.09\",\n    \"cuisines\": [\n        \"Korean\",\n        \"Asian\"\n    ],\n    \"diets\": [\n        \"dairy free\",\n        \"lacto ovo vegetarian\",\n        \"vegan\"\n    ],\n    \"dish_types\": [\n        \"side dish\"\n    ],\n    \"equipment\": [\n        \"frying pan\",\n        \"wok\"\n    ],\n    \"fat\": \"14g\",\n    \"id\": 1,\n    \"image\": \"https://spoonacular.com/recipeImages/637440-556x370.jpg\",\n    \"ingredients\": [\n        \"8 ounces sweet potato vermicelli noodles\",\n        \"1 sweet onion, sliced into thin strips\",\n        \"2 cloves garlic, finely chopped\",\n        \"1/2 pound baby spinach, parboiled\",\n        \"2 carrots, julienned\",\n        \"3 scallions, chopped\",\n        \"5 mushrooms, sliced (I like to use creminis)\",\n        \"1/2 cup zucchini, sliced into half-moons\",\n        \"2 tablespoons olive oil\",\n        \"2 tablespoons sesame oil\",\n        \"3 tablespoons soy sauce\",\n        \"1 teaspoon sugar\",\n        \"Salt to taste\"\n    ],\n    \"instructions\": [\n        \"Cook noodles according to package directions\",\n        \"In a large pan or wok over medium heat, heat olive oil and 1 Tbsp sesame oil\",\n        \"Add onion slices and garlic and saut for about 1 min\",\n        \"Add rest of vegetables and cook for 4-5 min, until the vegetables are half-cooked and still a bit crispy\",\n        \"Turn heat to low and add cooked noodles, soy sauce, sugar, and the remaining sesame oil\",\n        \"Mix to combine and cook for another 2 min\",\n        \"Add salt or more soy sauce if needed (or if you want it a bit sweeter, add a touch more sugar)\",\n        \"If using sesame seeds, add them at finish\"\n    ],\n    \"likes\": 40,\n    \"name\": \"Chapchae (Korean Stir-Fried Noodles)\",\n    \"num_equipment\": 2,\n    \"num_ingredients\": 13,\n    \"num_instructions\": 8,\n    \"protein\": \"5g\",\n    \"ready_in_minutes\": 45,\n    \"summary\": \"Chapchae (Korean Stir-Fried Noodles) is a dairy free, lacto ovo vegetarian, and vegan recipe with 4 servings. This side dish has 397 calories, 5g of protein, and 15g of fat per serving. For $2.09 per serving, this recipe covers 21% of your daily requirements of vitamins and minerals. 40 people have made this recipe and would make it again. It is brought to you by Foodista. From preparation to the plate, this recipe takes approximately 45 minutes. A few people really liked this Korean dish. A mixture of soy sauce, salt, baby spinach, and a handful of other ingredients are all it takes to make this recipe so scrumptious. All things considered, we decided this recipe deserves a spoonacular score of 91%. This score is spectacular. Similar recipes include Chapchae (Korean Stir-Fried Noodles), Chapchae (Korean Stir-Fried Noodles), and Korean Stir-Fried Noodles (Chapchae).\"\n}"
+						}
+					]
+				},
+				{
+					"name": "Get Recipe by Cuisine",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status 200\", function(){\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Correct recipe data shape\", function(){\r",
+									"    pm.expect(pm.response.text()).to.include(\"calories\");\r",
+									"    pm.expect(pm.response.text()).to.include(\"carbs\");\r",
+									"    pm.expect(pm.response.text()).to.include(\"cost_per_serving\");\r",
+									"    pm.expect(pm.response.text()).to.include(\"cuisines\");\r",
+									"    pm.expect(pm.response.text()).to.include(\"diets\");\r",
+									"    pm.expect(pm.response.text()).to.include(\"dish_types\");\r",
+									"    pm.expect(pm.response.text()).to.include(\"equipment\");\r",
+									"    pm.expect(pm.response.text()).to.include(\"fat\");\r",
+									"    pm.expect(pm.response.text()).to.include(\"id\");\r",
+									"    pm.expect(pm.response.text()).to.include(\"image\");\r",
+									"    pm.expect(pm.response.text()).to.include(\"ingredients\");\r",
+									"    pm.expect(pm.response.text()).to.include(\"instructions\");\r",
+									"    pm.expect(pm.response.text()).to.include(\"likes\");\r",
+									"    pm.expect(pm.response.text()).to.include(\"name\");\r",
+									"});\r",
+									"pm.test(\"Correct city data shape\", function(){\r",
+									"    pm.expect(pm.response.text()).to.include(\"country\");\r",
+									"    pm.expect(pm.response.text()).to.include(\"cuisines\");\r",
+									"    pm.expect(pm.response.text()).to.include(\"id\");\r",
+									"    pm.expect(pm.response.text()).to.include(\"image_url\");\r",
+									"    pm.expect(pm.response.text()).to.include(\"name\");\r",
+									"    pm.expect(pm.response.text()).to.include(\"price\");\r",
+									"    pm.expect(pm.response.text()).to.include(\"score\");\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Correct restaurant data shape\", function(){\r",
+									"    pm.expect(pm.response.text()).to.include(\"address\");\r",
+									"    pm.expect(pm.response.text()).to.include(\"food_types\");\r",
+									"    pm.expect(pm.response.text()).to.include(\"id\");\r",
+									"    pm.expect(pm.response.text()).to.include(\"images\");\r",
+									"    pm.expect(pm.response.text()).to.include(\"name\");\r",
+									"    pm.expect(pm.response.text()).to.include(\"open\");\r",
+									"    pm.expect(pm.response.text()).to.include(\"phone_num\");\r",
+									"    pm.expect(pm.response.text()).to.include(\"price\");\r",
+									"    pm.expect(pm.response.text()).to.include(\"rating\");\r",
+									"    pm.expect(pm.response.text()).to.include(\"review_count\");\r",
+									"    pm.expect(pm.response.text()).to.include(\"reviews\");\r",
+									"});\r",
+									"\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Host",
+								"value": "18.219.58.154",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://worldeatsapi.link/api/models/by-cuisine?cuisines=Mexican&number_related_models=2",
+							"protocol": "https",
+							"host": [
+								"worldeatsapi",
+								"link"
+							],
+							"path": [
+								"api",
+								"models",
+								"by-cuisine"
+							],
+							"query": [
+								{
+									"key": "cuisines",
+									"value": "Mexican"
+								},
+								{
+									"key": "number_related_models",
+									"value": "2"
+								}
+							]
+						},
+						"description": "returns the specified number of citys, recipes, and restaurants that are tagged with the type of food specified."
+					},
+					"response": [
+						{
+							"name": "Get Recipe by Cuisine",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Host",
+										"value": "18.219.58.154",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "http://worldeatsapi.link/api/models/by-cuisine?cuisines=Mexican&number_related_models=2",
+									"protocol": "http",
+									"host": [
+										"worldeatsapi",
+										"link"
+									],
+									"path": [
+										"api",
+										"models",
+										"by-cuisine"
+									],
+									"query": [
+										{
+											"key": "cuisines",
+											"value": "Mexican"
+										},
+										{
+											"key": "number_related_models",
+											"value": "2"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Server",
+									"value": "nginx/1.18.0 (Ubuntu)"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 10 Mar 2023 19:03:02 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Content-Length",
+									"value": "7093"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"cities\": [\n        {\n            \"country\": \"Bolivia (Plurinational State of)\",\n            \"cuisines\": \"American (Traditional).Fast Food.Coffee & Tea.Bars.Mexican.\",\n            \"id\": 31,\n            \"image_url\": \"https://tse3.mm.bing.net/th?id=OIP.R-6ZOEXmdsatCfTlpMorLAHaHa&pid=Api\",\n            \"name\": \"LA PAZ\",\n            \"price\": 1.5,\n            \"score\": 2.6\n        },\n        {\n            \"country\": \"Canada\",\n            \"cuisines\": \"Canadian (New).Cafes.Breakfast & Brunch.Tapas/Small Plates.Mexican.\",\n            \"id\": 78,\n            \"image_url\": \"https://tse1.mm.bing.net/th?id=OIP.kgbQrMrYM6SBjCYU6EeevQHaE0&pid=Api\",\n            \"name\": \"Ottawa - Gatineau\",\n            \"price\": 2.066666666666667,\n            \"score\": 4.33\n        }\n    ],\n    \"recipes\": [\n        {\n            \"calories\": \"86k\",\n            \"carbs\": \"9g\",\n            \"cost_per_serving\": \"0.14\",\n            \"cuisines\": [\n                \"Mexican\"\n            ],\n            \"diets\": [\n                \"lacto ovo vegetarian\"\n            ],\n            \"dish_types\": [\n                \"dessert\"\n            ],\n            \"equipment\": [\n                \"hand mixer\",\n                \"bowl\",\n                \"oven\",\n                \"pie form\",\n                \"whisk\",\n                \"baking sheet\",\n                \"baking sheet\",\n                \"oven\"\n            ],\n            \"fat\": \"5g\",\n            \"id\": 4,\n            \"image\": \"https://spoonacular.com/recipeImages/633082-556x370.jpg\",\n            \"ingredients\": [\n                \"2 sticks butter, room temperature\",\n                \"2 cups powdered sugar\",\n                \"2 teaspoons vanilla extract\",\n                \"2 cups all purpose flour\",\n                \"1 cup pecans, toasted, coarsely ground\",\n                \"1/8 teaspoon ground cinnamon\"\n            ],\n            \"instructions\": [\n                \"Beat butter in large bowl in an electric mixer until light and fluffy.\",\n                \"Add 1/2 cup powdered sugar and vanilla; beat until well blended.\",\n                \"Beat in flour, then pecans. Divide dough in half; form each half into ball. Wrap in plastic and chill for about 30 minutes.\",\n                \"Preheat oven to 350F.\",\n                \"Whisk remaining 1 1/2 cups powdered sugar and cinnamon in pie dish to blend. Set cinnamon sugar aside.\",\n                \"Working with half of chilled dough, roll dough by 2 teaspoonfuls between palms into balls. Arrange balls on heavy large baking sheet, spacing 1/2 inch apart.\",\n                \"Bake cookies for 18 minutes or until golden brown on bottom and just pale golden on top. Cool cookies 5 minutes on baking sheet.\",\n                \"Gently toss warm cookies in cinnamon sugar to coat completely.\",\n                \"Transfer coated cookies to rack and cool completely. Repeat with other half of the dough.\",\n                \"Sift remaining cinnamon sugar over cookies and serve.\"\n            ],\n            \"likes\": 8,\n            \"name\": \"Authentic Mexican Wedding Cookies\",\n            \"num_equipment\": 8,\n            \"num_ingredients\": 6,\n            \"num_instructions\": 10,\n            \"protein\": \"0.77g\",\n            \"ready_in_minutes\": 45,\n            \"summary\": \"Forget going out to eat or ordering takeout every time you crave Mexican food. Try making Authentic Mexican Wedding Cookies at home. One serving contains 87 calories, 1g of protein, and 5g of fat. For 14 cents per serving, you get a dessert that serves 48. It will be a hit at your Wedding event. From preparation to the plate, this recipe takes roughly 45 minutes. 8 people have made this recipe and would make it again. A mixture of all purpose flour, ground cinnamon, vanillan extract, and a handful of other ingredients are all it takes to make this recipe so flavorful. It is a good option if you're following a lacto ovo vegetarian diet. It is brought to you by Foodista. All things considered, we decided this recipe deserves a spoonacular score of 9%. This score is very bad (but still fixable). Users who liked this recipe also liked Mexican Wedding Cookies, Mexican Wedding Cookies, and Mexican Wedding Cookies.\"\n        },\n        {\n            \"calories\": \"171k\",\n            \"carbs\": \"11g\",\n            \"cost_per_serving\": \"0.92\",\n            \"cuisines\": [\n                \"Mexican\"\n            ],\n            \"diets\": [\n                \"gluten free\",\n                \"dairy free\",\n                \"paleolithic\",\n                \"lacto ovo vegetarian\",\n                \"primal\",\n                \"whole 30\",\n                \"vegan\"\n            ],\n            \"dish_types\": [\n                \"antipasti\",\n                \"condiment\",\n                \"starter\",\n                \"snack\",\n                \"appetizer\",\n                \"dip\",\n                \"antipasto\",\n                \"hor d'oeuvre\",\n                \"spread\"\n            ],\n            \"equipment\": [\n                \"bowl\"\n            ],\n            \"fat\": \"14g\",\n            \"id\": 64,\n            \"image\": \"https://spoonacular.com/recipeImages/661188-556x370.jpg\",\n            \"ingredients\": [\n                \"2 avocados, fairly soft, peeled and pit removed\",\n                \"1 tablespoon lime juice\",\n                \"¼ teaspoon white wine vinegar\",\n                \"½ red onion, minced\",\n                \"1 Serrano pepper, minced\",\n                \"2 tablespoons chopped cilantro\",\n                \"1 roma tomato, pulp removed, then diced\",\n                \"½ teaspoon salt\",\n                \"¼ teaspoon freshly ground black pepper\",\n                \"1/8 teaspoon cumin\",\n                \"1/8 teaspoon garlic powder\"\n            ],\n            \"instructions\": [\n                \"In a medium bowl, mash avocado and mix with lime juice and vinegar.\",\n                \"Stir in the salt, pepper, cumin, and garlic powder.\",\n                \"Mix in red onion, Serrano pepper, cilantro, and chopped tomato.\"\n            ],\n            \"likes\": 47,\n            \"name\": \"Spicy Seasoned Loaded Guacamole\",\n            \"num_equipment\": 1,\n            \"num_ingredients\": 11,\n            \"num_instructions\": 3,\n            \"protein\": \"2g\",\n            \"ready_in_minutes\": 45,\n            \"summary\": \"Spicy Seasoned Loaded Guacamole is a gluten free, dairy free, paleolithic, and lacto ovo vegetarian hor d'oeuvre. For 92 cents per serving, this recipe covers 9% of your daily requirements of vitamins and minerals. One serving contains 171 calories, 2g of protein, and 15g of fat. This recipe serves 4. If you have garlic powder, salt, cumin, and a few other ingredients on hand, you can make it. 47 people found this recipe to be flavorful and satisfying. From preparation to the plate, this recipe takes approximately 45 minutes. It is brought to you by Foodista. A few people really liked this Mexican dish. Overall, this recipe earns a pretty good spoonacular score of 79%. Similar recipes include Loaded Guacamole, Guacamole, loaded, and Fully Loaded Guacamole.\"\n        }\n    ],\n    \"restaurants\": [\n        {\n            \"address\": \"Calle 49 775, B1900AQE La Plata, Argentina\",\n            \"avail_for\": [],\n            \"food_types\": \"Mexican\",\n            \"id\": 45,\n            \"images\": [\n                \"https://s3-media2.fl.yelpcdn.com/bphoto/VFIzwHrTMNGxCoxB_EjdrA/o.jpg\",\n                \"https://s3-media4.fl.yelpcdn.com/bphoto/V8ObEF7IJQxp-D50veQWcg/o.jpg\",\n                \"https://s3-media4.fl.yelpcdn.com/bphoto/Ra2le99tKUIYzR51a-m2ew/o.jpg\"\n            ],\n            \"name\": \"Lupita\",\n            \"open\": [\n                {\n                    \"day\": \"Monday\",\n                    \"end\": \"01:00AM\",\n                    \"end1\": \"\",\n                    \"start\": \"6:00PM\",\n                    \"start1\": \"\"\n                },\n                {\n                    \"day\": \"Tuesday\",\n                    \"end\": \"01:00AM\",\n                    \"end1\": \"\",\n                    \"start\": \"6:00PM\",\n                    \"start1\": \"\"\n                },\n                {\n                    \"day\": \"Wednesday\",\n                    \"end\": \"01:00AM\",\n                    \"end1\": \"\",\n                    \"start\": \"6:00PM\",\n                    \"start1\": \"\"\n                },\n                {\n                    \"day\": \"Thursday\",\n                    \"end\": \"01:00AM\",\n                    \"end1\": \"\",\n                    \"start\": \"6:00PM\",\n                    \"start1\": \"\"\n                },\n                {\n                    \"day\": \"Friday\",\n                    \"end\": \"03:00AM\",\n                    \"end1\": \"\",\n                    \"start\": \"6:00PM\",\n                    \"start1\": \"\"\n                },\n                {\n                    \"day\": \"Saturday\",\n                    \"end\": \"03:00AM\",\n                    \"end1\": \"\",\n                    \"start\": \"6:00PM\",\n                    \"start1\": \"\"\n                },\n                {\n                    \"day\": \"Sunday\",\n                    \"end\": \"03:00AM\",\n                    \"end1\": \"\",\n                    \"start\": \"6:00PM\",\n                    \"start1\": \"\"\n                }\n            ],\n            \"phone_num\": \"+54 341 489-6267\",\n            \"price\": null,\n            \"rating\": \"5.0\",\n            \"review_count\": 2,\n            \"reviews\": [\n                {\n                    \"name\": \"Flor B.\",\n                    \"rating\": \"5\",\n                    \"review\": \"Lupita is a great mexican restaurant; the decoration is impeccable, the drinks are fantastic -especially the mandarin mojito- and the food is pretty good...\"\n                }\n            ]\n        },\n        {\n            \"address\": \"Sarandí 263, C1081 Buenos Aires, Argentina\",\n            \"avail_for\": [],\n            \"food_types\": \"Mexican\",\n            \"id\": 178,\n            \"images\": [\n                \"https://s3-media3.fl.yelpcdn.com/bphoto/lPt51kFwL6o4em8dzLB15w/o.jpg\",\n                \"https://s3-media3.fl.yelpcdn.com/bphoto/Ic_gFPmJybg3XzezKjJBjA/o.jpg\",\n                \"https://s3-media2.fl.yelpcdn.com/bphoto/S3MoMdNRo9biSNoD_nFHXA/o.jpg\"\n            ],\n            \"name\": \"Texas\",\n            \"open\": [\n                {\n                    \"day\": \"Monday\",\n                    \"end\": \"\",\n                    \"end1\": \"\",\n                    \"start\": \"\",\n                    \"start1\": \"\"\n                },\n                {\n                    \"day\": \"Tuesday\",\n                    \"end\": \"00:00AM\",\n                    \"end1\": \"\",\n                    \"start\": \"7:00PM\",\n                    \"start1\": \"\"\n                },\n                {\n                    \"day\": \"Wednesday\",\n                    \"end\": \"00:00AM\",\n                    \"end1\": \"\",\n                    \"start\": \"7:00PM\",\n                    \"start1\": \"\"\n                },\n                {\n                    \"day\": \"Thursday\",\n                    \"end\": \"00:00AM\",\n                    \"end1\": \"\",\n                    \"start\": \"7:00PM\",\n                    \"start1\": \"\"\n                },\n                {\n                    \"day\": \"Friday\",\n                    \"end\": \"02:00AM\",\n                    \"end1\": \"\",\n                    \"start\": \"7:00PM\",\n                    \"start1\": \"\"\n                },\n                {\n                    \"day\": \"Saturday\",\n                    \"end\": \"02:00AM\",\n                    \"end1\": \"\",\n                    \"start\": \"7:00PM\",\n                    \"start1\": \"\"\n                },\n                {\n                    \"day\": \"Sunday\",\n                    \"end\": \"00:00AM\",\n                    \"end1\": \"\",\n                    \"start\": \"7:00PM\",\n                    \"start1\": \"\"\n                }\n            ],\n            \"phone_num\": \"+54 11 6399-1331\",\n            \"price\": \"$$\",\n            \"rating\": \"4.0\",\n            \"review_count\": 1,\n            \"reviews\": []\n        }\n    ]\n}"
+						}
+					]
+				},
+				{
+					"name": "Get Recipe Ids",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status 200\", function(){\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"pm.test(\"Correct data shape\", function(){\r",
+									"    pm.expect(pm.response.text()).to.include(\"ids\");\r",
+									"    });"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://worldeatsapi.link/recipes/get-ids",
+							"protocol": "https",
+							"host": [
+								"worldeatsapi",
+								"link"
+							],
+							"path": [
+								"recipes",
+								"get-ids"
+							],
+							"query": [
+								{
+									"key": "min_calories",
+									"value": "",
+									"disabled": true
+								},
+								{
+									"key": "max_calories",
+									"value": "",
+									"disabled": true
+								},
+								{
+									"key": "min_cook_time",
+									"value": "",
+									"disabled": true
+								},
+								{
+									"key": "max_instructions",
+									"value": "",
+									"disabled": true
+								},
+								{
+									"key": "max_cost_per_serving",
+									"value": "",
+									"disabled": true
+								},
+								{
+									"key": "max_ingredients",
+									"value": "",
+									"disabled": true
+								},
+								{
+									"key": "name",
+									"value": null,
+									"disabled": true
+								}
+							]
+						},
+						"description": "Will Return the Ids of all recipes that match search specifications"
+					},
+					"response": [
+						{
+							"name": "New Request",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://worldeatsapi.link/recipes/get-ids?name=Easy%20Turtle%20Pumpkin%20Pie",
+									"protocol": "https",
+									"host": [
+										"worldeatsapi",
+										"link"
+									],
+									"path": [
+										"recipes",
+										"get-ids"
+									],
+									"query": [
+										{
+											"key": "min_calories",
+											"value": null,
+											"disabled": true
+										},
+										{
+											"key": "max_calories",
+											"value": null,
+											"disabled": true
+										},
+										{
+											"key": "min_cook_time",
+											"value": null,
+											"disabled": true
+										},
+										{
+											"key": "max_instructions",
+											"value": null,
+											"disabled": true
+										},
+										{
+											"key": "max_cost_per_serving",
+											"value": null,
+											"disabled": true
+										},
+										{
+											"key": "max_ingredients",
+											"value": null,
+											"disabled": true
+										},
+										{
+											"key": "name",
+											"value": "Easy%20Turtle%20Pumpkin%20Pie"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Server",
+									"value": "nginx/1.18.0 (Ubuntu)"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 30 Mar 2023 02:57:19 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Content-Length",
+									"value": "12"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"ids\": [\n        6\n    ]\n}"
+						}
+					]
+				},
+				{
+					"name": "Get Ids Sorted by Time to Cook",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status 200\", function(){\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"pm.test(\"Correct data shape\", function(){\r",
+									"    pm.expect(pm.response.text()).to.include(\"ids\");\r",
+									"    });"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://worldeatsapi.link/recipes/sort-by-time_to_cook",
+							"protocol": "https",
+							"host": [
+								"worldeatsapi",
+								"link"
+							],
+							"path": [
+								"recipes",
+								"sort-by-time_to_cook"
+							],
+							"query": [
+								{
+									"key": "sort_order",
+									"value": "asc",
+									"disabled": true
+								}
+							]
+						},
+						"description": "Returns the Id of every recipe, sorted by their time to cook with parameter specification \"asc\" or \"desc\""
+					},
+					"response": [
+						{
+							"name": "Get Ids Sorted by Time to Cook",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://worldeatsapi.link/recipes/sort-by-time_to_cook",
+									"protocol": "https",
+									"host": [
+										"worldeatsapi",
+										"link"
+									],
+									"path": [
+										"recipes",
+										"sort-by-time_to_cook"
+									],
+									"query": [
+										{
+											"key": "sort_order",
+											"value": "asc",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Server",
+									"value": "nginx/1.18.0 (Ubuntu)"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 30 Mar 2023 03:06:02 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Content-Length",
+									"value": "342"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"ids\": [\n        107,\n        52,\n        71,\n        14,\n        31,\n        30,\n        51,\n        11,\n        78,\n        45,\n        13,\n        15,\n        16,\n        17,\n        18,\n        19,\n        20,\n        21,\n        22,\n        23,\n        24,\n        101,\n        25,\n        27,\n        28,\n        29,\n        32,\n        41,\n        33,\n        34,\n        35,\n        36,\n        37,\n        38,\n        39,\n        40,\n        42,\n        43,\n        46,\n        47,\n        48,\n        49,\n        50,\n        53,\n        54,\n        55,\n        56,\n        57,\n        58,\n        59,\n        60,\n        61,\n        62,\n        63,\n        64,\n        65,\n        66,\n        67,\n        68,\n        69,\n        110,\n        2,\n        3,\n        4,\n        5,\n        6,\n        7,\n        9,\n        10,\n        12,\n        105,\n        106,\n        108,\n        109,\n        1,\n        72,\n        73,\n        74,\n        75,\n        76,\n        77,\n        79,\n        80,\n        81,\n        82,\n        84,\n        85,\n        86,\n        87,\n        88,\n        89,\n        90,\n        91,\n        100,\n        92,\n        93,\n        94,\n        95,\n        96,\n        97,\n        98,\n        99,\n        102,\n        103,\n        104,\n        8,\n        83,\n        44,\n        26,\n        70\n    ]\n}"
+						}
+					]
+				},
+				{
+					"name": "Get Ids Sorted by Calories",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status 200\", function(){\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"pm.test(\"Correct data shape\", function(){\r",
+									"    pm.expect(pm.response.text()).to.include(\"ids\");\r",
+									"    });"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://worldeatsapi.link/recipes/sort-by-calories",
+							"protocol": "https",
+							"host": [
+								"worldeatsapi",
+								"link"
+							],
+							"path": [
+								"recipes",
+								"sort-by-calories"
+							],
+							"query": [
+								{
+									"key": "sort_order",
+									"value": "asc",
+									"disabled": true
+								}
+							]
+						},
+						"description": "StartFragment\n\nReturns the Id of every recipe, sorted by their caloric content with parameter specification \"asc\" or \"desc\"\n\nEndFragme"
+					},
+					"response": [
+						{
+							"name": "Get Ids Sorted by Calories",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://worldeatsapi.link/recipes/sort-by-calories?sort_order=asc",
+									"protocol": "https",
+									"host": [
+										"worldeatsapi",
+										"link"
+									],
+									"path": [
+										"recipes",
+										"sort-by-calories"
+									],
+									"query": [
+										{
+											"key": "sort_order",
+											"value": "asc"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Server",
+									"value": "nginx/1.18.0 (Ubuntu)"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 30 Mar 2023 03:07:55 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Content-Length",
+									"value": "342"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"ids\": [\n        63,\n        47,\n        8,\n        48,\n        16,\n        33,\n        90,\n        81,\n        85,\n        42,\n        96,\n        49,\n        64,\n        69,\n        61,\n        74,\n        77,\n        56,\n        36,\n        34,\n        7,\n        14,\n        41,\n        45,\n        57,\n        5,\n        23,\n        78,\n        26,\n        10,\n        104,\n        80,\n        21,\n        91,\n        17,\n        92,\n        101,\n        95,\n        51,\n        30,\n        73,\n        65,\n        39,\n        55,\n        75,\n        9,\n        12,\n        37,\n        3,\n        1,\n        29,\n        24,\n        88,\n        103,\n        31,\n        66,\n        62,\n        82,\n        28,\n        70,\n        13,\n        110,\n        40,\n        102,\n        100,\n        52,\n        76,\n        54,\n        84,\n        32,\n        86,\n        18,\n        22,\n        107,\n        19,\n        67,\n        109,\n        27,\n        87,\n        60,\n        108,\n        58,\n        89,\n        2,\n        43,\n        20,\n        38,\n        35,\n        83,\n        105,\n        72,\n        50,\n        11,\n        99,\n        98,\n        44,\n        71,\n        53,\n        68,\n        6,\n        46,\n        79,\n        93,\n        25,\n        4,\n        97,\n        15,\n        94,\n        106,\n        59\n    ]\n}"
+						}
+					]
+				},
+				{
+					"name": "Get Ids Sorted by Upvotes",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status 200\", function(){\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Correct data shape\", function(){\r",
+									"    pm.expect(pm.response.text()).to.include(\"ids\");\r",
+									"    });"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://worldeatsapi.link/recipes/sort-by-upvotes",
+							"protocol": "https",
+							"host": [
+								"worldeatsapi",
+								"link"
+							],
+							"path": [
+								"recipes",
+								"sort-by-upvotes"
+							],
+							"query": [
+								{
+									"key": "sort_order",
+									"value": "asc",
+									"disabled": true
+								}
+							]
+						},
+						"description": "StartFragment\n\nReturns the Id of every recipe, sorted by their number of positive reviews with parameter specification \"asc\" or \"desc\"\n\nEndFragmen"
+					},
+					"response": [
+						{
+							"name": "Get Ids Sorted by Upvotes",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://worldeatsapi.link/recipes/sort-by-upvotes?sort_order=asc",
+									"protocol": "https",
+									"host": [
+										"worldeatsapi",
+										"link"
+									],
+									"path": [
+										"recipes",
+										"sort-by-upvotes"
+									],
+									"query": [
+										{
+											"key": "sort_order",
+											"value": "asc"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Server",
+									"value": "nginx/1.18.0 (Ubuntu)"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 30 Mar 2023 03:10:21 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Content-Length",
+									"value": "342"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"ids\": [\n        106,\n        66,\n        5,\n        30,\n        58,\n        65,\n        71,\n        41,\n        67,\n        12,\n        57,\n        96,\n        76,\n        92,\n        50,\n        48,\n        85,\n        104,\n        28,\n        51,\n        19,\n        36,\n        94,\n        4,\n        105,\n        3,\n        109,\n        25,\n        26,\n        38,\n        59,\n        49,\n        21,\n        16,\n        32,\n        81,\n        80,\n        46,\n        22,\n        89,\n        24,\n        84,\n        91,\n        97,\n        78,\n        29,\n        74,\n        33,\n        13,\n        107,\n        61,\n        17,\n        62,\n        31,\n        100,\n        110,\n        47,\n        18,\n        42,\n        70,\n        23,\n        56,\n        35,\n        37,\n        95,\n        45,\n        68,\n        44,\n        69,\n        54,\n        43,\n        20,\n        102,\n        55,\n        103,\n        82,\n        88,\n        1,\n        90,\n        75,\n        108,\n        6,\n        8,\n        52,\n        64,\n        101,\n        60,\n        93,\n        10,\n        77,\n        79,\n        34,\n        87,\n        53,\n        73,\n        98,\n        7,\n        27,\n        40,\n        86,\n        72,\n        63,\n        9,\n        15,\n        2,\n        39,\n        83,\n        99,\n        14,\n        11\n    ]\n}"
+						}
+					]
+				},
+				{
+					"name": "Get Ids Sorted by Number of Ingredients",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status 200\", function(){\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"pm.test(\"Correct data shape\", function(){\r",
+									"    pm.expect(pm.response.text()).to.include(\"ids\");\r",
+									"    });"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://worldeatsapi.link/recipes/sort-by-num_ingredients",
+							"protocol": "https",
+							"host": [
+								"worldeatsapi",
+								"link"
+							],
+							"path": [
+								"recipes",
+								"sort-by-num_ingredients"
+							],
+							"query": [
+								{
+									"key": "sort_order",
+									"value": "asc",
+									"disabled": true
+								}
+							]
+						},
+						"description": "StartFragment\n\nReturns the Id of every recipe, sorted by their number of ingredients with parameter specification \"asc\" or \"desc\"\n\nEndFragment"
+					},
+					"response": [
+						{
+							"name": "Get Ids Sorted by Number of Ingredients",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://worldeatsapi.link/recipes/sort-by-num_ingredients?sort_order=asc",
+									"protocol": "https",
+									"host": [
+										"worldeatsapi",
+										"link"
+									],
+									"path": [
+										"recipes",
+										"sort-by-num_ingredients"
+									],
+									"query": [
+										{
+											"key": "sort_order",
+											"value": "asc"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Server",
+									"value": "nginx/1.18.0 (Ubuntu)"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 30 Mar 2023 03:13:33 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Content-Length",
+									"value": "342"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"ids\": [\n        69,\n        90,\n        53,\n        110,\n        104,\n        85,\n        30,\n        80,\n        87,\n        83,\n        61,\n        88,\n        52,\n        4,\n        95,\n        101,\n        2,\n        49,\n        29,\n        36,\n        62,\n        11,\n        45,\n        18,\n        99,\n        20,\n        84,\n        96,\n        73,\n        38,\n        78,\n        74,\n        70,\n        94,\n        93,\n        33,\n        37,\n        51,\n        58,\n        76,\n        65,\n        14,\n        63,\n        77,\n        7,\n        32,\n        46,\n        50,\n        86,\n        3,\n        54,\n        55,\n        57,\n        31,\n        71,\n        92,\n        91,\n        23,\n        97,\n        17,\n        16,\n        6,\n        13,\n        67,\n        9,\n        26,\n        5,\n        8,\n        10,\n        39,\n        47,\n        64,\n        102,\n        103,\n        19,\n        35,\n        34,\n        89,\n        105,\n        48,\n        59,\n        27,\n        75,\n        106,\n        109,\n        107,\n        12,\n        108,\n        66,\n        81,\n        82,\n        1,\n        43,\n        42,\n        72,\n        79,\n        40,\n        28,\n        100,\n        21,\n        22,\n        24,\n        56,\n        98,\n        25,\n        68,\n        41,\n        44,\n        15,\n        60\n    ]\n}"
+						}
+					]
+				}
+			],
+			"description": "Calls made for recipes"
+		},
+		{
+			"name": "Restaurant Calls",
+			"item": [
+				{
+					"name": "Get Specific Restaurant",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status 200\", function(){\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Correct data shape\", function(){\r",
+									"    pm.expect(pm.response.text()).to.include(\"address\");\r",
+									"    pm.expect(pm.response.text()).to.include(\"food_types\");\r",
+									"    pm.expect(pm.response.text()).to.include(\"id\");\r",
+									"    pm.expect(pm.response.text()).to.include(\"images\");\r",
+									"    pm.expect(pm.response.text()).to.include(\"name\");\r",
+									"    pm.expect(pm.response.text()).to.include(\"open\");\r",
+									"    pm.expect(pm.response.text()).to.include(\"phone_num\");\r",
+									"    pm.expect(pm.response.text()).to.include(\"price\");\r",
+									"    pm.expect(pm.response.text()).to.include(\"rating\");\r",
+									"    pm.expect(pm.response.text()).to.include(\"review_count\");\r",
+									"    pm.expect(pm.response.text()).to.include(\"reviews\");\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Scores in bounds\", function(){\r",
+									"    var restaurantData = pm.response.json();\r",
+									"    pm.expect(restaurantData.review_count).to.gte(0.0);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Host",
+								"value": "18.219.58.154",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://worldeatsapi.link/restaurants/1",
+							"protocol": "https",
+							"host": [
+								"worldeatsapi",
+								"link"
+							],
+							"path": [
+								"restaurants",
+								"1"
+							]
+						},
+						"description": "Retrieves the data about a specific restaurant, the 1 should be replaced with the desired ID"
+					},
+					"response": [
+						{
+							"name": "Get Specific Restaurant",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Host",
+										"value": "18.219.58.154",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "http://worldeatsapi.link/restaurants/1",
+									"protocol": "http",
+									"host": [
+										"worldeatsapi",
+										"link"
+									],
+									"path": [
+										"restaurants",
+										"1"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Server",
+									"value": "nginx/1.18.0 (Ubuntu)"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 10 Mar 2023 19:03:16 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Content-Length",
+									"value": "1662"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"address\": \"Guatemala 4691, C1425BUK Buenos Aires, Argentina\",\n    \"avail_for\": [],\n    \"food_types\": \"Steakhouses\",\n    \"id\": 1,\n    \"images\": [\n        \"https://s3-media3.fl.yelpcdn.com/bphoto/nVuED2zR_9aiacUkGJ3Vxg/o.jpg\",\n        \"https://s3-media3.fl.yelpcdn.com/bphoto/DFe3gWMIUZarbfzKFX0OOQ/o.jpg\",\n        \"https://s3-media2.fl.yelpcdn.com/bphoto/XROl9y1uizNzl5Fhpp7dnQ/o.jpg\"\n    ],\n    \"name\": \"Don Julio\",\n    \"open\": [\n        {\n            \"day\": \"Monday\",\n            \"end\": \"4:00PM\",\n            \"end1\": \"7:00PM\",\n            \"start\": \"12:00PM\",\n            \"start1\": \"7:00PM\"\n        },\n        {\n            \"day\": \"Tuesday\",\n            \"end\": \"4:00PM\",\n            \"end1\": \"7:00PM\",\n            \"start\": \"12:00PM\",\n            \"start1\": \"7:00PM\"\n        },\n        {\n            \"day\": \"Wednesday\",\n            \"end\": \"4:00PM\",\n            \"end1\": \"7:00PM\",\n            \"start\": \"12:00PM\",\n            \"start1\": \"7:00PM\"\n        },\n        {\n            \"day\": \"Thursday\",\n            \"end\": \"4:00PM\",\n            \"end1\": \"7:00PM\",\n            \"start\": \"12:00PM\",\n            \"start1\": \"7:00PM\"\n        },\n        {\n            \"day\": \"Friday\",\n            \"end\": \"4:00PM\",\n            \"end1\": \"7:00PM\",\n            \"start\": \"12:00PM\",\n            \"start1\": \"7:00PM\"\n        },\n        {\n            \"day\": \"Saturday\",\n            \"end\": \"4:00PM\",\n            \"end1\": \"7:00PM\",\n            \"start\": \"12:00PM\",\n            \"start1\": \"7:00PM\"\n        },\n        {\n            \"day\": \"Sunday\",\n            \"end\": \"4:00PM\",\n            \"end1\": \"7:00PM\",\n            \"start\": \"12:00PM\",\n            \"start1\": \"7:00PM\"\n        }\n    ],\n    \"phone_num\": \"+54 11 4831-9564\",\n    \"price\": \"$$$$\",\n    \"rating\": \"4.5\",\n    \"review_count\": 422,\n    \"reviews\": [\n        {\n            \"name\": \"Aishwarya S.\",\n            \"rating\": \"5\",\n            \"review\": \"One of the best steaks I had in Argentina! Coming from New York, I would say that the NY steak is different from here and probably cannot be compared to...\"\n        },\n        {\n            \"name\": \"Danni H.\",\n            \"rating\": \"3\",\n            \"review\": \"Came here for my birthday dinner. Overall, they have amazing food but the service could be better. \\n\\nWe didn't have a reservation and was only a party of 2....\"\n        },\n        {\n            \"name\": \"Nadine A.\",\n            \"rating\": \"5\",\n            \"review\": \"I swear if Argentina was close, I would never eat or pay for a steak in the states.  Don Julio steakhouse is a must if you're ever in Buenos Aires. The...\"\n        }\n    ]\n}"
+						}
+					]
+				},
+				{
+					"name": "Get Restaurant Ids",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status 200\", function(){\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://worldeatsapi.link/restaurants/get-ids",
+							"protocol": "https",
+							"host": [
+								"worldeatsapi",
+								"link"
+							],
+							"path": [
+								"restaurants",
+								"get-ids"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "Don%20Julio",
+									"disabled": true
+								},
+								{
+									"key": "price",
+									"value": null,
+									"disabled": true
+								},
+								{
+									"key": "min_rating",
+									"value": null,
+									"disabled": true
+								},
+								{
+									"key": "min_review_count",
+									"value": null,
+									"disabled": true
+								}
+							]
+						},
+						"description": "Returns the Ids of all restaurants that match the given search parameters."
+					},
+					"response": [
+						{
+							"name": "Get Restaurant Ids",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://worldeatsapi.link/restaurants/get-ids",
+									"protocol": "https",
+									"host": [
+										"worldeatsapi",
+										"link"
+									],
+									"path": [
+										"restaurants",
+										"get-ids"
+									],
+									"query": [
+										{
+											"key": "name",
+											"value": "Don%20Julio",
+											"disabled": true
+										},
+										{
+											"key": "price",
+											"value": null,
+											"disabled": true
+										},
+										{
+											"key": "min_rating",
+											"value": null,
+											"disabled": true
+										},
+										{
+											"key": "min_review_count",
+											"value": null,
+											"disabled": true
+										},
+										{
+											"key": "",
+											"value": null,
+											"disabled": true
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Server",
+									"value": "nginx/1.18.0 (Ubuntu)"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 30 Mar 2023 02:59:30 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Content-Length",
+									"value": "12"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"ids\": [\n        1\n    ]\n}"
+						}
+					]
+				},
+				{
+					"name": "Get Ids by Price",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status 200\", function(){\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"pm.test(\"Correct data shape\", function(){\r",
+									"    pm.expect(pm.response.text()).to.include(\"ids\");\r",
+									"    });"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://worldeatsapi.link/restaurants/sort-by-price",
+							"protocol": "https",
+							"host": [
+								"worldeatsapi",
+								"link"
+							],
+							"path": [
+								"restaurants",
+								"sort-by-price"
+							],
+							"query": [
+								{
+									"key": "sort_order",
+									"value": "asc",
+									"disabled": true
+								}
+							]
+						},
+						"description": "StartFragment\n\nReturns the Id of every restaurant, sorted by their number of ingredients with parameter specification \"asc\" or \"desc\"\n\nEndFragment"
+					},
+					"response": [
+						{
+							"name": "Get Ids by price",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://worldeatsapi.link/restaurants/sort-by-price?sort_order=asc",
+									"protocol": "https",
+									"host": [
+										"worldeatsapi",
+										"link"
+									],
+									"path": [
+										"restaurants",
+										"sort-by-price"
+									],
+									"query": [
+										{
+											"key": "sort_order",
+											"value": "asc"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Server",
+									"value": "nginx/1.18.0 (Ubuntu)"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 30 Mar 2023 03:16:30 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Content-Length",
+									"value": "1282"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"ids\": [\n        13,\n        214,\n        297,\n        335,\n        203,\n        164,\n        125,\n        325,\n        343,\n        119,\n        111,\n        318,\n        291,\n        289,\n        281,\n        22,\n        104,\n        321,\n        279,\n        98,\n        312,\n        41,\n        43,\n        44,\n        46,\n        87,\n        5,\n        7,\n        8,\n        9,\n        11,\n        15,\n        16,\n        17,\n        18,\n        23,\n        25,\n        26,\n        28,\n        29,\n        33,\n        34,\n        37,\n        38,\n        39,\n        40,\n        48,\n        49,\n        50,\n        51,\n        53,\n        54,\n        56,\n        58,\n        61,\n        62,\n        65,\n        67,\n        69,\n        73,\n        76,\n        80,\n        82,\n        83,\n        85,\n        86,\n        90,\n        91,\n        93,\n        97,\n        99,\n        101,\n        102,\n        106,\n        107,\n        108,\n        110,\n        112,\n        114,\n        115,\n        116,\n        117,\n        126,\n        128,\n        130,\n        131,\n        134,\n        135,\n        136,\n        137,\n        139,\n        140,\n        141,\n        142,\n        143,\n        145,\n        146,\n        147,\n        148,\n        150,\n        159,\n        160,\n        167,\n        169,\n        170,\n        171,\n        174,\n        176,\n        177,\n        178,\n        182,\n        190,\n        191,\n        192,\n        193,\n        194,\n        198,\n        200,\n        204,\n        206,\n        207,\n        209,\n        211,\n        212,\n        216,\n        217,\n        220,\n        226,\n        227,\n        229,\n        231,\n        233,\n        235,\n        236,\n        238,\n        248,\n        249,\n        251,\n        254,\n        256,\n        258,\n        260,\n        261,\n        264,\n        266,\n        268,\n        269,\n        272,\n        274,\n        283,\n        287,\n        288,\n        290,\n        292,\n        293,\n        296,\n        299,\n        300,\n        301,\n        303,\n        307,\n        308,\n        310,\n        311,\n        314,\n        316,\n        317,\n        319,\n        320,\n        323,\n        326,\n        327,\n        329,\n        331,\n        332,\n        334,\n        336,\n        337,\n        339,\n        341,\n        342,\n        344,\n        345,\n        184,\n        118,\n        72,\n        120,\n        222,\n        74,\n        75,\n        223,\n        32,\n        66,\n        36,\n        20,\n        241,\n        208,\n        181,\n        187,\n        24,\n        127,\n        246,\n        210,\n        298,\n        199,\n        224,\n        81,\n        286,\n        2,\n        280,\n        201,\n        6,\n        19,\n        302,\n        27,\n        88,\n        304,\n        305,\n        89,\n        55,\n        230,\n        188,\n        154,\n        94,\n        277,\n        96,\n        21,\n        189,\n        306,\n        294,\n        100,\n        60,\n        31,\n        295,\n        166,\n        103,\n        42,\n        338,\n        218,\n        333,\n        172,\n        219,\n        77,\n        322,\n        92,\n        129,\n        196,\n        68,\n        138,\n        1,\n        149,\n        262,\n        151,\n        152,\n        153,\n        155,\n        156,\n        157,\n        158,\n        263,\n        161,\n        162,\n        163,\n        165,\n        265,\n        168,\n        340,\n        267,\n        324,\n        173,\n        309,\n        175,\n        270,\n        271,\n        4,\n        179,\n        180,\n        273,\n        183,\n        185,\n        186,\n        275,\n        276,\n        278,\n        195,\n        197,\n        202,\n        30,\n        205,\n        282,\n        12,\n        47,\n        284,\n        285,\n        52,\n        213,\n        215,\n        57,\n        313,\n        59,\n        63,\n        64,\n        221,\n        70,\n        71,\n        78,\n        79,\n        225,\n        315,\n        84,\n        228,\n        328,\n        3,\n        95,\n        232,\n        45,\n        234,\n        105,\n        10,\n        237,\n        14,\n        109,\n        239,\n        240,\n        113,\n        242,\n        243,\n        244,\n        35,\n        121,\n        122,\n        123,\n        124,\n        245,\n        247,\n        132,\n        133,\n        330,\n        250,\n        252,\n        253,\n        255,\n        257,\n        144,\n        259\n    ]\n}"
+						}
+					]
+				},
+				{
+					"name": "Get Ids by Alpha",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status 200\", function(){\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"pm.test(\"Correct data shape\", function(){\r",
+									"    pm.expect(pm.response.text()).to.include(\"ids\");\r",
+									"    });"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://worldeatsapi.link/restaurants/sort-by-alpha",
+							"protocol": "https",
+							"host": [
+								"worldeatsapi",
+								"link"
+							],
+							"path": [
+								"restaurants",
+								"sort-by-alpha"
+							],
+							"query": [
+								{
+									"key": "sort_order",
+									"value": "asc",
+									"disabled": true
+								}
+							]
+						},
+						"description": "StartFragment\n\nReturns the Id of every restaurant, sorted alphabetically with parameter specification \"asc\" or \"desc\"\n\nEndFragment"
+					},
+					"response": [
+						{
+							"name": "Get Ids by Alpha",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://worldeatsapi.link/restaurants/sort-by-alpha?sort_order=asc",
+									"protocol": "https",
+									"host": [
+										"worldeatsapi",
+										"link"
+									],
+									"path": [
+										"restaurants",
+										"sort-by-alpha"
+									],
+									"query": [
+										{
+											"key": "sort_order",
+											"value": "asc"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Server",
+									"value": "nginx/1.18.0 (Ubuntu)"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 30 Mar 2023 03:19:43 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Content-Length",
+									"value": "1282"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"ids\": [\n        144,\n        8,\n        77,\n        209,\n        139,\n        254,\n        116,\n        184,\n        100,\n        329,\n        306,\n        32,\n        27,\n        177,\n        281,\n        69,\n        298,\n        296,\n        57,\n        263,\n        68,\n        198,\n        217,\n        232,\n        175,\n        264,\n        71,\n        257,\n        260,\n        38,\n        182,\n        104,\n        115,\n        214,\n        251,\n        160,\n        274,\n        290,\n        314,\n        210,\n        23,\n        16,\n        43,\n        80,\n        76,\n        17,\n        179,\n        124,\n        112,\n        20,\n        277,\n        336,\n        330,\n        41,\n        10,\n        207,\n        90,\n        126,\n        145,\n        337,\n        55,\n        167,\n        92,\n        122,\n        56,\n        86,\n        107,\n        5,\n        105,\n        37,\n        245,\n        299,\n        50,\n        129,\n        241,\n        319,\n        75,\n        192,\n        287,\n        130,\n        253,\n        285,\n        39,\n        343,\n        186,\n        213,\n        106,\n        202,\n        228,\n        1,\n        78,\n        51,\n        321,\n        258,\n        72,\n        170,\n        93,\n        125,\n        108,\n        44,\n        173,\n        238,\n        191,\n        227,\n        166,\n        224,\n        73,\n        136,\n        114,\n        21,\n        262,\n        113,\n        83,\n        152,\n        271,\n        7,\n        244,\n        98,\n        153,\n        273,\n        174,\n        189,\n        48,\n        204,\n        117,\n        195,\n        34,\n        225,\n        187,\n        4,\n        230,\n        3,\n        84,\n        35,\n        74,\n        18,\n        235,\n        305,\n        11,\n        300,\n        28,\n        324,\n        267,\n        149,\n        9,\n        339,\n        158,\n        328,\n        211,\n        341,\n        250,\n        297,\n        219,\n        188,\n        29,\n        269,\n        146,\n        345,\n        316,\n        197,\n        157,\n        67,\n        118,\n        247,\n        25,\n        40,\n        327,\n        340,\n        81,\n        156,\n        46,\n        132,\n        6,\n        2,\n        111,\n        221,\n        205,\n        97,\n        13,\n        278,\n        268,\n        148,\n        119,\n        128,\n        19,\n        190,\n        237,\n        259,\n        249,\n        243,\n        82,\n        101,\n        99,\n        164,\n        279,\n        36,\n        165,\n        176,\n        233,\n        53,\n        216,\n        121,\n        261,\n        52,\n        293,\n        22,\n        110,\n        12,\n        318,\n        203,\n        201,\n        58,\n        252,\n        91,\n        49,\n        45,\n        120,\n        289,\n        335,\n        62,\n        334,\n        66,\n        303,\n        138,\n        95,\n        14,\n        63,\n        283,\n        159,\n        333,\n        308,\n        194,\n        206,\n        276,\n        199,\n        332,\n        169,\n        222,\n        322,\n        311,\n        163,\n        103,\n        141,\n        212,\n        151,\n        302,\n        292,\n        172,\n        180,\n        272,\n        150,\n        223,\n        196,\n        47,\n        286,\n        338,\n        317,\n        234,\n        183,\n        320,\n        60,\n        142,\n        181,\n        185,\n        313,\n        154,\n        280,\n        226,\n        294,\n        26,\n        59,\n        33,\n        89,\n        54,\n        87,\n        246,\n        200,\n        220,\n        42,\n        94,\n        64,\n        140,\n        218,\n        137,\n        127,\n        307,\n        109,\n        270,\n        155,\n        15,\n        143,\n        265,\n        275,\n        162,\n        331,\n        31,\n        85,\n        291,\n        123,\n        342,\n        30,\n        325,\n        61,\n        312,\n        88,\n        231,\n        282,\n        284,\n        161,\n        70,\n        134,\n        344,\n        178,\n        295,\n        288,\n        326,\n        171,\n        304,\n        323,\n        236,\n        239,\n        133,\n        168,\n        309,\n        256,\n        208,\n        240,\n        266,\n        147,\n        24,\n        79,\n        248,\n        229,\n        102,\n        310,\n        135,\n        96,\n        215,\n        65,\n        255,\n        193,\n        315,\n        301,\n        131,\n        242\n    ]\n}"
+						}
+					]
+				},
+				{
+					"name": "Get Ids by Rating",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status 200\", function(){\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"pm.test(\"Correct data shape\", function(){\r",
+									"    pm.expect(pm.response.text()).to.include(\"ids\");\r",
+									"    });"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://worldeatsapi.link/restaurants/sort-by-rating",
+							"protocol": "https",
+							"host": [
+								"worldeatsapi",
+								"link"
+							],
+							"path": [
+								"restaurants",
+								"sort-by-rating"
+							],
+							"query": [
+								{
+									"key": "sort_order",
+									"value": "asc",
+									"disabled": true
+								}
+							]
+						},
+						"description": "StartFragment\n\nReturns the Id of every restaurant, sorted by yelp rating with parameter specification \"asc\" or \"desc\"\n\nEndFragment"
+					},
+					"response": [
+						{
+							"name": "Get Ids by Rating",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://worldeatsapi.link/restaurants/sort-by-rating?sort_order=asc",
+									"protocol": "https",
+									"host": [
+										"worldeatsapi",
+										"link"
+									],
+									"path": [
+										"restaurants",
+										"sort-by-rating"
+									],
+									"query": [
+										{
+											"key": "sort_order",
+											"value": "asc"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Server",
+									"value": "nginx/1.18.0 (Ubuntu)"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 30 Mar 2023 03:22:13 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Content-Length",
+									"value": "1282"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"ids\": [\n        157,\n        158,\n        165,\n        156,\n        65,\n        151,\n        105,\n        154,\n        280,\n        217,\n        25,\n        59,\n        263,\n        181,\n        184,\n        340,\n        257,\n        277,\n        251,\n        63,\n        180,\n        64,\n        285,\n        336,\n        316,\n        261,\n        162,\n        334,\n        260,\n        166,\n        62,\n        258,\n        281,\n        179,\n        224,\n        267,\n        119,\n        275,\n        255,\n        320,\n        82,\n        90,\n        211,\n        339,\n        56,\n        302,\n        264,\n        58,\n        238,\n        103,\n        171,\n        193,\n        149,\n        44,\n        293,\n        20,\n        250,\n        252,\n        254,\n        343,\n        91,\n        92,\n        93,\n        94,\n        317,\n        342,\n        97,\n        41,\n        99,\n        23,\n        337,\n        102,\n        104,\n        106,\n        46,\n        314,\n        113,\n        7,\n        115,\n        116,\n        311,\n        118,\n        310,\n        309,\n        122,\n        123,\n        305,\n        304,\n        49,\n        332,\n        51,\n        331,\n        131,\n        329,\n        55,\n        300,\n        341,\n        139,\n        140,\n        141,\n        27,\n        296,\n        145,\n        146,\n        169,\n        295,\n        150,\n        153,\n        292,\n        159,\n        290,\n        163,\n        283,\n        61,\n        170,\n        172,\n        173,\n        174,\n        176,\n        278,\n        178,\n        182,\n        183,\n        185,\n        187,\n        188,\n        191,\n        192,\n        276,\n        344,\n        345,\n        68,\n        200,\n        30,\n        273,\n        203,\n        204,\n        328,\n        327,\n        272,\n        208,\n        17,\n        73,\n        32,\n        269,\n        325,\n        77,\n        6,\n        219,\n        220,\n        323,\n        222,\n        80,\n        226,\n        321,\n        229,\n        230,\n        265,\n        233,\n        235,\n        236,\n        84,\n        240,\n        19,\n        242,\n        262,\n        37,\n        248,\n        216,\n        2,\n        5,\n        8,\n        9,\n        10,\n        13,\n        15,\n        16,\n        18,\n        21,\n        22,\n        24,\n        26,\n        28,\n        29,\n        31,\n        34,\n        36,\n        38,\n        39,\n        40,\n        42,\n        48,\n        53,\n        57,\n        60,\n        66,\n        67,\n        69,\n        72,\n        74,\n        75,\n        78,\n        83,\n        85,\n        86,\n        87,\n        89,\n        96,\n        98,\n        100,\n        101,\n        107,\n        108,\n        110,\n        112,\n        114,\n        126,\n        127,\n        128,\n        129,\n        130,\n        132,\n        133,\n        134,\n        137,\n        138,\n        142,\n        143,\n        147,\n        167,\n        189,\n        190,\n        194,\n        196,\n        198,\n        199,\n        201,\n        205,\n        206,\n        209,\n        210,\n        212,\n        214,\n        215,\n        1,\n        218,\n        221,\n        223,\n        227,\n        228,\n        231,\n        237,\n        241,\n        247,\n        249,\n        266,\n        286,\n        287,\n        288,\n        289,\n        294,\n        297,\n        298,\n        299,\n        301,\n        303,\n        307,\n        308,\n        312,\n        313,\n        315,\n        318,\n        319,\n        322,\n        326,\n        330,\n        333,\n        335,\n        279,\n        175,\n        168,\n        282,\n        164,\n        284,\n        161,\n        324,\n        76,\n        12,\n        71,\n        160,\n        291,\n        155,\n        152,\n        70,\n        148,\n        144,\n        54,\n        11,\n        52,\n        136,\n        50,\n        135,\n        4,\n        125,\n        124,\n        306,\n        47,\n        3,\n        121,\n        120,\n        117,\n        45,\n        43,\n        111,\n        338,\n        109,\n        95,\n        35,\n        33,\n        88,\n        81,\n        14,\n        256,\n        253,\n        246,\n        259,\n        245,\n        244,\n        243,\n        239,\n        234,\n        232,\n        79,\n        225,\n        268,\n        213,\n        270,\n        271,\n        207,\n        202,\n        274,\n        197,\n        195,\n        186,\n        177\n    ]\n}"
+						}
+					]
+				}
+			],
+			"description": "Calls made for restaurants"
+		}
+	]
+}

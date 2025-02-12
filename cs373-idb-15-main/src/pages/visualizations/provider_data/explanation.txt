@@ -1,0 +1,3 @@
+-Provider API isn't CORS enabled, meaning API calls can't be made from our domain. 
+-I could still get data from their API via a browser/postman, though.
+-For this reason, I had to store their API responses here to use for visualizations.

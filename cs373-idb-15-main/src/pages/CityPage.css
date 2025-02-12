@@ -1,0 +1,25 @@
+.city-image {
+  width: 100%;
+  max-width: 400px;
+  height: auto; 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.5rem;
+  object-fit: contain;
+}
+
+.country-flag {
+  width: 100%;
+  max-width: 100px;
+  height: auto; 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.5rem;
+  object-fit: contain;
+}
+
+.city-name {
+  text-align: center;
+}
